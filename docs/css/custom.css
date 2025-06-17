@@ -1,0 +1,29 @@
+main {
+    margin: 1rem;
+    padding: 1rem;
+}
+
+.title-hero {
+    font-size: 3rem;
+    color: var(--pico-primary);
+}
+
+.subtitle-hero {
+    font-size: 1.5rem;
+}
+
+.div1 {
+    /* padding-top: 4rem; */
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: center
+}
+
+.div2 {
+    padding-bottom: 20px;
+}
+
+.highlight {
+    font-size: 1.1rem;
+}
