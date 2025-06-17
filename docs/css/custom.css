@@ -3,6 +3,19 @@ main {
     padding: 1rem;
 }
 
+body {
+    margin:0 auto;
+    max-width: 1000px;
+}
+
+img {
+    max-height: 72vh;
+}
+
+.parent {
+    margin: auto;
+}
+
 .title-hero {
     font-size: 3rem;
     color: var(--pico-primary);
@@ -22,8 +35,25 @@ main {
 
 .div2 {
     padding-bottom: 20px;
+    text-align: center;
+}
+
+.div3 {
+    padding-top: 1rem;
 }
 
 .highlight {
+    background-color: #714a6d;
+    color: white;
+    padding: 20px;
+    border-radius: 15px;
     font-size: 1.1rem;
+    /* margin-bottom: 0; */
+}
+
+.answer {
+
+    border-left: #714a6d 3px solid;
+    padding-left: 10px;
+    color: #714a6d;
 }
