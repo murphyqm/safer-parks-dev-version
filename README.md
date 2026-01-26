@@ -1,5 +1,7 @@
 # Dashboard V2
 
+## NB - if there are any connectivity issues, download the github repo and view locally
+
 Version 2 of the dashboard: prototyping and testing for WYCA
 
 Will add links to various parts as and when I build them.
