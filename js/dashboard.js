@@ -908,14 +908,18 @@ function loadParksForLA(laName) {
         
         // Count datasets for each park and update pie charts
         countDatasetsForParks(laName, filteredLaParks).then(() => {
+            console.log(`After countDatasetsForParks: maxDatasetCount=${maxDatasetCount}, parks count=${Object.keys(parkDatasetCounts).length}`);
             populateParksDropdown(filteredLaParks);
             
             // Update pie chart markers with real dataset counts
             parkSummaryLayer.eachLayer(layer => {
                 if (layer.feature && layer.feature.properties) {
                     const parkName = layer.feature.properties['Park Name'];
-                    const datasetCount = parkDatasetCounts[parkName] || 0;
+                    const sanitizedParkName = sanitizeForFolder(parkName);
+                    const datasetCount = parkDatasetCounts[sanitizedParkName] || 0;
                     const percentage = maxDatasetCount > 0 ? (datasetCount / maxDatasetCount) : 0;
+                    
+                    console.log(`Park: ${parkName} -> ${sanitizedParkName}: ${datasetCount}/${maxDatasetCount} (${(percentage*100).toFixed(1)}%)`);
                     
                     // Determine park size color: green for large, purple for small
                     const isLarge = layer.feature.properties['10 ha'];
@@ -947,38 +951,25 @@ async function countDatasetsForParks(laName, parksData) {
     parkDatasetCounts = {};
     maxDatasetCount = 0;
     
-    const validParks = parksData.features.filter(f => f.geometry !== null && f.properties['Park Name']);
+    try {
+        // Load pre-computed dataset counts
+        const response = await fetch('datasets/dataset-counts.json');
+        const counts = await response.json();
+        
+        maxDatasetCount = counts.maxCount;
+        parkDatasetCounts = counts.parks;
+        
+        console.log(`Loaded dataset counts: max=${maxDatasetCount}, total parks=${Object.keys(parkDatasetCounts).length}`);
+    } catch (err) {
+        console.error('Error loading dataset counts:', err);
+        // Fallback: set all parks to 0
+        parksData.features.forEach(feature => {
+            parkDatasetCounts[feature.properties['Park Name']] = 0;
+        });
+        maxDatasetCount = 0;
+    }
     
-    // Check each park for available datasets
-    const countPromises = validParks.map(async (feature) => {
-        const parkName = feature.properties['Park Name'];
-        const folderName = sanitizeForFolder(parkName);
-        const basePath = `datasets/${laName}/${folderName}/`;
-        
-        let count = 0;
-        
-        // Try to fetch directory listing
-        try {
-            const response = await fetch(basePath);
-            if (response.ok) {
-                const html = await response.text();
-                // Count all .geojson files in the folder
-                const matches = html.match(/\.geojson/g);
-                if (matches) {
-                    count = matches.length;
-                }
-            }
-        } catch (err) {
-            // Directory listing not available, count will be 0
-        }
-        
-        parkDatasetCounts[parkName] = count;
-        if (count > maxDatasetCount) {
-            maxDatasetCount = count;
-        }
-    });
-    
-    await Promise.all(countPromises);
+    return Promise.resolve();
 }
 
 // Create pie chart marker SVG
