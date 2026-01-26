@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Coronation_Gardens_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 3, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.502294385001624, 53.685007177751281 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.502292270705709, 53.685186933714661 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 3, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.501991570463289, 53.685005917203135 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.501989454876007, 53.685185673167872 ] } }
+]
+}

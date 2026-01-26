@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Jerr_Wood_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.839475, 53.8474888 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8397312, 53.8478242 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8383244, 53.8479532 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8385443, 53.847901 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.838901, 53.8480418 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8389775, 53.8481692 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8383431, 53.8476177 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8382654, 53.8474982 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8384987, 53.8474168 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8394415, 53.8480837 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.8387361, 53.8478329 ] } }
+]
+}

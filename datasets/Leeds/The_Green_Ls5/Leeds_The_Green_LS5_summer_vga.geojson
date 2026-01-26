@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_The_Green_LS5_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.616303634048766, 53.829894864648196 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.616302004726183, 53.830074615957557 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.61599978107525, 53.829893895291605 ] } }
+]
+}

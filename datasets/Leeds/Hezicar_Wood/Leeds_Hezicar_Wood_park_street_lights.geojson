@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Hezicar_Wood_park_street_lights",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.607840139488717, 53.899257523680689 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.608074827987219, 53.898978822200675 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.608114689498969, 53.898683196691763 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.608341055558509, 53.898429465410963 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.610892337326917, 53.886411735581696 ] } }
+]
+}

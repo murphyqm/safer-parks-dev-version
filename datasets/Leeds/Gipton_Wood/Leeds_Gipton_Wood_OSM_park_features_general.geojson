@@ -1,0 +1,23 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Gipton_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5220967, 53.8230081 ], [ -1.520978, 53.8229961 ], [ -1.5209474, 53.8239933 ], [ -1.522066, 53.8240052 ], [ -1.5220967, 53.8230081 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5085537, 53.8325865 ], [ -1.5082888, 53.8318794 ], [ -1.5090041, 53.8317667 ], [ -1.5094435, 53.8323608 ], [ -1.5085537, 53.8325865 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5029234, 53.8317258 ], [ -1.5028133, 53.8314732 ], [ -1.5028551, 53.8314701 ], [ -1.5029627, 53.8317209 ], [ -1.5029234, 53.8317258 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5015062, 53.8320862 ], [ -1.5013862, 53.8318252 ], [ -1.5014274, 53.8318189 ], [ -1.5015454, 53.832081 ], [ -1.5015062, 53.8320862 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5209452, 53.8236365 ], [ -1.520957, 53.8232773 ], [ -1.5206057, 53.8232733 ], [ -1.5205939, 53.8236325 ], [ -1.5209452, 53.8236365 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5061312, 53.8316434 ], [ -1.5059094, 53.8316289 ], [ -1.5057738, 53.8316471 ], [ -1.5056259, 53.8316871 ], [ -1.505475, 53.8317725 ], [ -1.505401, 53.8318307 ], [ -1.5053271, 53.8319216 ], [ -1.5052624, 53.8320435 ], [ -1.5052624, 53.8321416 ], [ -1.5052809, 53.8322035 ], [ -1.5053177, 53.8322563 ], [ -1.505383, 53.8323326 ], [ -1.5054542, 53.8323903 ], [ -1.5055403, 53.8324352 ], [ -1.5056184, 53.8324653 ], [ -1.5056882, 53.8324814 ], [ -1.5059054, 53.8325118 ], [ -1.5060851, 53.832502 ], [ -1.5061797, 53.8324887 ], [ -1.5062952, 53.8324641 ], [ -1.5063886, 53.8324296 ], [ -1.5064873, 53.8323793 ], [ -1.5066116, 53.8322617 ], [ -1.5066589, 53.8321861 ], [ -1.5066963, 53.8320929 ], [ -1.5066913, 53.8320031 ], [ -1.5066865, 53.8318988 ], [ -1.5066291, 53.8317925 ], [ -1.5064787, 53.8317054 ], [ -1.5063049, 53.8316602 ], [ -1.5061312, 53.8316434 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.5069457, 53.830024 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.5079163, 53.8308358 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.506761, 53.8328544 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.505378, 53.828862 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.507811, 53.8241363 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.520259, 53.824877 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.520434, 53.82525 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.517537, 53.823017 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.516315, 53.821789 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.505981, 53.8272204 ], [ -1.505662, 53.8271902 ], [ -1.5055364, 53.8276522 ], [ -1.5055234, 53.8277001 ], [ -1.5058424, 53.8277303 ], [ -1.505981, 53.8272204 ] ] ] } }
+]
+}

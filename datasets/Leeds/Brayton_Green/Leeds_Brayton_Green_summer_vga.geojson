@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Brayton_Green_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.447115975617759, 53.821508057450849 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.447113613187488, 53.821687809912497 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.446814549915008, 53.821326907309604 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.446812186188849, 53.821506659759933 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.446809822436576, 53.82168641220467 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.446513126856171, 53.821145756427342 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.446510761834154, 53.821325508866352 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.446508396786008, 53.821505261299755 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.446206973779382, 53.821324109653844 ] } }
+]
+}

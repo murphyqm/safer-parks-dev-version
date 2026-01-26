@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Slaid_Hill_Field_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 6, "visibility_pct": 83.333333333333343 }, "geometry": { "type": "Point", "coordinates": [ -1.501398519010015, 53.855676221078333 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 6, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.501396384393822, 53.855855969656133 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 6, "visibility_pct": 83.333333333333343 }, "geometry": { "type": "Point", "coordinates": [ -1.501094478797994, 53.85567496078388 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 6, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.501092342910287, 53.855854709363257 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 6, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.50079043860879, 53.855673699718977 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 6, "visibility_pct": 83.333333333333343 }, "geometry": { "type": "Point", "coordinates": [ -1.500788301449569, 53.855853448299918 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 6, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.500786164267481, 53.856033196875558 ] } }
+]
+}

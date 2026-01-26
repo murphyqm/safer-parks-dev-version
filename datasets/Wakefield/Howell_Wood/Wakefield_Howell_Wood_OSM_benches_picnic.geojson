@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Howell_Wood_OSM_benches_picnic",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.3415753, 53.5809827 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.3464666, 53.5816353 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.347149, 53.5814376 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.3435836, 53.5825921 ] } }
+]
+}

@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Hazel_Crescent_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 10, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.595776663138466, 53.689638981641799 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 10, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.595774942335214, 53.689818737903863 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 10, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.595473814046855, 53.689637966386819 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 10, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.595472091952065, 53.68981772264069 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 10, "visibility_pct": 90.0 }, "geometry": { "type": "Point", "coordinates": [ -1.595470369838534, 53.689997478889097 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 10, "visibility_pct": 90.0 }, "geometry": { "type": "Point", "coordinates": [ -1.595468647706263, 53.690177235132047 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 10, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.595169241587625, 53.689816706611822 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 10, "visibility_pct": 90.0 }, "geometry": { "type": "Point", "coordinates": [ -1.595167518182544, 53.689996462852044 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 10, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.594866391241908, 53.689815689817252 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 10, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.594864666545276, 53.689995446049274 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 10, "visibility_pct": 90.0 }, "geometry": { "type": "Point", "coordinates": [ -1.594563540914927, 53.689814672256972 ] } }
+]
+}

@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Chandos_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.523771947689911, 53.834920621912474 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.52346805509808, 53.834919418333193 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.52346602169865, 53.835099171163243 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.52316212783547, 53.83509796679833 ] } }
+]
+}

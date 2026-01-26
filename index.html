@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Safer Parks Dashboard | Home</title>
+    
+    <!-- Pico CSS Framework - Jade Palette -->
+    <link rel="stylesheet" href="css/pico.jade.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/website.css">
+</head>
+<body>
+    <!-- Loading Interstitial -->
+    <div class="loading-interstitial">
+        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="white"/>
+        </svg>
+        <p>Loading dashboard...</p>
+    </div>
+    
+    <!-- Navigation -->
+    <nav class="website-nav">
+        <ul>
+            <li><strong><svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="white"/></svg> The Safer Parks Dashboard</strong></li>
+        </ul>
+        <ul>
+            <li><a href="index.html" aria-current="page">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="data-methods.html">Data & Methods</a></li>
+            <li><a href="dashboard.html" class="dashboard-link">Explore Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content -->
+    <main class="container">
+        <header>
+            <hgroup>
+                <h1 class="welcome-heading" style="font-size: 3rem; margin: 1.5rem 0;">Welcome to The Safer Parks Dashboard!</h1>
+                <p style="font-size: 1.4rem; margin: 1rem 0;"><strong>Supporting safer, more inclusive parks for women and girls</strong></p>
+            </hgroup>
+        </header>
+
+        <section aria-labelledby="intro-heading">
+            <h2 id="intro-heading" class="visually-hidden">Introduction</h2>
+            <div class="grid">
+                <div style="flex: 1.2;">
+                    <ul style="font-size: 1.3rem; line-height: 1.8; margin: 2rem 0;">
+                        <li><strong>Visualise</strong> park safety factors</li>
+                        <li><strong>Explore</strong> spatial data layers</li>
+                        <li><strong>Make decisions</strong> with evidence</li>
+                        <li><strong>Create safer parks</strong> in your area</li>
+                    </ul>
+                    <a href="dashboard.html" role="button" style="font-size: 1.1rem; padding: 0.75rem 1.5rem;">Open the Dashboard</a>
+                </div>
+                <div style="flex: 0.8;">
+                    <img src="homepage.png" alt="Screenshot of the Safer Parks Dashboard interface showing a map with park data layers" style="max-width: 100%; height: auto;">
+                </div>
+            </div>
+            <div style="margin-top: 3rem;">
+                <p>The Safer Parks Dashboard helps local authorities, police forces, and community partners understand the environmental and social factors that shape how safe women and girls feel in parks.</p>
+                
+                <p>It brings together open spatial data on the indicators that matter most, including lighting, visibility, entrances and escape routes, crime patterns, footfall, and park facilities.</p>
+                
+                <p>Aligned with the <strong>Safer Parks: Improving Access for Women and Girls'</strong> guidance, the dashboard provides a clear evidence base to support better design, management, and prevention activity.</p>
+                
+                <p>Explore the data to see how this tool can support your work in creating parks that feel welcoming, inclusive, and safe for everyone.</p>
+            </div>
+        </section>
+
+        <section aria-labelledby="testing-heading">
+            <h2 id="testing-heading" class="visually-hidden">User Testing Notice</h2>
+            <article class="notice-card">
+                <h3>Dashboard Currently in User Testing</h3>
+                <p>This dashboard is currently in initial user testing. Datasets, text, and layout are not finalised and we are actively building and improving the output based on user feedback Please excuse us as we develop in the open!</p>
+                <p>If you come across something incorrect or broken, please let us know:</p>
+                <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y7F71Nw9669Pjl45v2S4qgtURTNCQzlWR01UQzNFV0pEVTM2OFlON0RHTS4u" target="_blank" rel="noopener" role="button" class="secondary">Report an issue</a>
+                <p></br><small>The software is provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of merchantability, fitness for a particular purpose and noninfringement. In no event shall the authors or copyright holders be liable for any claim, damages or other liability, whether in an action of contract, tort or otherwise, arising from, out of or in connection with the software or the use or other dealings in the software.</small></p>
+            </article>
+        </section>
+
+
+        <!-- <section aria-labelledby="features-heading">
+            <h2 id="features-heading">Jump in to the dashboard</h2>
+            <p>Following co-design sessions with our partners, we have created tailored actions that may be useful for your role.</p>
+            <p>These shortcuts allow you to quickly combine layers before exporting static maps for your reports. </p>
+            <div class="grid">
+                <article>
+                    <h3>Quick Start Guide</h3>
+                    <p>New to The Safer Parks Dashboard? </br></br>Jump straight in with a step-by-step primer to get you started.</p>
+                    <a href="user-guide.html" role="button">Read the User Guide</a>
+                </article>
+                <article>
+                    <h3>Local Authority Actions</h3>
+                    <p>Access tools and data layers to support park management, accessibility audits, facility planning, and evidence-based decision-making.</p>
+                    <a href="la/test-map.html?modal=la" role="button" class="secondary">Explore Local Authority Tools</a>
+                </article>
+                <article>
+                    <h3>Policing Actions</h3>
+                    <p>Analyse lighting coverage, visibility, and environmental features to support VAWG prevention and patrol planning.</p>
+                    <a href="la/test-map.html?modal=policing" role="button" class="secondary">Explore Policing Tools</a>
+                </article>
+            </div>
+        </section> -->
+
+        <section aria-labelledby="get-started-heading">
+            <h2 id="get-started-heading">Get Started</h2>
+            <p>You can also launch the dashboard without any specific role selected, and manually explore the different layers available.</p>
+            <a href="la/test-map.html?modal=guide" role="button">Open the Dashboard</a>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="container">
+        <hr>
+        <p><small>© University of Leeds, 2025 | <a href="about.html">About</a> | <a href="data-methods.html">Data & Methods</a> | <a href="privacy.html">Privacy & Cookies</a> | <a href="https://www.leeds.ac.uk/about/doc/accessibility-statement" target="_blank" rel="noopener">Accessibility</a></small></p>
+        <p><small><a href="#" id="open_preferences_center">Update cookies preferences</a></small></p>
+    </footer>
+    
+    <script src="js/transition.js"></script>
+</body>
+<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"standalone","consent_type":"express","palette":"light","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"The Safer Parks Dashboard"});
+});
+</script>
+
+<!-- Leaflet js -->
+<!-- transition.js - Handles loading interstitial for dashboard transition -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="js/transition.js"></script>
+
+<!-- Dashboard Scripts -->
+<!-- Leaflet JS - Interactive mapping library -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+
+<!-- Leaflet.heat plugin for heatmap visualization -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+<!-- modern-screenshot for map capture functionality -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/modern-screenshot@4.4.39/dist/index.js"></script>
+
+<!-- Custom JS - Core dashboard logic -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="js/dashboard.js"></script>
+<!-- end of Leaflet js-->
+
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+
+
+
+
+<!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
+<a href="#" id="open_preferences_center">Update cookies preferences</a>
+
+</html>

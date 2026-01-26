@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_High_Royds_Woodland_Nature_Reserve_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "E4C1EDE3-06B8-4FDC-BDBE-65C84E2B1256", "access_type": "Motor Vehicle And Pedestrian", "Park Name": "Menston Park", "Park Segment Name": "Menston Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.733834640923756, 53.888883881694248 ] } },
+{ "type": "Feature", "properties": { "id": "8A82CCFD-FBE7-447C-B0BC-0F6C132A9A7E", "access_type": "Pedestrian", "Park Name": "Menston Park", "Park Segment Name": "Menston Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.732934702066889, 53.886937608143043 ] } },
+{ "type": "Feature", "properties": { "id": "FE8864AF-5F34-4796-9946-0DF1BF32C193", "access_type": "Pedestrian", "Park Name": "Menston Park", "Park Segment Name": "Menston Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.735736308353817, 53.888323360576848 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Menston Park", "Park Segment Name": "Menston Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.735751174612856, 53.888344843701965 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Menston Park", "Park Segment Name": "Menston Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.732923284483406, 53.88693412127779 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Menston Park", "Park Segment Name": "Menston Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.733770372147731, 53.887004784178764 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Menston Park", "Park Segment Name": "Menston Park", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.733817516118065, 53.888883828295825 ] } },
+{ "type": "Feature", "properties": { "id": "6CC18613-4929-45BC-AD72-38E8FC5C0850", "access_type": "Pedestrian", "Park Name": "High Royds Woodland Nature Reserve", "Park Segment Name": "High Royds Woodland Nature Reserve", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.728718980599493, 53.886682453358674 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "High Royds Woodland Nature Reserve", "Park Segment Name": "High Royds Woodland Nature Reserve", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.727898324990131, 53.886315593326323 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "High Royds Woodland Nature Reserve", "Park Segment Name": "High Royds Woodland Nature Reserve", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.728713789627896, 53.886684296280784 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "High Royds Woodland Nature Reserve", "Park Segment Name": "High Royds Woodland Nature Reserve", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.727446300000024, 53.8872497 ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Oldroad_Plantation_park_street_lights",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.354952171926315, 53.879113385648282 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.355250049451418, 53.87942851326261 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.357157546322794, 53.880523453822391 ] } }
+]
+}

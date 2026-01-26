@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Lower_Kirkstall_Wood_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "2B428496-F8FC-410C-995B-A077E6F64C21", "access_type": "Pedestrian", "Park Name": "Ingrow Cricket Club", "Park Segment Name": "Ingrow Cricket Club", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.911670780305569, 53.850002236150807 ] } },
+{ "type": "Feature", "properties": { "id": "E38883C4-1960-417E-AE41-E8DB8E26A153", "access_type": "Pedestrian", "Park Name": "Ingrow Cricket Club", "Park Segment Name": "Ingrow Cricket Club", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.91113118038549, 53.850566823926975 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Ingrow Cricket Club", "Park Segment Name": "Ingrow Cricket Club", "source": "calculated", "highway_type": "unclassified" }, "geometry": { "type": "Point", "coordinates": [ -1.909930659049782, 53.851426800436073 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Ingrow Cricket Club", "Park Segment Name": "Ingrow Cricket Club", "source": "calculated", "highway_type": "unclassified" }, "geometry": { "type": "Point", "coordinates": [ -1.910796745085926, 53.850839295871857 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Hainworth Wood", "Park Segment Name": "Hainworth Wood", "source": "calculated", "highway_type": "unclassified" }, "geometry": { "type": "Point", "coordinates": [ -1.908115642109932, 53.853094538190412 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Hainworth Wood", "Park Segment Name": "Hainworth Wood", "source": "calculated", "highway_type": "unclassified" }, "geometry": { "type": "Point", "coordinates": [ -1.909183769771709, 53.85177176783904 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Hainworth Wood", "Park Segment Name": "Hainworth Wood", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.913223194285434, 53.852226933028057 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Kirkstall Wood", "Park Segment Name": "Kirkstall Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.904995980773481, 53.852085855032101 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Kirkstall Wood", "Park Segment Name": "Kirkstall Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.904568089984153, 53.853375073960358 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Kirkstall Wood", "Park Segment Name": "Kirkstall Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.902604719507357, 53.853794940613618 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Kirkstall Wood", "Park Segment Name": "Kirkstall Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.904353300450175, 53.853469048111094 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Park Wood, BD21", "Park Segment Name": "Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.90016348557819, 53.862066768814927 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Park Wood, BD21", "Park Segment Name": "Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.898317540566764, 53.862305495130272 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Park Wood, BD21", "Park Segment Name": "Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.897571971374094, 53.86218712152619 ] } }
+]
+}

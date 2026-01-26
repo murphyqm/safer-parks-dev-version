@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Grove_Road_Rec_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.471518, 53.7858484 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4713516, 53.7858302 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4707592, 53.7873495 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4717743, 53.7912555 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.45987, 53.7861157 ], [ -1.4614284, 53.7864168 ], [ -1.4626622, 53.7866418 ], [ -1.4630726, 53.7866656 ], [ -1.4635018, 53.7866577 ], [ -1.4639435, 53.7866245 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4592384, 53.7860983 ], [ -1.4596421, 53.7862092 ], [ -1.4607364, 53.7864295 ], [ -1.4622599, 53.7867211 ], [ -1.4627668, 53.7868003 ], [ -1.463196, 53.7868162 ], [ -1.4637271, 53.786786 ], [ -1.4642125, 53.7867353 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4706179, 53.7899671 ], [ -1.4705423, 53.789625 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4709799, 53.7907485 ], [ -1.4707035, 53.7900759 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4724844, 53.7992699 ], [ -1.4716932, 53.798876 ], [ -1.470974, 53.798567 ], [ -1.4705392, 53.7983855 ], [ -1.4700521, 53.7982581 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4744262, 53.7859418 ], [ -1.4743833, 53.7855218 ], [ -1.4743699, 53.785254 ], [ -1.4744611, 53.7849973 ] ] } }
+]
+}

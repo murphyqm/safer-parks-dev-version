@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Stread_Hall_Wood_park_street_lights",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.762383996129344, 53.913252036441591 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.762692230476006, 53.913393752442651 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.761569428757003, 53.908177689655965 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.761573257494212, 53.908039283675095 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.761619833162381, 53.907878492517618 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.761865497172194, 53.908041659041288 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.761865333492608, 53.907801681983209 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.761125739689, 53.909111548909678 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.767173613929375, 53.907946691979177 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.767636033444363, 53.908168596235051 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.767647132964643, 53.908473666157093 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.768035413616196, 53.908698570897236 ] } }
+]
+}

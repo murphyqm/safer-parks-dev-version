@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Lodgewood_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4356381, 53.7877929 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4339132, 53.7878983 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4340131, 53.7877283 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4343007, 53.787367 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4438898, 53.7845564 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4435112, 53.7845125 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4432634, 53.784502 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4314779, 53.7874374 ], [ -1.4321449, 53.782905 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.434699, 53.7886395 ], [ -1.4346781, 53.7879696 ], [ -1.434692, 53.7876203 ], [ -1.4346746, 53.787458 ], [ -1.4347338, 53.7872833 ], [ -1.4348173, 53.7872504 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4334438, 53.7880038 ], [ -1.4336679, 53.7876925 ], [ -1.4338647, 53.7874278 ], [ -1.4342069, 53.787129 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.434331, 53.7870342 ], [ -1.4344915, 53.7869305 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4410204, 53.7860656 ], [ -1.4408806, 53.7864103 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4408446, 53.7865448 ], [ -1.4407647, 53.7868092 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4424788, 53.7874324 ], [ -1.4408046, 53.7871562 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4407017, 53.7869479 ], [ -1.4406542, 53.7871161 ], [ -1.4405013, 53.7871114 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4434843, 53.7837758 ], [ -1.4431086, 53.7843717 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4430356, 53.7844971 ], [ -1.4427365, 53.7847766 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4426112, 53.7848814 ], [ -1.4423921, 53.7851033 ] ] } }
+]
+}

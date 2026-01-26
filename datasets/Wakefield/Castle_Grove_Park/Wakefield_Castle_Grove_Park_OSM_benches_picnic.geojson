@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Castle_Grove_Park_OSM_benches_picnic",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4919926, 53.6590732 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.491924, 53.6591798 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4920224, 53.6589991 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4914957, 53.6584878 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4896886, 53.6581249 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4896896, 53.658078 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4897111, 53.6580378 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4897654, 53.6579953 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4896311, 53.6583886 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4895959, 53.6586308 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4896086, 53.6586858 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4896142, 53.6587315 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4899783, 53.6578976 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4900734, 53.6579063 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4906619, 53.6580628 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4899214, 53.6590636 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.4908472, 53.6593296 ] } }
+]
+}

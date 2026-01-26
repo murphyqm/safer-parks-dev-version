@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Mill_Green_Close_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.453345321952672, 53.821751067216418 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.453342986932447, 53.821930820005278 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.453041535463091, 53.821749685983555 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.453039199073116, 53.821929438758538 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.453036862656581, 53.822109191527979 ] } }
+]
+}

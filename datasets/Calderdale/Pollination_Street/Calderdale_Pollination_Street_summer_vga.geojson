@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Pollination_Street_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -2.095780352596325, 53.714441342468596 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -2.095780767379289, 53.714621101043633 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -2.095477316506754, 53.714441587760334 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -2.095477730007649, 53.714621346340017 ] } }
+]
+}

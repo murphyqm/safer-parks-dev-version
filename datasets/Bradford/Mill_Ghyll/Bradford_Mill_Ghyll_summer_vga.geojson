@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Mill_Ghyll_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 5, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823395935310795, 53.922671386100554 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823395180207683, 53.922851140266758 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823394425096218, 53.923030894427519 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823393669976401, 53.923210648582888 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823392914848231, 53.923390402732835 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823392159711708, 53.923570156877361 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823391404566833, 53.923749911016486 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823390649413604, 53.923929665150176 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823389894252023, 53.92410941927848 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 5, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.823389139082088, 53.924289173401334 ] } }
+]
+}

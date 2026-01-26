@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_South_Wood_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "AD0B8A18-D6FA-476A-873B-F60F2E046984", "access_type": "Motor Vehicle And Pedestrian", "Park Name": "Milner Wood", "Park Segment Name": "Milner Wood", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.720770990210177, 53.897555392195606 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Milner Wood", "Park Segment Name": "Milner Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.726082721992308, 53.897916853352818 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Milner Wood", "Park Segment Name": "Milner Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.731348745081822, 53.899501688205909 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Milner Wood", "Park Segment Name": "Milner Wood", "source": "calculated", "highway_type": "steps" }, "geometry": { "type": "Point", "coordinates": [ -1.732048314198501, 53.898720151399182 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Milner Wood", "Park Segment Name": "Milner Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.732300252570652, 53.899402158133519 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Milner Wood", "Park Segment Name": "Milner Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.736437625909018, 53.899706705713669 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Milner Wood", "Park Segment Name": "Milner Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.736545221370089, 53.899707268386024 ] } }
+]
+}

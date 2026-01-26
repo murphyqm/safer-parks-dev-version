@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Ladyhill_Park_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "20721EB6-4928-4E8A-9438-69B4F1FF35F4", "access_type": "Motor Vehicle And Pedestrian", "Park Name": "Ladyhill Park", "Park Segment Name": "Ladyhill Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.814964346462387, 53.801129300308993 ] } },
+{ "type": "Feature", "properties": { "id": "95578795-4266-49E5-8532-37E180FB4DF3", "access_type": "Pedestrian", "Park Name": "Ladyhill Park", "Park Segment Name": "Ladyhill Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.814667819703031, 53.801442434452092 ] } },
+{ "type": "Feature", "properties": { "id": "3185DDC5-556B-45B1-8B28-52DF0416D897", "access_type": "Pedestrian", "Park Name": "Ladyhill Park", "Park Segment Name": "Ladyhill Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.812600101301986, 53.803077291502589 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Chellow Dean Woods", "Park Segment Name": "Chellow Dean Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.813362075357912, 53.807250012915681 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Chellow Dean Woods", "Park Segment Name": "Chellow Dean Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.813969054987634, 53.806542844775628 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Chellow Dean Woods", "Park Segment Name": "Chellow Dean Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.819161460443854, 53.808144521918194 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Pitty Beck Wetlands", "Park Segment Name": "Pitty Beck Wetlands", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.817249512777561, 53.794613526491318 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Lower Grange Community Field and Park", "Park Segment Name": "Lower Grange Community Field and Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.821569058877619, 53.795760394232339 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Lower Grange Community Field and Park", "Park Segment Name": "Lower Grange Community Field and Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.8227679, 53.7955103 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Lower Grange Community Field and Park", "Park Segment Name": "Lower Grange Community Field and Park", "source": "calculated", "highway_type": "path" }, "geometry": { "type": "Point", "coordinates": [ -1.821484115937303, 53.795967699412209 ] } }
+]
+}

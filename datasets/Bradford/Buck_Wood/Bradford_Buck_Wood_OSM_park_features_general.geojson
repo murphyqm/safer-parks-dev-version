@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Buck_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7468677, 53.8522351 ], [ -1.7470247, 53.8523126 ], [ -1.7472982, 53.852069 ], [ -1.747191, 53.8520073 ], [ -1.7468677, 53.8522351 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.733491, 53.8480184 ], [ -1.7336894, 53.8470197 ], [ -1.7325126, 53.8469288 ], [ -1.7322908, 53.8479357 ], [ -1.733491, 53.8480184 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Point", "coordinates": [ -1.7332785, 53.8468379 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.7406394, 53.8460385 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7253992, 53.860067 ], [ -1.7254793, 53.8600065 ], [ -1.725258, 53.859905 ], [ -1.7251175, 53.8598491 ], [ -1.7249801, 53.8598395 ], [ -1.7245176, 53.8598579 ], [ -1.7244619, 53.8598987 ], [ -1.7244449, 53.8600251 ], [ -1.7248127, 53.860012 ], [ -1.7253068, 53.8601116 ], [ -1.7253992, 53.860067 ] ] ] } }
+]
+}

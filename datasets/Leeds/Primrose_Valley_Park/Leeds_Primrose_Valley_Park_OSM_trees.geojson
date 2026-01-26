@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Primrose_Valley_Park_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4717743, 53.7912555 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4709799, 53.7907485 ], [ -1.4707035, 53.7900759 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4724844, 53.7992699 ], [ -1.4716932, 53.798876 ], [ -1.470974, 53.798567 ], [ -1.4705392, 53.7983855 ], [ -1.4700521, 53.7982581 ] ] } }
+]
+}

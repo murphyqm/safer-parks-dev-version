@@ -1,0 +1,32 @@
+/* Dashboard-specific styles */
+
+/* Bench marker styling - remove default outlines */
+.leaflet-image-layer.leaflet-interactive, .leaflet-marker-icon.leaflet-interactive, .leaflet-pane>svg path.leaflet-interactive, svg.leaflet-image-layer.leaflet-interactive path {
+    pointer-events: visiblePainted;
+    pointer-events: auto;
+}
+
+/* Override button styling for Leaflet markers */
+.leaflet-marker-icon[role="button"] {
+    --pico-background-color: transparent !important;
+    --pico-border-color: transparent !important;
+    --pico-color: inherit !important;
+    --pico-box-shadow: none !important;
+    padding: 0 !important;
+    border: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
+    outline: none !important;
+}
+
+.bench-marker {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+
+.bench-marker div {
+    outline: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}

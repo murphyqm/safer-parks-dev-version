@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Gallon_Croft_Field_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3098807, 53.5952031 ], [ -1.3098896, 53.5956523 ], [ -1.3105651, 53.5955295 ], [ -1.3104471, 53.5951366 ], [ -1.3098807, 53.5952031 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3099372, 53.5962299 ], [ -1.309916, 53.5962968 ], [ -1.3099697, 53.5965292 ], [ -1.3107134, 53.5963909 ], [ -1.3116916, 53.596093 ], [ -1.3113751, 53.5955263 ], [ -1.3108226, 53.5956187 ], [ -1.3098927, 53.5958084 ], [ -1.3098946, 53.595902 ], [ -1.3098946, 53.596179 ], [ -1.3099372, 53.5962299 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.311348, 53.5954722 ], [ -1.3107923, 53.5955297 ], [ -1.3106777, 53.5951937 ], [ -1.3112389, 53.5951483 ], [ -1.311348, 53.5954722 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3098379, 53.5950153 ], [ -1.3098902, 53.5951522 ], [ -1.3103433, 53.5950951 ], [ -1.3102486, 53.5947559 ], [ -1.3097819, 53.5948196 ], [ -1.3098379, 53.5950153 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2905305, 53.5995411 ], [ -1.2913385, 53.5992655 ], [ -1.2905113, 53.5984113 ], [ -1.2897031, 53.5986869 ], [ -1.2905305, 53.5995411 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2898845, 53.6000519 ], [ -1.2905873, 53.6008253 ], [ -1.2913812, 53.6005993 ], [ -1.2906838, 53.5998321 ], [ -1.2898845, 53.6000519 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3091432, 53.5962713 ], [ -1.3091444, 53.5963057 ], [ -1.3091577, 53.5967068 ], [ -1.3088734, 53.5967227 ], [ -1.3087999, 53.5962649 ], [ -1.3091432, 53.5962713 ] ] ] } }
+]
+}

@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Cock_Hat_Wood_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 18, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.676603616597345, 53.630555660792297 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 18, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.676602244743975, 53.630735419329184 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.676600872875614, 53.630915177860608 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 18, "visibility_pct": 5.5555555555555554 }, "geometry": { "type": "Point", "coordinates": [ -1.676599500992263, 53.631094936386582 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 17, "visibility_pct": 17.647058823529413 }, "geometry": { "type": "Point", "coordinates": [ -1.676598129093922, 53.631274694907098 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 18, "visibility_pct": 27.777777777777779 }, "geometry": { "type": "Point", "coordinates": [ -1.676301193547338, 53.63055484392688 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 18, "visibility_pct": 11.111111111111111 }, "geometry": { "type": "Point", "coordinates": [ -1.676299820402052, 53.630734602456478 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.676298447241761, 53.630914360980583 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.676297074066466, 53.631094119499259 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 18, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.676295700876167, 53.631273878012465 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 18, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.675998770512297, 53.630554026297396 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.675997396075094, 53.630733784819668 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 18, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.675996021622874, 53.630913543336483 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 18, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.675994647155635, 53.631093301847848 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 18, "visibility_pct": 27.777777777777779 }, "geometry": { "type": "Point", "coordinates": [ -1.675696347492234, 53.630553207903844 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 18, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.675694971763116, 53.630732966418805 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 18, "visibility_pct": 27.777777777777779 }, "geometry": { "type": "Point", "coordinates": [ -1.675693596018966, 53.630912724928301 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 17, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.675393924487165, 53.630552388746217 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 18, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.675392547466132, 53.630732147253852 ] } }
+]
+}

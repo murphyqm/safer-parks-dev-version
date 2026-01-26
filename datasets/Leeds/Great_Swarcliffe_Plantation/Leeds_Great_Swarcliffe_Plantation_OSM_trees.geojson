@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Great_Swarcliffe_Plantation_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.443478, 53.8092386 ], [ -1.4434744, 53.8094695 ], [ -1.4433948, 53.8095092 ], [ -1.4433382, 53.8095865 ], [ -1.443324, 53.8096795 ], [ -1.4434231, 53.8097443 ], [ -1.4434461, 53.8099982 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4440682, 53.8096147 ], [ -1.4446158, 53.8096347 ], [ -1.4445882, 53.8099324 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4445887, 53.8101244 ], [ -1.4438028, 53.8101122 ], [ -1.4438316, 53.8096871 ] ] } }
+]
+}

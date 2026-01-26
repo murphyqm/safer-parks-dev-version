@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Farnley_Village_Green_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 7, "visibility_pct": 85.714285714285708 }, "geometry": { "type": "Point", "coordinates": [ -1.618713965935715, 53.786857283426826 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 7, "visibility_pct": 57.142857142857139 }, "geometry": { "type": "Point", "coordinates": [ -1.61871069921599, 53.787216795684436 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 7, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.618410399054208, 53.786856322239736 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.618408764253757, 53.787036078373312 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 7, "visibility_pct": 85.714285714285708 }, "geometry": { "type": "Point", "coordinates": [ -1.618407129433892, 53.787215834501538 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 7, "visibility_pct": 85.714285714285708 }, "geometry": { "type": "Point", "coordinates": [ -1.618106838523607, 53.786855359406225 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.618105202436741, 53.787035115524034 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.618103566332192, 53.787214871636422 ] } }
+]
+}

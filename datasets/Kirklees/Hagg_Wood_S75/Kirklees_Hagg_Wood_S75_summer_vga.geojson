@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Hagg_Wood_S75_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.615757996750761, 53.562953466695681 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.615456051028696, 53.562952501136571 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.615454431260849, 53.563132256566789 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.615154105324226, 53.56295153481534 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.615152484276655, 53.563131290234026 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 14, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.614853781946962, 53.562770812319329 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 14, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.614852159637363, 53.562950567731988 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.614551837557431, 53.562769844485402 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.614550213968123, 53.562949599886494 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 17, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.614249893185536, 53.562768875889347 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.613949574962279, 53.562588151147665 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 16, "visibility_pct": 6.25 }, "geometry": { "type": "Point", "coordinates": [ -1.61394794883129, 53.562767906531164 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 14, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.613649259298324, 53.562407425661505 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 14, "visibility_pct": 28.571428571428569 }, "geometry": { "type": "Point", "coordinates": [ -1.613647631905391, 53.562587181038921 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 14, "visibility_pct": 21.428571428571427 }, "geometry": { "type": "Point", "coordinates": [ -1.613646004494708, 53.562766936410867 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 12, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.613347317538794, 53.562406454802229 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 12, "visibility_pct": 41.666666666666671 }, "geometry": { "type": "Point", "coordinates": [ -1.61334568886618, 53.562586210168092 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 10, "visibility_pct": 10.0 }, "geometry": { "type": "Point", "coordinates": [ -1.613045375796953, 53.562405483180839 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 10, "visibility_pct": 30.0 }, "geometry": { "type": "Point", "coordinates": [ -1.61304374584466, 53.562585238535121 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 9, "visibility_pct": 11.111111111111111 }, "geometry": { "type": "Point", "coordinates": [ -1.612743434072817, 53.562404510797343 ] } }
+]
+}

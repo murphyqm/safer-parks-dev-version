@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Prince_Of_Wales_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8303045, 53.8510053 ], [ -1.8300913, 53.8508914 ], [ -1.8299223, 53.8508487 ], [ -1.8301141, 53.8507609 ], [ -1.8301678, 53.8508242 ], [ -1.830271, 53.8509563 ], [ -1.8303045, 53.8510053 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.8303478, 53.8510671 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.8306883, 53.8510677 ] } }
+]
+}

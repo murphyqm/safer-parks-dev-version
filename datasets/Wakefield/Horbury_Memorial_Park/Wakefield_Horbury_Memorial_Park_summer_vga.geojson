@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Horbury_Memorial_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.560762588544056, 53.661397363638528 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.560459940890755, 53.661396257258772 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.560157293258039, 53.661395150114039 ] } }
+]
+}

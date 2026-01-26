@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Sparrow_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5797555, 53.8098682 ], [ -1.5791627, 53.8097669 ], [ -1.5792968, 53.8095072 ], [ -1.5799137, 53.8096117 ], [ -1.5797555, 53.8098682 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.578187, 53.8097215 ], [ -1.5782096, 53.8100546 ], [ -1.5776488, 53.8100679 ], [ -1.5776262, 53.8097348 ], [ -1.578187, 53.8097215 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5788045, 53.8097657 ], [ -1.578828, 53.8100771 ], [ -1.5782739, 53.8100917 ], [ -1.5782505, 53.8097802 ], [ -1.5788045, 53.8097657 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5774353, 53.8101198 ], [ -1.5767055, 53.8101389 ], [ -1.576637, 53.8093818 ], [ -1.577395, 53.8093652 ], [ -1.5774353, 53.8101198 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5871167, 53.8137307 ], [ -1.5870491, 53.813161 ], [ -1.5853746, 53.8132303 ], [ -1.5854423, 53.8138 ], [ -1.5871167, 53.8137307 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5791048, 53.809761 ], [ -1.5798411, 53.809898 ], [ -1.5797056, 53.8101363 ], [ -1.5794562, 53.8100967 ], [ -1.5793355, 53.8100841 ], [ -1.5792764, 53.8100817 ], [ -1.5792188, 53.8100801 ], [ -1.5791759, 53.8100754 ], [ -1.579145, 53.8100635 ], [ -1.5791249, 53.8100445 ], [ -1.5791155, 53.8100175 ], [ -1.5791048, 53.809761 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.580787, 53.820778 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.589666, 53.817714 ] } }
+]
+}

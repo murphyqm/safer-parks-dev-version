@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Mill_Hill_Plantation_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 6, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.304572079850762, 53.755252774692821 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 6, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.304569112172296, 53.755432519454416 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.304566144461753, 53.755612264210377 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.304268776688089, 53.755251017755441 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 6, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.304265807723999, 53.755430762498349 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.304262838727819, 53.755610507235588 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.303962503307758, 53.75542900477496 ] } }
+]
+}

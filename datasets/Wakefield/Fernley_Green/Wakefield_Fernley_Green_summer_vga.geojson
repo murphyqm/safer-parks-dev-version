@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Fernley_Green_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.230538212980907, 53.708923331281753 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.23053493556486, 53.709103074035347 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.23023524891909, 53.70892138943001 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.230231970204066, 53.709101132164136 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.229932284893007, 53.708919446812295 ] } }
+]
+}

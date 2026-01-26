@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Barnbow_Plantation_park_street_lights",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.413080006452979, 53.822738570824015 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.41355020793207, 53.822620088237123 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.413847979925015, 53.822406948376553 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.414483432858983, 53.822216239239303 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.415083635940641, 53.822136303568406 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.415683311536377, 53.822162534451117 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.409144239776187, 53.822862808762075 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.407906607343545, 53.819727699476708 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.408340157684274, 53.819547543206227 ] } }
+]
+}

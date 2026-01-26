@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Cleckheaton_Memorial_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7067311, 53.7248868 ], [ -1.7068612, 53.7250744 ], [ -1.707036, 53.7250299 ], [ -1.7069039, 53.7248423 ], [ -1.7067311, 53.7248868 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7089736, 53.7181219 ], [ -1.7088608, 53.7180965 ], [ -1.7089024, 53.7180322 ], [ -1.7087683, 53.7179053 ], [ -1.7089346, 53.7178354 ], [ -1.7090607, 53.7178489 ], [ -1.7090526, 53.7179077 ], [ -1.7091492, 53.7179259 ], [ -1.7091411, 53.7179973 ], [ -1.7090821, 53.7180513 ], [ -1.7089936, 53.7180878 ], [ -1.7089736, 53.7181219 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7114227, 53.7182265 ], [ -1.7107489, 53.7177386 ], [ -1.7120969, 53.7170866 ], [ -1.7127708, 53.7175745 ], [ -1.712335, 53.7177866 ], [ -1.7118961, 53.7179954 ], [ -1.7114227, 53.7182265 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7123582, 53.7250889 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Monument" }, "geometry": { "type": "Point", "coordinates": [ -1.7124033, 53.7228458 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Soccer" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7130859, 53.7175026 ], [ -1.7128733, 53.7174886 ], [ -1.7129029, 53.7173314 ], [ -1.7131155, 53.7173454 ], [ -1.7130859, 53.7175026 ] ] ] } }
+]
+}

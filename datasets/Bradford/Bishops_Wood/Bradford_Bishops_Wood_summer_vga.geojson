@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Bishops_Wood_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 3, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.965781302313752, 53.816101824872561 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 3, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.965781160075053, 53.816281581324382 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 3, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.965477249929462, 53.816461251074145 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 3, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.965173482025852, 53.816461163608203 ] } }
+]
+}

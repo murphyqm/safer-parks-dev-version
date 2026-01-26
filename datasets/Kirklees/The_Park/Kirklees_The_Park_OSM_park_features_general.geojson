@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_The_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9247981, 53.6002818 ], [ -1.924554, 53.6000733 ], [ -1.9249751, 53.5998902 ], [ -1.9252272, 53.6001051 ], [ -1.9247981, 53.6002818 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9246043, 53.6003706 ], [ -1.9243435, 53.6001658 ], [ -1.9245254, 53.6000843 ], [ -1.9247861, 53.600289 ], [ -1.9246043, 53.6003706 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bandstand" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9246073, 53.5999432 ], [ -1.9245728, 53.5999574 ], [ -1.9245259, 53.5999511 ], [ -1.9244967, 53.5999306 ], [ -1.9245029, 53.5999023 ], [ -1.9245391, 53.5998802 ], [ -1.9245984, 53.599887 ], [ -1.9246214, 53.5999112 ], [ -1.9246073, 53.5999432 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Drinking Water" }, "geometry": { "type": "Point", "coordinates": [ -1.9253849, 53.6000925 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.9240737, 53.6000404 ] } }
+]
+}

@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Bank_House_Wood_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.7392365, 53.5622846 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.7346752, 53.5541431 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.7344678, 53.554161 ] } }
+]
+}

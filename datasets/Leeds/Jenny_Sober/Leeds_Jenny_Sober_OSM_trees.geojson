@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Jenny_Sober_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.3763006, 53.8656018 ], [ -1.3731249, 53.8624321 ] ] } }
+]
+}

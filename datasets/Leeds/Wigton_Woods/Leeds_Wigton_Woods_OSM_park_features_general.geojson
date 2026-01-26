@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Wigton_Woods_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5184708, 53.8550552 ], [ -1.5184248, 53.8551507 ], [ -1.5183549, 53.8551669 ], [ -1.5183229, 53.8551608 ], [ -1.5182558, 53.8551481 ], [ -1.5181903, 53.8551043 ], [ -1.518216, 53.855026 ], [ -1.5182639, 53.8550122 ], [ -1.5183266, 53.8549942 ], [ -1.5184434, 53.8550135 ], [ -1.5184708, 53.8550552 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.527965, 53.8577629 ], [ -1.5265884, 53.8577221 ], [ -1.5266115, 53.8572731 ], [ -1.5280072, 53.8573117 ], [ -1.527965, 53.8577629 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5264962, 53.8577607 ], [ -1.5260386, 53.8577743 ], [ -1.5259963, 53.8573321 ], [ -1.5264654, 53.8573094 ], [ -1.5264962, 53.8577607 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5267, 53.8571756 ], [ -1.5259271, 53.8572278 ], [ -1.5258771, 53.8569556 ], [ -1.5266577, 53.8569035 ], [ -1.5267, 53.8571756 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5283495, 53.857264 ], [ -1.5269576, 53.8572459 ], [ -1.5269768, 53.8567946 ], [ -1.5283687, 53.8568195 ], [ -1.5283495, 53.857264 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Point", "coordinates": [ -1.520563, 53.8555804 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5204416, 53.8556597 ], [ -1.520586, 53.8557675 ], [ -1.5201942, 53.8558061 ], [ -1.5201294, 53.8556958 ], [ -1.5202761, 53.8556827 ], [ -1.5204416, 53.8556597 ] ] ] } }
+]
+}

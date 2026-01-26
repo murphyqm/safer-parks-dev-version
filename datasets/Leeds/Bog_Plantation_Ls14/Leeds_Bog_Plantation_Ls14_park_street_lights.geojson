@@ -1,0 +1,31 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Bog_Plantation_Ls14_park_street_lights",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.465295358648947, 53.852835484454353 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.46549139724568, 53.853010740965473 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.465558023563294, 53.853212178406402 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.465625950682841, 53.853436896681643 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.465604231238518, 53.853725256489959 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.465558909392602, 53.854001713893012 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.465741632781791, 53.853193613337993 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.466294370396279, 53.853099728085951 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.466786708448387, 53.853048264280453 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.466964576530867, 53.852808064094582 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.467206885148034, 53.852543432293757 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.467390858208242, 53.852270958632033 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.467709969457093, 53.852768110232553 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.467645762362464, 53.852399041216103 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.467766551772387, 53.852013937520681 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.467727428735529, 53.851614645262714 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.467446315373028, 53.851418475691126 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.467145653569199, 53.851602800480997 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.466970806778115, 53.851755101762876 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.466729923463447, 53.85194239752574 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.466416688248821, 53.852179586488241 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.466094315996215, 53.852414884364215 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.465785401796382, 53.852628130865085 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.465527900641002, 53.852816576356929 ] } }
+]
+}

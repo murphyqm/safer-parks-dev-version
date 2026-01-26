@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Shaley_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7699213, 53.5766448 ], [ -1.7698335, 53.5766133 ], [ -1.7698623, 53.5765799 ], [ -1.7699542, 53.5766113 ], [ -1.7699213, 53.5766448 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7703364, 53.5765663 ], [ -1.7702211, 53.5764648 ], [ -1.7701071, 53.5765098 ], [ -1.7702244, 53.5766121 ], [ -1.7703364, 53.5765663 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.763682, 53.5756055 ], [ -1.7635634, 53.5756313 ], [ -1.7635737, 53.5756479 ], [ -1.763472, 53.57567 ], [ -1.7635297, 53.5757638 ], [ -1.76375, 53.5757161 ], [ -1.763682, 53.5756055 ] ] ] } }
+]
+}

@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Stoney_Ridge_Plantation_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8116779, 53.8146127 ], [ -1.8111121, 53.8145727 ], [ -1.8111205, 53.8145311 ], [ -1.8111356, 53.814457 ], [ -1.8117014, 53.814497 ], [ -1.8116779, 53.8146127 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8146375, 53.8163611 ], [ -1.8139318, 53.8163174 ], [ -1.8139866, 53.8160088 ], [ -1.8146923, 53.8160525 ], [ -1.8146375, 53.8163611 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8116698, 53.8154351 ], [ -1.8108815, 53.8153943 ], [ -1.8109867, 53.8146864 ], [ -1.811775, 53.8147272 ], [ -1.8116698, 53.8154351 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8103478, 53.8143182 ], [ -1.8094944, 53.8142618 ], [ -1.8096506, 53.8134387 ], [ -1.8105039, 53.8134952 ], [ -1.8103478, 53.8143182 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8150148, 53.8163684 ], [ -1.8147017, 53.8163431 ], [ -1.8147661, 53.8160658 ], [ -1.8150791, 53.8160912 ], [ -1.8150148, 53.8163684 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8151438, 53.8167509 ], [ -1.8147308, 53.8167414 ], [ -1.8147415, 53.8164152 ], [ -1.8151438, 53.8164183 ], [ -1.8151438, 53.8167509 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8153584, 53.8160288 ], [ -1.8153691, 53.8159211 ], [ -1.8152833, 53.8159243 ], [ -1.8152822, 53.8160356 ], [ -1.8153584, 53.8160288 ] ] ] } }
+]
+}

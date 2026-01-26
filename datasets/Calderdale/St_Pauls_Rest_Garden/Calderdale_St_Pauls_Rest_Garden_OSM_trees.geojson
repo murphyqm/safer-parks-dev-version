@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_St_Pauls_Rest_Garden_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.8772956, 53.7124363 ], [ -1.8727868, 53.7122474 ], [ -1.8717542, 53.7122553 ], [ -1.8707913, 53.712295 ], [ -1.8707618, 53.7121156 ], [ -1.8708959, 53.710979 ], [ -1.870971, 53.7096884 ], [ -1.8708637, 53.7082405 ], [ -1.871022, 53.7082167 ], [ -1.8729075, 53.7088454 ], [ -1.8747717, 53.7094978 ], [ -1.8759277, 53.7099408 ], [ -1.8771481, 53.7104678 ] ] } }
+]
+}

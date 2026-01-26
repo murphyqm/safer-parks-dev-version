@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Marchup_Plantation_park_street_lights",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.917946907305403, 53.938382807798902 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.918242858191215, 53.938157416104417 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.918808232558035, 53.938031069879557 ] } }
+]
+}

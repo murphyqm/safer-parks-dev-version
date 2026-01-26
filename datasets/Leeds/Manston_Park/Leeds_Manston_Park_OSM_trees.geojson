@@ -1,0 +1,30 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Manston_Park_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4445303, 53.8080094 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4446577, 53.808333 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4442374, 53.8086612 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4445643, 53.8092003 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4442771, 53.8091947 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4439782, 53.8091865 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4437424, 53.8091837 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4434645, 53.8091672 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4445565, 53.8085293 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.444507, 53.8086059 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4444329, 53.8086752 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4447819, 53.8076432 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4447819, 53.8077621 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.444668, 53.8077921 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.4447778, 53.8078281 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4371758, 53.8022667 ], [ -1.4373001, 53.8024696 ], [ -1.4376373, 53.80302 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4397263, 53.8027746 ], [ -1.4385493, 53.8028963 ], [ -1.4376373, 53.80302 ], [ -1.4364481, 53.8030964 ], [ -1.4341742, 53.8032165 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4347217, 53.8034924 ], [ -1.4346851, 53.804035 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4376118, 53.8038542 ], [ -1.4360521, 53.8040252 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4387294, 53.8032659 ], [ -1.4388882, 53.803707 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.443478, 53.8092386 ], [ -1.4434744, 53.8094695 ], [ -1.4433948, 53.8095092 ], [ -1.4433382, 53.8095865 ], [ -1.443324, 53.8096795 ], [ -1.4434231, 53.8097443 ], [ -1.4434461, 53.8099982 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4440682, 53.8096147 ], [ -1.4446158, 53.8096347 ], [ -1.4445882, 53.8099324 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.4445887, 53.8101244 ], [ -1.4438028, 53.8101122 ], [ -1.4438316, 53.8096871 ] ] } }
+]
+}

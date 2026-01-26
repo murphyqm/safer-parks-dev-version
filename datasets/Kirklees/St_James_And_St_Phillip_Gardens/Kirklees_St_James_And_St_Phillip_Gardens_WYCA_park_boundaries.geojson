@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_St_James_And_St_Phillip_Gardens_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "St James and St Phillip Gardens", "Primary Name": "St James and St Phillip Gardens", "Park Segment Name": "St James and St Phillip Gardens (a)" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7484119, 53.7289282 ], [ -1.7482733, 53.7289131 ], [ -1.7482338, 53.728787 ], [ -1.74908780000001, 53.7287283 ], [ -1.7491415, 53.7287886 ], [ -1.7490852, 53.728821899999986 ], [ -1.748994, 53.7288282 ], [ -1.7488894, 53.728861500000022 ], [ -1.7487392, 53.728899599999977 ], [ -1.7486185, 53.728923400000021 ], [ -1.7484119, 53.7289282 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Name": "St James and St Phillip Gardens", "Primary Name": "St James and St Phillip Gardens", "Park Segment Name": "St James and St Phillip Gardens (b)" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7487016, 53.7289504 ], [ -1.7491823, 53.7289324 ], [ -1.7491594, 53.728864199999983 ], [ -1.7491452, 53.728856600000015 ], [ -1.7491218, 53.728853599999972 ], [ -1.749045, 53.7288557 ], [ -1.748978, 53.72886720000001 ], [ -1.7489155, 53.728882799999987 ], [ -1.7487016, 53.7289504 ] ] ] } }
+]
+}

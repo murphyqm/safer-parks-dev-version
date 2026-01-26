@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Castle_Grove_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4799693, 53.6652552 ], [ -1.4799469, 53.6651494 ], [ -1.4798168, 53.6651853 ], [ -1.4796652, 53.6652417 ], [ -1.4796447, 53.6653237 ], [ -1.4796511, 53.665374 ], [ -1.4796896, 53.6654082 ], [ -1.4797604, 53.6654203 ], [ -1.4799161, 53.6653802 ], [ -1.4799748, 53.6654048 ], [ -1.4799693, 53.6652552 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4994683, 53.6597486 ], [ -1.4993726, 53.6597458 ], [ -1.4992015, 53.6597608 ], [ -1.4991659, 53.6597841 ], [ -1.4991881, 53.6598197 ], [ -1.4992323, 53.6598465 ], [ -1.4992929, 53.6598753 ], [ -1.499358, 53.6598997 ], [ -1.4994461, 53.6599208 ], [ -1.4995477, 53.6599326 ], [ -1.4995764, 53.6599137 ], [ -1.4995897, 53.659893 ], [ -1.4995936, 53.659864 ], [ -1.4995851, 53.6598423 ], [ -1.4995664, 53.6598074 ], [ -1.4995244, 53.6597762 ], [ -1.4994683, 53.6597486 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4882293, 53.6648859 ], [ -1.4881287, 53.6649793 ], [ -1.4878556, 53.664876 ], [ -1.4879563, 53.6647826 ], [ -1.4882293, 53.6648859 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4884643, 53.6643936 ], [ -1.4882129, 53.6643965 ], [ -1.4882055, 53.664169 ], [ -1.4884569, 53.6641661 ], [ -1.4884643, 53.6643936 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4877932, 53.6652843 ], [ -1.4875559, 53.6651897 ], [ -1.4878683, 53.6649147 ], [ -1.4881056, 53.6650094 ], [ -1.4877932, 53.6652843 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4884021, 53.6652663 ], [ -1.4882617, 53.6652543 ], [ -1.4882765, 53.6651535 ], [ -1.4883023, 53.6651262 ], [ -1.488343, 53.6651174 ], [ -1.4883929, 53.6651251 ], [ -1.4884206, 53.6651568 ], [ -1.4884021, 53.6652663 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.484586, 53.6635366 ], [ -1.4843616, 53.6636786 ], [ -1.4842571, 53.6637179 ], [ -1.484122, 53.6637436 ], [ -1.4839844, 53.6637557 ], [ -1.4836605, 53.6636892 ], [ -1.4834081, 53.6635487 ], [ -1.4833673, 53.6635049 ], [ -1.4833265, 53.663446 ], [ -1.4833546, 53.6633644 ], [ -1.4836198, 53.6630683 ], [ -1.4839385, 53.6628705 ], [ -1.484071, 53.6628326 ], [ -1.4843104, 53.6628222 ], [ -1.4844936, 53.6628523 ], [ -1.4846804, 53.6630139 ], [ -1.4847645, 53.6632118 ], [ -1.4847772, 53.6632949 ], [ -1.4847619, 53.6633629 ], [ -1.4847135, 53.6634233 ], [ -1.484586, 53.6635366 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.4900985, 53.6579419 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.4894103, 53.6587997 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.4904024, 53.6592719 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.489242, 53.6588116 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.4892283, 53.6583212 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Cafe" }, "geometry": { "type": "Point", "coordinates": [ -1.4891283, 53.6580513 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bicycle Parking" }, "geometry": { "type": "Point", "coordinates": [ -1.4892006, 53.6583977 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4892452, 53.6583604 ], [ -1.4894306, 53.6587859 ], [ -1.4892532, 53.6588205 ], [ -1.4890743, 53.6583832 ], [ -1.4892452, 53.6583604 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.4912513, 53.658907 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.4904657, 53.658732 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.4897112, 53.6588714 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.4912426, 53.6596968 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.4903796, 53.6592692 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4769012, 53.6665913 ], [ -1.4765181, 53.666424 ], [ -1.4763865, 53.666491 ], [ -1.4762956, 53.66654 ], [ -1.4765717, 53.6667099 ], [ -1.4766365, 53.6666579 ], [ -1.4766977, 53.6666951 ], [ -1.4767581, 53.666679 ], [ -1.4769012, 53.6665913 ] ] ] } }
+]
+}

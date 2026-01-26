@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Stubbs_Wood_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Stubbs Wood" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4435871, 53.6365989 ], [ -1.4567927, 53.644082 ], [ -1.4573279, 53.6444225 ], [ -1.4534845, 53.646882 ], [ -1.452356, 53.6473748 ], [ -1.4508982, 53.6474555 ], [ -1.4456882, 53.6452564 ], [ -1.443531, 53.6432596 ], [ -1.4411697, 53.638633799999987 ], [ -1.4435871, 53.6365989 ] ] ] } }
+]
+}

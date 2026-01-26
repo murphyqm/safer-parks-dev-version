@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Queen_Elizabeth_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4836316, 53.6889082 ], [ -1.4836549, 53.688646 ], [ -1.4835672, 53.6885266 ], [ -1.4836644, 53.6884893 ], [ -1.4838318, 53.6884252 ], [ -1.4839051, 53.6884058 ], [ -1.4840439, 53.68845 ], [ -1.4840551, 53.688566 ], [ -1.484011, 53.6886987 ], [ -1.4840048, 53.6887175 ], [ -1.483947, 53.6888241 ], [ -1.4839689, 53.6888728 ], [ -1.4839207, 53.6888777 ], [ -1.4836316, 53.6889082 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4849543, 53.6883472 ], [ -1.4849659, 53.6885073 ], [ -1.4845146, 53.6885093 ], [ -1.4845075, 53.688352 ], [ -1.4849543, 53.6883472 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4845251, 53.6885424 ], [ -1.4855785, 53.6885341 ], [ -1.4855879, 53.688873 ], [ -1.4845345, 53.6888786 ], [ -1.4845251, 53.6885424 ] ] ] } }
+]
+}

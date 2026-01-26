@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Beacon_Covert_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Coal Pit Plantation", "Primary Name": "Coal Pit Plantation", "Park Segment Name": "Coal Pit Plantation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.280186300000017, 53.621329 ], [ -1.279797200000016, 53.621529700000018 ], [ -1.279435300000014, 53.6214855 ], [ -1.279263400000018, 53.6215909 ], [ -1.278233700000011, 53.6214219 ], [ -1.278046700000016, 53.6223927 ], [ -1.278126400000014, 53.6229962 ], [ -1.280358, 53.6227671 ], [ -1.280572600000015, 53.621608899999984 ], [ -1.280186300000017, 53.621329 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Name": "Beacon Covert", "Primary Name": "Beacon Covert", "Park Segment Name": "Beacon Covert" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.280851500000017, 53.6238361 ], [ -1.28186, 53.621698 ], [ -1.283555200000022, 53.6217489 ], [ -1.28366250000002, 53.62263089999994 ], [ -1.284306200000017, 53.6227671 ], [ -1.2846495, 53.624943300000012 ], [ -1.283598100000022, 53.6248033 ], [ -1.282502200000016, 53.6241747 ], [ -1.282439400000017, 53.624170799999959 ], [ -1.280851500000017, 53.6238361 ] ] ] } }
+]
+}

@@ -1,0 +1,27 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Memorial_Garden_OSM_benches_picnic",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.7084537, 53.8731541 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.7083962, 53.8731961 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.713767, 53.8792832 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7083722, 53.8726499 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7082991, 53.8724775 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7081065, 53.8723549 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7079449, 53.8724312 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7084347, 53.8728926 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7090697, 53.8739121 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7091617, 53.8738667 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.706876, 53.8760419 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7066688, 53.8760271 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7066735, 53.8760425 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7068814, 53.8760279 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7147242, 53.8795021 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7145257, 53.8805346 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7146402, 53.8809207 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7131843, 53.8799665 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7136052, 53.8789493 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7079593, 53.8722905 ] } }
+]
+}

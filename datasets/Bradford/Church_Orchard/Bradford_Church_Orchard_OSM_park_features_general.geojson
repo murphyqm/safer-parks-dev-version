@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Church_Orchard_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.8742038, 53.9433092 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.8715151, 53.9427646 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8725464, 53.9434419 ], [ -1.8728402, 53.9434894 ], [ -1.8728015, 53.9435209 ], [ -1.8727132, 53.9436719 ], [ -1.8726514, 53.9436461 ], [ -1.8725163, 53.9436071 ], [ -1.8724567, 53.9435821 ], [ -1.8723801, 53.9435588 ], [ -1.8725464, 53.9434419 ] ] ] } }
+]
+}

@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Magson_House_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.9456788, 53.7212593 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.944823, 53.7218471 ], [ -1.944579, 53.7215573 ], [ -1.9447048, 53.7215305 ], [ -1.9449374, 53.7217098 ], [ -1.945004, 53.7217875 ], [ -1.944823, 53.7218471 ] ] ] } }
+]
+}

@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Lund_Park_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "C00F448B-F3F2-45AC-B0F0-64B46CDF4CFE", "access_type": "Pedestrian", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.92062003461635, 53.859643625585186 ] } },
+{ "type": "Feature", "properties": { "id": "718E4EC1-DE07-4168-BC36-D8E0563F33B0", "access_type": "Pedestrian", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.917791572492823, 53.861058783986905 ] } },
+{ "type": "Feature", "properties": { "id": "7EE88270-0E79-4CEF-98FB-94B2B151C2FD", "access_type": "Pedestrian", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.921154207415946, 53.860671292160632 ] } },
+{ "type": "Feature", "properties": { "id": "AE9DACA8-6BBA-46EB-97CC-8DE75B37EA07", "access_type": "Pedestrian", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.920372766972772, 53.861114607097619 ] } },
+{ "type": "Feature", "properties": { "id": "EC482489-BAC7-473C-88D6-1582915B88FB", "access_type": "Pedestrian", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.919089316415045, 53.858833614732362 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.919082440558338, 53.858833833296629 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.917740549021571, 53.86106444742633 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.920441113242722, 53.861117195829806 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Lund Park", "Park Segment Name": "Lund Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.921197903933985, 53.860677545691566 ] } }
+]
+}

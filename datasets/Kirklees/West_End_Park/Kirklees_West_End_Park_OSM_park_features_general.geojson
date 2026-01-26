@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_West_End_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7289806, 53.7254178 ], [ -1.728901, 53.7254128 ], [ -1.7288049, 53.7254068 ], [ -1.728816, 53.725331 ], [ -1.7288476, 53.7253058 ], [ -1.7288658, 53.7252408 ], [ -1.7290366, 53.7252577 ], [ -1.7290183, 53.7253268 ], [ -1.7290366, 53.7253455 ], [ -1.7290153, 53.7253858 ], [ -1.7289806, 53.7254178 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7276865, 53.7255348 ], [ -1.7271275, 53.7247137 ], [ -1.7279774, 53.7245111 ], [ -1.7285365, 53.7253322 ], [ -1.7276865, 53.7255348 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Village_Green_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Cafe" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4621378, 53.6749318 ], [ -1.4623287, 53.6748415 ], [ -1.4622446, 53.6747791 ], [ -1.4621569, 53.6748206 ], [ -1.4621944, 53.6748484 ], [ -1.4620912, 53.6748972 ], [ -1.4621378, 53.6749318 ] ] ] } }
+]
+}

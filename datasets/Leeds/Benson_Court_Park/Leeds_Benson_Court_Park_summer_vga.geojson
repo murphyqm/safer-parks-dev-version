@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Benson_Court_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.567407812382199, 53.807700192796169 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.567405966039868, 53.807879947004686 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 7, "visibility_pct": 85.714285714285708 }, "geometry": { "type": "Point", "coordinates": [ -1.567105971563024, 53.807519343453521 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.567104123926463, 53.807699097655458 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.567102276269547, 53.80787885185191 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.566800435491038, 53.807698001745813 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 7, "visibility_pct": 85.714285714285708 }, "geometry": { "type": "Point", "coordinates": [ -1.566798586519535, 53.807877755930171 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 7, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.566494896789848, 53.807876659239497 ] } }
+]
+}

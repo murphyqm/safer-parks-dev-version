@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Mankinghole_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.75111293227657, 53.888752493146875 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 6, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.750807578177063, 53.888931618309606 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.750806513810067, 53.88911137485011 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.750502221611847, 53.889110742718536 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.750501156000821, 53.889290499265222 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 6, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.75019899625744, 53.888930353252022 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.75019792942477, 53.889110109815491 ] } }
+]
+}

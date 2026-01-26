@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Hill_Top_Bank_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 4, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.754146853780089, 53.581722243947809 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 8, "visibility_pct": 12.5 }, "geometry": { "type": "Point", "coordinates": [ -1.753842696342175, 53.582081150652456 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 10, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.753841655640016, 53.582260913521466 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 12, "visibility_pct": 8.3333333333333321 }, "geometry": { "type": "Point", "coordinates": [ -1.753840614926508, 53.582440676385033 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.753839574201653, 53.582620439243158 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 12, "visibility_pct": 8.3333333333333321 }, "geometry": { "type": "Point", "coordinates": [ -1.753538533744132, 53.58244005654722 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.753537491737732, 53.582619819399028 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.753536449719969, 53.582799582245364 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 10, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.753535407690843, 53.582979345086265 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.753234365985808, 53.582798961632129 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 10, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.75323332267511, 53.582978724466692 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 9, "visibility_pct": 11.111111111111111 }, "geometry": { "type": "Point", "coordinates": [ -1.753232279353036, 53.583158487295819 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 9, "visibility_pct": 11.111111111111111 }, "geometry": { "type": "Point", "coordinates": [ -1.75293019306705, 53.583157865907118 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Lower_Fell_Greave_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7602479, 53.6780549 ], [ -1.7602426, 53.6779318 ], [ -1.7598832, 53.6779255 ], [ -1.7598832, 53.6778111 ], [ -1.7599703, 53.6778047 ], [ -1.7600092, 53.677792 ], [ -1.7604424, 53.6779517 ], [ -1.7602828, 53.6780549 ], [ -1.7602479, 53.6780549 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7605697, 53.6778304 ], [ -1.7606901, 53.6777209 ], [ -1.760568, 53.6776738 ], [ -1.7602812, 53.6775632 ], [ -1.7601608, 53.6776728 ], [ -1.7605697, 53.6778304 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7604478, 53.677941 ], [ -1.7605697, 53.6778304 ], [ -1.7601608, 53.6776728 ], [ -1.7600391, 53.6777832 ], [ -1.7604478, 53.677941 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.760594, 53.678072 ], [ -1.7606442, 53.6780672 ], [ -1.7606986, 53.678024 ], [ -1.7606241, 53.6779866 ], [ -1.760553, 53.6780363 ], [ -1.760594, 53.678072 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Sports Centre" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7597015, 53.6778271 ], [ -1.7598663, 53.6778262 ], [ -1.759868, 53.677942 ], [ -1.7602177, 53.6779402 ], [ -1.7602197, 53.6780764 ], [ -1.7599089, 53.678078 ], [ -1.7599107, 53.6781994 ], [ -1.7596974, 53.6782005 ], [ -1.7596951, 53.6780434 ], [ -1.7596645, 53.6780435 ], [ -1.7596631, 53.6779532 ], [ -1.7597033, 53.677953 ], [ -1.7597015, 53.6778271 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7575688, 53.679307 ] } }
+]
+}

@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Micklefield_Park_OSM_benches_picnic",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.6835093, 53.8551889 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.6840967, 53.8547189 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.6839468, 53.8549856 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.6838355, 53.8550781 ] } }
+]
+}

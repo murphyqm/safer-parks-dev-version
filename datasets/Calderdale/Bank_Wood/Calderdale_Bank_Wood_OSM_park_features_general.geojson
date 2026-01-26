@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Bank_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8671496, 53.6734381 ], [ -1.8669807, 53.673338 ], [ -1.8673883, 53.6730996 ], [ -1.8675707, 53.6732013 ], [ -1.8671496, 53.6734381 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8623315, 53.6688655 ], [ -1.862235, 53.6689021 ], [ -1.8620096, 53.6686748 ], [ -1.8621035, 53.6686415 ], [ -1.8623315, 53.6688655 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8666118, 53.6730743 ], [ -1.8664297, 53.6729381 ], [ -1.8668277, 53.6727513 ], [ -1.8670098, 53.6728875 ], [ -1.8666118, 53.6730743 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.86614, 53.674007 ], [ -1.8661915, 53.6739409 ], [ -1.8662945, 53.6738494 ], [ -1.8663141, 53.6738247 ], [ -1.866331, 53.6738035 ], [ -1.8663631, 53.673763 ], [ -1.8663631, 53.673702 ], [ -1.8662601, 53.6736359 ], [ -1.8661657, 53.6736308 ], [ -1.866037, 53.6737121 ], [ -1.8658996, 53.6738138 ], [ -1.8658482, 53.6739206 ], [ -1.8658825, 53.674007 ], [ -1.86614, 53.674007 ] ] ] } }
+]
+}

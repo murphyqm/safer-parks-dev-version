@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Blacker_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6123969, 53.5916454 ], [ -1.6129132, 53.5915844 ], [ -1.6127937, 53.5912687 ], [ -1.6122708, 53.5913366 ], [ -1.6123969, 53.5916454 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6508114, 53.5864281 ], [ -1.650054, 53.5853398 ], [ -1.6488294, 53.5856507 ], [ -1.6495585, 53.5867264 ], [ -1.6508114, 53.5864281 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6506905, 53.5865976 ], [ -1.6507766, 53.5867182 ], [ -1.6504476, 53.5868009 ], [ -1.6503616, 53.5866802 ], [ -1.6506905, 53.5865976 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6495375, 53.5870289 ], [ -1.649737, 53.5869785 ], [ -1.6496003, 53.586803 ], [ -1.649458, 53.5867471 ], [ -1.6491994, 53.5867931 ], [ -1.6495375, 53.5870289 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Monument" }, "geometry": { "type": "Point", "coordinates": [ -1.6132147, 53.5917637 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Monument" }, "geometry": { "type": "Point", "coordinates": [ -1.6073905, 53.5952363 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6080381, 53.5949015 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6062658, 53.5955563 ] } }
+]
+}

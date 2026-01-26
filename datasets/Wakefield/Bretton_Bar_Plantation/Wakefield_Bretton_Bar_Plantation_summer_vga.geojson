@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Bretton_Bar_Plantation_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 8, "visibility_pct": 37.5 }, "geometry": { "type": "Point", "coordinates": [ -1.580400809620212, 53.624438652927935 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 8, "visibility_pct": 37.5 }, "geometry": { "type": "Point", "coordinates": [ -1.580399028292423, 53.624618411170523 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 8, "visibility_pct": 25.0 }, "geometry": { "type": "Point", "coordinates": [ -1.58010199382976, 53.624078080445777 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 8, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.580100211249555, 53.624257838690966 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 8, "visibility_pct": 62.5 }, "geometry": { "type": "Point", "coordinates": [ -1.580098428649916, 53.624437596930683 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 8, "visibility_pct": 37.5 }, "geometry": { "type": "Point", "coordinates": [ -1.580096646030842, 53.624617355164929 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 8, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.57979961546139, 53.624077023701304 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 8, "visibility_pct": 62.5 }, "geometry": { "type": "Point", "coordinates": [ -1.579797831589929, 53.624256781938158 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 8, "visibility_pct": 12.5 }, "geometry": { "type": "Point", "coordinates": [ -1.579796047699019, 53.62443654016954 ] } }
+]
+}

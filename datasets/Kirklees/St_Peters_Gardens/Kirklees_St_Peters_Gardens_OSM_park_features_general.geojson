@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_St_Peters_Gardens_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Point", "coordinates": [ -1.7936237, 53.6479319 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Point", "coordinates": [ -1.7931065, 53.6480134 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7811442, 53.6480912 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7807199, 53.6477672 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7934698, 53.6483328 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Cafe" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.792641, 53.6482214 ], [ -1.7927119, 53.6481685 ], [ -1.7927434, 53.6481833 ], [ -1.7928199, 53.6481263 ], [ -1.792789, 53.6481117 ], [ -1.7928655, 53.6480546 ], [ -1.7927787, 53.6480137 ], [ -1.792823, 53.6479807 ], [ -1.7927689, 53.6479552 ], [ -1.7927845, 53.6479436 ], [ -1.7927079, 53.6479074 ], [ -1.792679, 53.6479289 ], [ -1.7926039, 53.6478935 ], [ -1.7924192, 53.648031 ], [ -1.7923724, 53.6480659 ], [ -1.7924812, 53.6481172 ], [ -1.7924574, 53.6481349 ], [ -1.792641, 53.6482214 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bicycle Parking" }, "geometry": { "type": "Point", "coordinates": [ -1.7924625, 53.6479472 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bicycle Parking" }, "geometry": { "type": "Point", "coordinates": [ -1.7809866, 53.6473884 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Monument" }, "geometry": { "type": "Point", "coordinates": [ -1.7811921, 53.6479655 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.7931884, 53.6484706 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.7929146, 53.6480291 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7923134, 53.6480954 ], [ -1.7923295, 53.6480812 ], [ -1.7923657, 53.6480493 ], [ -1.7923563, 53.6480302 ], [ -1.7924113, 53.6480143 ], [ -1.7923965, 53.6479435 ], [ -1.7924421, 53.647907 ], [ -1.7924864, 53.6478934 ], [ -1.7925695, 53.647837 ], [ -1.7925119, 53.6478052 ], [ -1.7925152, 53.6477819 ], [ -1.7924673, 53.6477758 ], [ -1.7924103, 53.6477685 ], [ -1.7923979, 53.647806 ], [ -1.7923469, 53.6477686 ], [ -1.792253, 53.6478028 ], [ -1.7922034, 53.6478346 ], [ -1.7921565, 53.6478919 ], [ -1.7921444, 53.6479626 ], [ -1.792198, 53.647961 ], [ -1.7922007, 53.6479713 ], [ -1.7920801, 53.6479882 ], [ -1.7920847, 53.6480136 ], [ -1.7920879, 53.6480317 ], [ -1.792182, 53.6480524 ], [ -1.7921511, 53.6480938 ], [ -1.7922289, 53.648116 ], [ -1.7922691, 53.648081 ], [ -1.7923134, 53.6480954 ] ] ] } }
+]
+}

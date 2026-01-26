@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Fernside_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7391625, 53.6387793 ], [ -1.7390667, 53.6388024 ], [ -1.7389811, 53.6388879 ], [ -1.7389586, 53.6389626 ], [ -1.7389001, 53.639008 ], [ -1.7388055, 53.6390053 ], [ -1.7386794, 53.6389679 ], [ -1.7385284, 53.6389456 ], [ -1.7384781, 53.6389369 ], [ -1.7385872, 53.6386792 ], [ -1.7387951, 53.6387076 ], [ -1.7390937, 53.638749 ], [ -1.7391625, 53.6387793 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7400247, 53.637763 ], [ -1.7398824, 53.6378253 ], [ -1.7398528, 53.6378382 ], [ -1.739775, 53.6378091 ], [ -1.7397013, 53.6376684 ], [ -1.7397312, 53.6376649 ], [ -1.739951, 53.6376392 ], [ -1.7400247, 53.637763 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7400308, 53.6345616 ], [ -1.7398551, 53.634638 ], [ -1.739957, 53.6347143 ], [ -1.7400472, 53.634672 ], [ -1.7400764, 53.6346515 ], [ -1.7400804, 53.6346292 ], [ -1.7400764, 53.6345974 ], [ -1.740059, 53.6345799 ], [ -1.7400308, 53.6345616 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7399268, 53.6388089 ], [ -1.7400786, 53.6384697 ], [ -1.7395064, 53.6383875 ], [ -1.7393722, 53.6387228 ], [ -1.7399268, 53.6388089 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7384531, 53.6389874 ], [ -1.7384781, 53.6389369 ], [ -1.7385872, 53.6386792 ], [ -1.7385484, 53.6386731 ], [ -1.7383238, 53.6386381 ], [ -1.7381874, 53.6389436 ], [ -1.7384531, 53.6389874 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.740705, 53.6344112 ], [ -1.7400976, 53.634264 ], [ -1.739982, 53.6344316 ], [ -1.7405895, 53.6345788 ], [ -1.740705, 53.6344112 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7399511, 53.6378593 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7403459, 53.6379918 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7394608, 53.6383376 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7392735, 53.6386858 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7397552, 53.6389582 ], [ -1.7398226, 53.6390344 ], [ -1.739895, 53.639016 ], [ -1.7399137, 53.638976 ], [ -1.7398641, 53.6389249 ], [ -1.7397552, 53.6389582 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7397894, 53.6391074 ], [ -1.7398368, 53.6391562 ], [ -1.7396693, 53.6392134 ], [ -1.739622, 53.6391647 ], [ -1.7397894, 53.6391074 ] ] ] } }
+]
+}

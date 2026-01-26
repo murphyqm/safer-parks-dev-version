@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Haw_Hill_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4108285, 53.702523 ], [ -1.410386, 53.7026072 ], [ -1.4101526, 53.7023102 ], [ -1.4102224, 53.7021364 ], [ -1.4104621, 53.7021223 ], [ -1.4106408, 53.7021118 ], [ -1.4108285, 53.702523 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4126532, 53.7014197 ], [ -1.4121889, 53.7015929 ], [ -1.4119236, 53.7013438 ], [ -1.4123881, 53.7011705 ], [ -1.4126532, 53.7014197 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4122565, 53.70192 ], [ -1.4117554, 53.7021228 ], [ -1.4114396, 53.7018493 ], [ -1.4119408, 53.7016465 ], [ -1.4122565, 53.70192 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4125611, 53.7030629 ], [ -1.4131273, 53.702845 ], [ -1.4128503, 53.7025509 ], [ -1.4122376, 53.7027792 ], [ -1.4125611, 53.7030629 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4111867, 53.7035393 ], [ -1.4119806, 53.7031598 ], [ -1.4110714, 53.7024962 ], [ -1.4102667, 53.7028757 ], [ -1.4111867, 53.7035393 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bandstand" }, "geometry": { "type": "Point", "coordinates": [ -1.4124636, 53.7017161 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Cafe" }, "geometry": { "type": "Point", "coordinates": [ -1.4112738, 53.7016854 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4138605, 53.7015105 ], [ -1.4139054, 53.7014396 ], [ -1.4138426, 53.7014263 ], [ -1.4137762, 53.7014109 ], [ -1.4137543, 53.7014455 ], [ -1.4137313, 53.7014817 ], [ -1.4138605, 53.7015105 ] ] ] } }
+]
+}

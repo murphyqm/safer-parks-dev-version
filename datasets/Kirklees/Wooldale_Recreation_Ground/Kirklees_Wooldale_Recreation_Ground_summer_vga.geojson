@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Wooldale_Recreation_Ground_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 10, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.770642075113458, 53.576419970439737 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 10, "visibility_pct": 70.0 }, "geometry": { "type": "Point", "coordinates": [ -1.770641105834404, 53.576599733827571 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 10, "visibility_pct": 90.0 }, "geometry": { "type": "Point", "coordinates": [ -1.770340036074118, 53.576419393675501 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 10, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.770339065519965, 53.576599157057139 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 10, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.770338094955263, 53.576778920433362 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 10, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.770037997045286, 53.576418816148646 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 10, "visibility_pct": 90.0 }, "geometry": { "type": "Point", "coordinates": [ -1.770037025216034, 53.576598579524116 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 10, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.770036053376218, 53.576778342894158 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 10, "visibility_pct": 90.0 }, "geometry": { "type": "Point", "coordinates": [ -1.769734984922624, 53.576598001228497 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 10, "visibility_pct": 90.0 }, "geometry": { "type": "Point", "coordinates": [ -1.769734011807696, 53.57677776459235 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 10, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.769733038682191, 53.576957527950754 ] } }
+]
+}

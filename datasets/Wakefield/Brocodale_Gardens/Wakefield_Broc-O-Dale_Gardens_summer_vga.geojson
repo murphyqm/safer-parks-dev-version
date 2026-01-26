@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Broc-O-Dale_Gardens_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.583719607421538, 53.681198464287867 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.583717836532937, 53.681378220563047 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 2, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.583416818019149, 53.681197416958987 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Bracken_Bank_Avenue_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "3F634B1B-3F03-4B1C-A1C5-67DF7B921204", "access_type": "Pedestrian", "Park Name": "Bracken Bank Avenue", "Park Segment Name": "Bracken Bank Avenue", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.928651748260534, 53.850132191233556 ] } }
+]
+}

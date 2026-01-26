@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Potts_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 2, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.466645924401681, 53.804929738353231 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 2, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.466342261259844, 53.804928391442232 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 2, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.466038598142854, 53.804927043762348 ] } }
+]
+}

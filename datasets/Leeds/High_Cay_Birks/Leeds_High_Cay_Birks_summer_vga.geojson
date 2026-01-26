@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_High_Cay_Birks_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.674789093305303, 53.87910163159566 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 3, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.674787699812066, 53.879281386299425 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 3, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.674484878758335, 53.879100807696588 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.674483483919622, 53.879280562385873 ] } }
+]
+}

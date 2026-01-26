@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_West_Wood_Ls29_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.8289368, 53.9244573 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.8281395, 53.9246606 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.849024, 53.9216659 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.8288673, 53.9246344 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.8290521, 53.9244951 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.8290068, 53.9246468 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.8490622, 53.9216532 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8293647, 53.9246308 ], [ -1.8293081, 53.9246311 ], [ -1.8293082, 53.9246393 ], [ -1.829295, 53.9246394 ], [ -1.8292955, 53.9246657 ], [ -1.8293078, 53.9246657 ], [ -1.8293081, 53.9246788 ], [ -1.829352, 53.9246785 ], [ -1.8293518, 53.9246679 ], [ -1.8293654, 53.9246678 ], [ -1.8293647, 53.9246308 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.8269076, 53.9215542 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.8262442, 53.921637 ] } }
+]
+}

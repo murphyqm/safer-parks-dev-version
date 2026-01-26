@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Vicar_Wood_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.894975324572468, 53.948396796247387 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.894671047315448, 53.948216776756773 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.89467059779477, 53.948396530997258 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.894366321847008, 53.948216510738341 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 10, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.894061596383521, 53.948216243946909 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 10, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.894061144254205, 53.948395998177958 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.893756870925003, 53.948215976382464 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.893452600204382, 53.948035953818035 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 10, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.893147876060146, 53.948035684712316 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.892843609257378, 53.947855660610671 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.89284315192092, 53.948035414833605 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.892539345063133, 53.947675635740104 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.892235083477385, 53.947495610100646 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 5, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.891930363266102, 53.947495337917211 ] } }
+]
+}

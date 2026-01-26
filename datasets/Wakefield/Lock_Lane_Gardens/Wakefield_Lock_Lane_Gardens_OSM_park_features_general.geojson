@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Lock_Lane_Gardens_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3484159, 53.7253497 ], [ -1.3487684, 53.7250748 ], [ -1.3490428, 53.7249862 ], [ -1.3492818, 53.7253435 ], [ -1.3487241, 53.7257047 ], [ -1.3484159, 53.7253497 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3530907, 53.7306911 ], [ -1.3532623, 53.73064 ], [ -1.3534188, 53.7308071 ], [ -1.3532296, 53.7308568 ], [ -1.3530907, 53.7306911 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3401477, 53.7293311 ], [ -1.3407264, 53.7302015 ], [ -1.3416973, 53.7299756 ], [ -1.3411186, 53.7291052 ], [ -1.3401477, 53.7293311 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3554888, 53.730754 ], [ -1.3538898, 53.7310775 ], [ -1.3535933, 53.7305648 ], [ -1.3551922, 53.7302411 ], [ -1.3554888, 53.730754 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3566854, 53.7306339 ], [ -1.3558469, 53.7307959 ], [ -1.3554051, 53.7299957 ], [ -1.3562438, 53.7298337 ], [ -1.3566854, 53.7306339 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Rugby League" }, "geometry": { "type": "Point", "coordinates": [ -1.340925, 53.7296337 ] } }
+]
+}

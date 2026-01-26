@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Barwick_Lodge_Plantation_park_street_lights",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Street Light" }, "geometry": { "type": "Point", "coordinates": [ -1.383937517185728, 53.832869536781807 ] } }
+]
+}

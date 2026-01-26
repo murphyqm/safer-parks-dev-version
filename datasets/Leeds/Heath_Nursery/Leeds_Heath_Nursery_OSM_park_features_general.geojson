@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Heath_Nursery_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5551891, 53.8498623 ], [ -1.5548474, 53.849965 ], [ -1.5546993, 53.8498071 ], [ -1.5550432, 53.8496915 ], [ -1.5551891, 53.8498623 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.527965, 53.8577629 ], [ -1.5265884, 53.8577221 ], [ -1.5266115, 53.8572731 ], [ -1.5280072, 53.8573117 ], [ -1.527965, 53.8577629 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5264962, 53.8577607 ], [ -1.5260386, 53.8577743 ], [ -1.5259963, 53.8573321 ], [ -1.5264654, 53.8573094 ], [ -1.5264962, 53.8577607 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5267, 53.8571756 ], [ -1.5259271, 53.8572278 ], [ -1.5258771, 53.8569556 ], [ -1.5266577, 53.8569035 ], [ -1.5267, 53.8571756 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5283495, 53.857264 ], [ -1.5269576, 53.8572459 ], [ -1.5269768, 53.8567946 ], [ -1.5283687, 53.8568195 ], [ -1.5283495, 53.857264 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5556853, 53.8493706 ], [ -1.5545709, 53.8497737 ], [ -1.5541748, 53.8493731 ], [ -1.5552674, 53.8489571 ], [ -1.5556853, 53.8493706 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5557898, 53.8496659 ], [ -1.5554829, 53.8497583 ], [ -1.5554394, 53.8497082 ], [ -1.5552914, 53.8497519 ], [ -1.5552283, 53.8496813 ], [ -1.5553763, 53.8496376 ], [ -1.5553349, 53.8495837 ], [ -1.5556222, 53.8494848 ], [ -1.5557898, 53.8496659 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.555687, 53.849704 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.54063, 53.857033 ] } }
+]
+}

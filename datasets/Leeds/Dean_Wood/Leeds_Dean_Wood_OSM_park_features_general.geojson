@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Dean_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6063535, 53.7557095 ], [ -1.6063524, 53.7557443 ], [ -1.6063361, 53.7557778 ], [ -1.6063056, 53.7558076 ], [ -1.606263, 53.7558317 ], [ -1.6062113, 53.7558484 ], [ -1.6061541, 53.7558566 ], [ -1.6060952, 53.7558557 ], [ -1.6060387, 53.7558458 ], [ -1.6059885, 53.7558275 ], [ -1.6059492, 53.755803 ], [ -1.6059215, 53.7557734 ], [ -1.6059074, 53.7557407 ], [ -1.6059077, 53.7557068 ], [ -1.6059225, 53.7556742 ], [ -1.6059507, 53.7556448 ], [ -1.6059905, 53.7556206 ], [ -1.6060395, 53.7556031 ], [ -1.6060943, 53.7555934 ], [ -1.6061547, 53.7555925 ], [ -1.6062133, 53.7556011 ], [ -1.606266, 53.7556186 ], [ -1.6063088, 53.7556438 ], [ -1.6063387, 53.7556749 ], [ -1.6063535, 53.7557095 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.627369, 53.757991 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.626843, 53.7581043 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6058405, 53.7557712 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6059451, 53.7559969 ] } }
+]
+}

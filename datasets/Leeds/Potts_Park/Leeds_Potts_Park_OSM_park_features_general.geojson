@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Potts_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.471125, 53.7991999 ], [ -1.4715023, 53.7989049 ], [ -1.4710055, 53.7986937 ], [ -1.4706362, 53.7989966 ], [ -1.471125, 53.7991999 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4719011, 53.7995986 ], [ -1.4713183, 53.7993366 ], [ -1.4716463, 53.7990821 ], [ -1.4722291, 53.7993441 ], [ -1.4722156, 53.7993546 ], [ -1.4719011, 53.7995986 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Point", "coordinates": [ -1.4687206, 53.8025501 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.4693501, 53.7991055 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Soccer" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4706141, 53.8011409 ], [ -1.4688153, 53.8019399 ], [ -1.4675322, 53.8010032 ], [ -1.4693637, 53.8001526 ], [ -1.4706141, 53.8011409 ] ] ] } }
+]
+}

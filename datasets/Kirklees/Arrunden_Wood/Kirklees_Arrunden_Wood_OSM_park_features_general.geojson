@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Arrunden_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7980275, 53.5559431 ], [ -1.7977618, 53.5565159 ], [ -1.7964943, 53.5563084 ], [ -1.7967599, 53.5557357 ], [ -1.7980275, 53.5559431 ] ] ] } }
+]
+}

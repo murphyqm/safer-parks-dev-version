@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Spring_Mill_Street_Recreation_Ground_OSM_benches_picnic",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7398712, 53.7783693 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7398015, 53.7782726 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7397398, 53.7781854 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7395172, 53.7779715 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7409897, 53.7764673 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.7420599, 53.7801507 ] } }
+]
+}

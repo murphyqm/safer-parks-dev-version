@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_St_Pauls_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7253992, 53.860067 ], [ -1.7254793, 53.8600065 ], [ -1.725258, 53.859905 ], [ -1.7251175, 53.8598491 ], [ -1.7249801, 53.8598395 ], [ -1.7245176, 53.8598579 ], [ -1.7244619, 53.8598987 ], [ -1.7244449, 53.8600251 ], [ -1.7248127, 53.860012 ], [ -1.7253068, 53.8601116 ], [ -1.7253992, 53.860067 ] ] ] } }
+]
+}

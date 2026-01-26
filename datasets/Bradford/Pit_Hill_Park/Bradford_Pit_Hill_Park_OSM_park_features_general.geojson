@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Pit_Hill_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Point", "coordinates": [ -1.7060653, 53.7765236 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7103803, 53.7755741 ], [ -1.7106351, 53.7761721 ], [ -1.7093141, 53.7763686 ], [ -1.7090593, 53.7757707 ], [ -1.7103803, 53.7755741 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7186334, 53.7720863 ], [ -1.7183086, 53.7718122 ], [ -1.7178468, 53.771995 ], [ -1.7181489, 53.7722798 ], [ -1.7186334, 53.7720863 ] ] ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Russell_Hall_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8480926, 53.76552 ], [ -1.8478357, 53.7653547 ], [ -1.8482158, 53.7651482 ], [ -1.8484727, 53.7653135 ], [ -1.8480926, 53.76552 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8535922, 53.7715483 ], [ -1.8542943, 53.7713749 ], [ -1.8537912, 53.7706632 ], [ -1.8530891, 53.7708365 ], [ -1.8535922, 53.7715483 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8566973, 53.7716896 ], [ -1.8565673, 53.7712148 ], [ -1.8550025, 53.7713644 ], [ -1.8551324, 53.7718392 ], [ -1.8566973, 53.7716896 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8488437, 53.7652092 ], [ -1.8489005, 53.7651552 ], [ -1.848964, 53.7650949 ], [ -1.8485324, 53.7649361 ], [ -1.8484489, 53.7650155 ], [ -1.8484121, 53.7650504 ], [ -1.8488437, 53.7652092 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8493719, 53.7648503 ], [ -1.8496571, 53.7645737 ], [ -1.8491933, 53.7644038 ], [ -1.8488984, 53.7646797 ], [ -1.8493719, 53.7648503 ] ] ] } }
+]
+}

@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_New_Road_Memorial_Gardens_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -2.013689455572862, 53.740290051265184 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 11, "visibility_pct": 18.181818181818183 }, "geometry": { "type": "Point", "coordinates": [ -2.013689518758839, 53.740469812276636 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -2.013689581945379, 53.740649573282667 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -2.013386238255532, 53.740290086095754 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -2.013386300151025, 53.740469847132076 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -2.013386362047068, 53.740649608162954 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -2.01338642394366, 53.740829369188425 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -2.013083020937605, 53.740290120159159 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -2.013083081542615, 53.740469881220314 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -2.01308314214816, 53.740649642276061 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -2.01308320275424, 53.740829403326373 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -2.01277992224867, 53.740649675621967 ] } }
+]
+}

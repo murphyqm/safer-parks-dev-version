@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Hopefield_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4915139, 53.7515794 ], [ -1.4912581, 53.7518308 ], [ -1.4914117, 53.7518867 ], [ -1.4914985, 53.7519183 ], [ -1.4916063, 53.7518108 ], [ -1.4915139, 53.7515794 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4991492, 53.745835 ], [ -1.4992599, 53.7461431 ], [ -1.4983677, 53.7462644 ], [ -1.498257, 53.7459583 ], [ -1.4991492, 53.745835 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4992893, 53.7462163 ], [ -1.4994097, 53.7465244 ], [ -1.4985142, 53.7466553 ], [ -1.4983872, 53.7463357 ], [ -1.4992893, 53.7462163 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5028338, 53.7475461 ], [ -1.5028477, 53.7476687 ], [ -1.5025264, 53.7476814 ], [ -1.5025125, 53.7475588 ], [ -1.5028338, 53.7475461 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.503447, 53.744049 ] } }
+]
+}

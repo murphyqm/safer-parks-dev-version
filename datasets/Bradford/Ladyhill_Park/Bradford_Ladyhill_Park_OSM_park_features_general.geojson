@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Ladyhill_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8130801, 53.8017352 ], [ -1.8135884, 53.8017382 ], [ -1.8136058, 53.8018873 ], [ -1.8134074, 53.8020679 ], [ -1.8130785, 53.8020734 ], [ -1.8130801, 53.8017352 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8130776, 53.8013387 ], [ -1.8130715, 53.801011 ], [ -1.8125165, 53.8010026 ], [ -1.8125023, 53.8013339 ], [ -1.8130776, 53.8013387 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8131381, 53.8013348 ], [ -1.8137088, 53.8013266 ], [ -1.8136849, 53.8010035 ], [ -1.8131116, 53.8010068 ], [ -1.8131381, 53.8013348 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8219385, 53.795997 ], [ -1.8217926, 53.7959823 ], [ -1.8216441, 53.7959674 ], [ -1.8217241, 53.7956902 ], [ -1.8218881, 53.7957067 ], [ -1.8220185, 53.7957198 ], [ -1.8219385, 53.795997 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.814598, 53.8021527 ] } }
+]
+}

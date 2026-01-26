@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Rushworth_Wood_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Rushworth Wood", "Primary Name": "Rushworth Wood", "Park Segment Name": "Rushworth Wood" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3808017, 53.6088482 ], [ -1.3806407, 53.60827530000001 ], [ -1.378677400000012, 53.608313499999987 ], [ -1.378723, 53.607620899999922 ], [ -1.3784011, 53.6076273 ], [ -1.3781838, 53.6086508 ], [ -1.37881680000001, 53.608689 ], [ -1.3790663, 53.6090531 ], [ -1.3798468, 53.609013700000013 ], [ -1.3808017, 53.6088482 ] ] ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Dodd_Naze_Community_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -2.003986374070859, 53.742687811100623 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 4, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -2.003986394524326, 53.742867571099744 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -2.00368313942766, 53.742687821570897 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 4, "visibility_pct": 75.0 }, "geometry": { "type": "Point", "coordinates": [ -2.003683158566522, 53.742867581562955 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 4, "visibility_pct": 75.0 }, "geometry": { "type": "Point", "coordinates": [ -2.003379904784316, 53.742687831273905 ] } }
+]
+}

@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Sinking_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7696706, 53.5803864 ], [ -1.7696063, 53.5804766 ], [ -1.7697174, 53.5805282 ], [ -1.7697544, 53.5805346 ], [ -1.7698022, 53.5805309 ], [ -1.7698653, 53.5805154 ], [ -1.7698643, 53.5804578 ], [ -1.7698638, 53.5804285 ], [ -1.7698268, 53.5804138 ], [ -1.7697975, 53.5804129 ], [ -1.7696706, 53.5803864 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7764392, 53.585559 ], [ -1.776898, 53.5852148 ], [ -1.7770768, 53.5849793 ], [ -1.7769823, 53.5847532 ], [ -1.7761219, 53.5843983 ], [ -1.7758446, 53.5844636 ], [ -1.775683, 53.5846075 ], [ -1.7755304, 53.5851548 ], [ -1.7764392, 53.585559 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.772636, 53.583996 ], [ -1.7727887, 53.5838762 ], [ -1.7723751, 53.5836904 ], [ -1.7722224, 53.5838102 ], [ -1.772636, 53.583996 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7702485, 53.5806255 ], [ -1.7702917, 53.5805777 ], [ -1.7704523, 53.5806382 ], [ -1.7704094, 53.5806828 ], [ -1.7702485, 53.5806255 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7761433, 53.5854507 ], [ -1.7760301, 53.5855389 ], [ -1.7756443, 53.5853625 ], [ -1.7757682, 53.5852763 ], [ -1.7761433, 53.5854507 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.770498, 53.5829274 ], [ -1.7704879, 53.582935 ], [ -1.7704717, 53.5829472 ], [ -1.7704342, 53.5829753 ], [ -1.7705272, 53.5830189 ], [ -1.770591, 53.582971 ], [ -1.770498, 53.5829274 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Track" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7704717, 53.5829472 ], [ -1.7701832, 53.5828095 ], [ -1.7702001, 53.582797 ], [ -1.7704879, 53.582935 ], [ -1.7704717, 53.5829472 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Recycling" }, "geometry": { "type": "Point", "coordinates": [ -1.7750442, 53.5884271 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Recycling" }, "geometry": { "type": "Point", "coordinates": [ -1.775065, 53.588461 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Recycling" }, "geometry": { "type": "Point", "coordinates": [ -1.7750809, 53.5884964 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.769696, 53.5804089 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7735578, 53.5874931 ], [ -1.7726367, 53.5878459 ], [ -1.772118, 53.5878784 ], [ -1.7720697, 53.5878095 ], [ -1.7720319, 53.5877556 ], [ -1.7725682, 53.5876621 ], [ -1.7734055, 53.5873276 ], [ -1.7735578, 53.5874931 ] ] ] } }
+]
+}

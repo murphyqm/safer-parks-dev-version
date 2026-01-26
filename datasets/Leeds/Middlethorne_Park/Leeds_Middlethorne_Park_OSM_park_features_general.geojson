@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Middlethorne_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5184708, 53.8550552 ], [ -1.5184248, 53.8551507 ], [ -1.5183549, 53.8551669 ], [ -1.5183229, 53.8551608 ], [ -1.5182558, 53.8551481 ], [ -1.5181903, 53.8551043 ], [ -1.518216, 53.855026 ], [ -1.5182639, 53.8550122 ], [ -1.5183266, 53.8549942 ], [ -1.5184434, 53.8550135 ], [ -1.5184708, 53.8550552 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Point", "coordinates": [ -1.520563, 53.8555804 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5204416, 53.8556597 ], [ -1.520586, 53.8557675 ], [ -1.5201942, 53.8558061 ], [ -1.5201294, 53.8556958 ], [ -1.5202761, 53.8556827 ], [ -1.5204416, 53.8556597 ] ] ] } }
+]
+}

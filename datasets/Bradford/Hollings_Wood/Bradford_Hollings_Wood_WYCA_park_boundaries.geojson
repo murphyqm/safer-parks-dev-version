@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Hollings_Wood_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Hollings Wood", "Primary Name": "Hollings Wood", "Park Segment Name": "Hollings Wood" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -1.99328010000001, 53.8312866 ], [ -1.994257200000015, 53.83118 ], [ -1.995275800000012, 53.8310943 ], [ -1.9954386, 53.8309738 ], [ -1.995432700000017, 53.830834 ], [ -1.994807900000013, 53.830818200000031 ], [ -1.99399070000001, 53.8309423 ], [ -1.993158700000013, 53.831113599999945 ], [ -1.993043200000012, 53.8312009 ], [ -1.99328010000001, 53.8312866 ] ] ] ] } }
+]
+}

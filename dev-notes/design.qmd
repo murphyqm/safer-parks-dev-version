@@ -1,0 +1,29 @@
+---
+title: Design inspiration and information
+---
+
+This is a record of decisions and information informing the design of the dashboard.
+
+## Map platform design
+
+Reference: [Map UI Design: Best Practices, Tools, and Real-World Examples](https://www.eleken.co/blog-posts/map-ui-design); images in this section are taken from that link.
+
+![](https://cdn.prod.website-files.com/5f16d69f1760cdba99c3ce6e/6819bfda15f9eb985614a662_4.png)
+
+- Reduce cognitive load: simplify, give the information room to breath
+- Visual hierarchy: make it obvious what is primary vs. secondary data
+    - Navigation: where to click first?
+- Useful search, sensible navigation and zoom
+
+Maybe put all the info in a single toggle menu?
+
+![](https://cdn.prod.website-files.com/5f16d69f1760cdba99c3ce6e/6819c225065d83a57bc89643_14.png)
+
+### Optimisation
+
+- Gradual loading: only load as needed. Can look at specifically only loading to a view port/catchement area.
+- Zoom levels: ensure to group as you zoom out; don't render individual points.
+
+### Designing a useful legend
+
+[Interactive map legends](https://www.maplibrary.org/1205/methods-for-creating-interactive-map-legends/)

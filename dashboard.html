@@ -1,0 +1,605 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bradford Parks Explorer</title>
+    
+    <!-- Pico CSS Framework - Jade Palette -->
+    <link rel="stylesheet" href="css/pico.jade.min.css">
+    
+    <!-- Leaflet CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/light-theme.css">
+    <link rel="stylesheet" href="css/dashboard.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav>
+        <ul>
+            <li><strong>Safer Parks Dashboard</strong></li>
+            <li><a href="index.html">Back to website</a></li>
+            <li><button id="openLAModal" class="nav-button">Local Authority</button></li>
+            <li><button id="openPolicingModal" class="nav-button">Police Force</button></li>
+            <li><button id="openControlsGuide" class="nav-button">User Guide</button></li>
+        </ul>
+    </nav>
+
+    <!-- Floating Sidebar -->
+    <aside aria-label="Park Controls">
+        <div class="accordion">
+            <h2>
+                <button 
+                    type="button" 
+                    aria-expanded="true" 
+                    class="accordion-trigger" 
+                    aria-controls="controls-content"
+                    id="controls-heading">
+                    <span class="accordion-title">Explore a Park</span>
+                    <span class="accordion-icon" aria-hidden="true"></span>
+                </button>
+            </h2>
+            <div id="controls-content" 
+                 role="region" 
+                 aria-labelledby="controls-heading" 
+                 class="accordion-panel">
+
+                <label for="localAuthority">Select a Local Authority Area:</label>
+
+                <select name="localAuthority" id="localAuthority">
+                    <option value="">-- Select an area --</option>
+                    <option value="Bradford">Bradford</option>
+                    <option value="Calderdale">Calderdale</option>
+                    <option value="Kirklees">Kirklees</option>
+                    <option value="Leeds">Leeds</option>
+                    <option value="Wakefield">Wakefield</option>
+                </select>
+
+                <label for="parks">Choose a park to load data:</label>
+
+                <select name="parks" id="parks" disabled>
+                    <option value="">-- Select an area first --</option>
+                </select>
+
+                <button id="loadPark" class="primary" style="width:100%" disabled>Load Chosen Park</button>
+                
+                <ul>
+                    <li class="basemap-toggle">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="detailedToggle" role="switch" aria-label="Toggle detailed basemap on or off"/>
+                            <span>Detailed Basemap</span>
+                        </label>
+                    </li>
+                    <li class="basemap-toggle">
+                        <label class="toggle-label">
+                            <input type="checkbox" id="parkSummaryToggle" role="switch" aria-label="Toggle park markers layer" checked/>
+                            <span>Park Summaries</span>
+                        </label>
+                    </li>
+                    <hr>
+                    <div id="dataLayerToggles">
+                        <!-- Data layer toggles will be dynamically populated here -->
+                    </div>
+                </ul>
+                <button id="resetMapBtn" class="primary" style="width:100%">Return to Regional View</button>
+                <button id="captureMapBtn" class="secondary" style="width:100%; margin-top:0.5rem">Download View as PNG</button>
+                <button id="copyLayerDetailsBtn" class="secondary" style="width:100%; margin-top:0.5rem">Copy Layer Details</button>
+                <button id="downloadRawDataBtn" class="secondary" style="width:100%; margin-top:0.5rem">Download Raw Data</button>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Map Container -->
+    <main>
+        <div id="map"></div>
+    </main>
+
+    <!-- Legend Sidebar (Right) -->
+    <aside class="legend-sidebar" aria-label="Map Legend">
+        <div class="accordion">
+            <h2>
+                <button 
+                    type="button" 
+                    aria-expanded="true" 
+                    class="accordion-trigger" 
+                    aria-controls="legend-content"
+                    id="legend-heading">
+                    <span class="accordion-title">Legend</span>
+                    <span class="accordion-icon" aria-hidden="true"></span>
+                </button>
+            </h2>
+            <div id="legend-content" 
+                 role="region" 
+                 aria-labelledby="legend-heading" 
+                 class="accordion-panel">
+                <div class="legend-section">
+                    <h3>Park Markers</h3>
+                    <div class="legend-item">
+                        <div class="legend-marker">
+                            <svg width="32" height="32" viewBox="0 0 32 32" xmlns="http://www.w3.org/2000/svg">
+                                <circle cx="16" cy="16" r="14" fill="#e5e7eb" stroke="#9ca3af" stroke-width="2"/>
+                                <path d="M 16,16 L 16,2 A 14,14 0 0,1 28.5,21.5 Z" fill="#714a6d" stroke="#714a6d" stroke-width="1"/>
+                                <circle cx="16" cy="16" r="14" fill="none" stroke="#374151" stroke-width="2"/>
+                            </svg>
+                        </div>
+                        <span class="legend-label" id="legend-data-availability" style="cursor: pointer; user-select: none;">Data Availability</span>
+                    </div>
+                </div>
+                <div id="dataLayersLegend" class="legend-section" style="display: none;">
+                    <!-- Data layer legend items will be dynamically populated here -->
+                </div>
+            </div>
+        </div>
+    </aside>
+
+    <!-- Floating attribution (OSM & CARTO) -->
+    <div class="floating-attribution" aria-hidden="false">
+        © University of Leeds, 2025 |
+        <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>
+         | © <a href="https://carto.com/" target="_blank" rel="noopener">CARTO</a>
+    </div>
+
+    <!-- Local Authority Modal -->
+    <div id="laModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="laModalTitle">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="laModalTitle">Local Authority Functions</h2>
+                <button type="button" class="modal-close" aria-label="Close Local Authority information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>I work in the Local Authority and I want to...</h3>
+                    <p>Select an action below to automatically configure the relevant data layers for your analysis:</p>
+                    
+                    <div class="action-buttons">
+                        <button type="button" class="action-btn" data-action="la-accessibility">
+                            <strong>Assess Park Accessibility</strong>
+                            <small>Shows: Park Boundary, Park Features, Entrances</small>
+                        </button>
+                        
+                        <button type="button" class="action-btn" data-action="la-facilities">
+                            <strong>Review Park Facilities</strong>
+                            <small>Shows: Park Boundary, Park Features, Lighting, Entrances</small>
+                        </button>
+                        
+                        <button type="button" class="action-btn" data-action="la-usage">
+                            <strong>Analyse Park Usage Patterns</strong>
+                            <small>Shows: Park Boundary, Route Popularity, Park Features</small>
+                        </button>
+                        
+                        <button type="button" class="action-btn" data-action="la-infrastructure">
+                            <strong>Maintenance Planning</strong>
+                            <small>Shows: Park Boundary, Visibility Analysis, Entrances, Trees, Route Popularity</small>
+                        </button>
+                    </div>
+                    
+                    <p class="action-note"><em>Note: You must first select and load a park before using these actions.</em></p>
+                </section>
+                <section>
+                    <h3>Future Developments</h3>
+                    <p>Future versions will incorporate layer combinations that our user testers found useful.</p>
+                </section>
+                <section>
+                    <h3>Have Feedback?</h3>
+                    <p>Help us improve the dashboard by sharing your suggestions, reporting issues, or requesting support.</p>
+                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y7F71Nw9669Pjl45v2S4qgtURTNCQzlWR01UQzNFV0pEVTM2OFlON0RHTS4u" target="_blank" rel="noopener" role="button" class="secondary">Report Something Wrong or Request Support</a>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Police Force Modal -->
+    <div id="policingModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="policingModalTitle">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="policingModalTitle">Police Force Information</h2>
+                <button type="button" class="modal-close" aria-label="Close Police Force information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>I work in a Police Force and I want to...</h3>
+                    <p>Select an action below to automatically configure the relevant data layers for your analysis:</p>
+                    
+                    <div class="action-buttons">
+                        <button type="button" class="action-btn" data-action="police-lighting">
+                            <strong>Assess Lighting Coverage</strong>
+                            <small>Shows: Park Boundary, Lighting, Route Popularity</small>
+                        </button>
+                        
+                        <button type="button" class="action-btn" data-action="police-visibility">
+                            <strong>Analyse Visibility & Surveillance</strong>
+                            <small>Shows: Park Boundary, Park Features, Lighting, Visibility Analysis</small>
+                        </button>
+                        
+                        <button type="button" class="action-btn" data-action="police-patrol">
+                            <strong>Plan Patrol Routes</strong>
+                            <small>Shows: Park Boundary, Route Popularity, Lighting</small>
+                        </button>
+                        
+                        <button type="button" class="action-btn" data-action="police-vawg">
+                            <strong>VAWG Prevention Assessment</strong>
+                            <small>Shows: Park Features, Lighting, Route Popularity, Visibility Analysis</small>
+                        </button>
+                    </div>
+                    
+                    <p class="action-note"><em>Note: You must first select and load a park before using these actions.</em></p>
+                </section>
+                <section>
+                    <h3>Future Developments</h3>
+                    <p>Future versions will incorporate layer combinations that our user testers found useful.</p>
+                </section>
+                <section>
+                    <h3>Have Feedback?</h3>
+                    <p>Help us improve the dashboard by sharing your suggestions, reporting issues, or requesting support.</p>
+                    <a href="https://forms.office.com/Pages/ResponsePage.aspx?id=qO3qvR3IzkWGPlIypTW3y7F71Nw9669Pjl45v2S4qgtURTNCQzlWR01UQzNFV0pEVTM2OFlON0RHTS4u" target="_blank" rel="noopener" role="button" class="secondary">Report Something Wrong or Request Support</a>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Controls Guide Modal -->
+    <div id="controlsModal" class="modal" role="dialog" aria-modal="true" aria-labelledby="modalTitle">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="modalTitle">User Guide</h2>
+                <button type="button" class="modal-close" aria-label="Close controls guide">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>Getting Started</h3>
+                    <ol>
+                        <li><strong>Select local authority area</strong> - Choose from the dropdown to filter available parks</li>
+                        <li><strong>Select park, click load chosen park</strong> - Load the specific park you want to explore</li>
+                        <li><strong>Explore the different layers, or select pre-defined layer groupings</strong> - Toggle layers in the left panel or use quick-start actions for common analyses</li>
+                        <li><strong>Save a PNG of your map</strong> - Note, this will take a while. Use the "Download Map" button to capture your current view</li>
+                        <li><strong>Export a data description to copy and paste into your document, or download the raw data for analysis</strong> - Use "Copy Layer Details" to clipboard, or "Download Raw Data" for the full GeoJSON datasets</li>
+                    </ol>
+                </section>
+                <section>
+                    <h3>Navigating the Map</h3>
+                    <ul>
+                        <li><strong>Pan:</strong> Click and drag the map, or use arrow keys</li>
+                        <li><strong>Zoom:</strong> Use the + / - buttons (bottom right), scroll wheel, or pinch gesture</li>
+                        <li><strong>Reset View:</strong> Click "Return to Regional View" in the left panel to return to Bradford center</li>
+                    </ul>
+                </section>
+                <section>
+                    <h3>Using the Panels</h3>
+                    <ul>
+                        <li><strong>Collapse/Expand:</strong> Click panel headings to show or hide content</li>
+                        <li><strong>Toggle Layers:</strong> Use switches in panels to show/hide map layers</li>
+                        <li><strong>Change Basemap:</strong> Toggle between simple and detailed map views</li>
+                        <li><strong>Export Functions:</strong> Download map views as PNG or copy layer details to clipboard</li>
+                    </ul>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn">Got it!</button>
+            </footer>
+        </div>
+    </div> 
+
+    <!-- Data Layer Info Modals -->
+    <div id="layerInfoModal-park-boundary" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-park-boundary">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-park-boundary">Park Boundary</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>The outline of the park area.</p>
+                </section>
+                <section>
+                    <h3>Where is the data from?</h3>
+                    <p>OSM landuse and OS Greenspace data.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-benches" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-benches">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-benches">Benches</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>Locations of benches and picnic tables within and around the park.</p>
+                </section>
+                <section>
+                    <h3>Why is it important?</h3>
+                    <p>Benches encourage people to stop, sit, and spend time in the park, increasing visibility and social presence.</p>
+                </section>
+                <section>
+                    <h3>Where is the data from?</h3>
+                    <p>OSM landuse data.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-playgrounds" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-playgrounds">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-playgrounds">Playgrounds</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>The locations of children's play areas within the park.</p>
+                </section>
+                <section>
+                    <h3>Where is the data from?</h3>
+                    <p>OSM landuse data.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-roads" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-roads">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-roads">Predicted Route Popularity</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>This layer analyses how people are likely to move through streets and paths, showing movement patterns at a neighbourhood scale, around a 10-minute walk. The predicted route popularity is based on network analysis of paths around the park. Routes shown in warmer colors (yellow/red) indicate higher predicted pedestrian use, while cooler colors (purple/blue) show less busy routes.</p>
+                </section>
+                <section>
+                    <h3>Where is the data from?</h3>
+                    <p>Network routes downloaded from OSM. Network analysis carried out using DepthMapX, and post-processing in Python.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-lighting" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-lighting">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-lighting">Street Lighting</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>This layer shows street lighting coverage around the park. It displays as a heatmap when zoomed out and individual light points when zoomed in.</p>
+                </section>
+                <section>
+                    <h3>Where is the data from?</h3>
+                    <p>Data from Council Data, only available for Bradford and Leeds.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-park-features" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-park-features">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-park-features">Park Features</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>This layer shows amenities within the park that may affect perceptions of safety.</p>
+                </section>
+                <section>
+                    <h3>Where is the data from?</h3>
+                    <p>Network routes downloaded from OSM. Network analysis carried out using DepthMapX, and post-processing in Python.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-entrances" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-entrances">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-entrances">Park Entrances</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>This layer shows the identified park entrances and access points.</p>
+                </section>
+                <section>
+                    <h3>Where is the data from?</h3>
+                    <p>In addition to tagged entrances from OS Greenspace, this layer also includes calculated entrances based on intersections of paths and park boundaries.ß.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-buffer" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-buffer">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-buffer">Catchment Buffer</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>This layer shows the primary catchment buffer zone around the park, typically representing the area within reasonable walking distance (usually 800m).</p>
+                    <p>This is a simplified buffer that does not follow paths, but will be replaced with a walking-route buffer.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-vga" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-vga">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-vga">Summer Visibility Analysis</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What is this layer?</h3>
+                    <p>How visually connected different parts of the park are. Areas with higher visibility allow people to see and be seen more easily.</p>
+                </section>
+                <section>
+                    <h3>Where is the data from?</h3>
+                    <p>This layer uses DEFRA LIDAR data in addition to OS and OSM park boundaries.</p>
+                </section>
+
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <div id="layerInfoModal-data-availability" class="modal layer-info-modal" role="dialog" aria-modal="true" aria-labelledby="layerInfoTitle-data-availability">
+        <div class="modal-backdrop"></div>
+        <div class="modal-content">
+            <header class="modal-header">
+                <h2 id="layerInfoTitle-data-availability">Data Availability</h2>
+                <button type="button" class="modal-close layer-modal-close" aria-label="Close layer information">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </header>
+            <div class="modal-body">
+                <section>
+                    <h3>What does the pie chart show?</h3>
+                    <p>The pie chart on each park marker shows the proportion of available datasets for that park. The filled portion of the pie indicates data completeness relative to the park with the most datasets.</p>
+                </section>
+                <section>
+                    <h3>How to interpret it</h3>
+                    <p>A full circle (filled pie) means that park has datasets matching the park with the most data. A partially filled pie indicates that park has fewer datasets available. The larger the filled portion, the more complete the data for that park.</p>
+                </section>
+                <section>
+                    <h3>Color coding</h3>
+                    <p>Park markers are colored based on size: green indicates large parks (10 hectares or larger), and purple indicates smaller parks.</p>
+                </section>
+            </div>
+            <footer class="modal-footer">
+                <button type="button" class="modal-close-btn layer-modal-close">Close</button>
+            </footer>
+        </div>
+    </div>
+
+    <!-- Leaflet JS -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+    
+    <!-- Leaflet.heat plugin for heatmap -->
+    <script src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+    
+    <!-- modern-screenshot for map capture -->
+    <script src="https://cdn.jsdelivr.net/npm/modern-screenshot@4.4.39/dist/index.js"></script>
+    
+    <!-- Custom JS -->
+    <script src="js/dashboard.js"></script>
+</body>
+<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"standalone","consent_type":"express","palette":"light","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"The Safer Parks Dashboard"});
+});
+</script>
+
+<!-- Leaflet js -->
+<!-- transition.js - Handles loading interstitial for dashboard transition -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="js/transition.js"></script>
+
+<!-- Dashboard Scripts -->
+<!-- Leaflet JS - Interactive mapping library -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+
+<!-- Leaflet.heat plugin for heatmap visualization -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+<!-- modern-screenshot for map capture functionality -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/modern-screenshot@4.4.39/dist/index.js"></script>
+
+<!-- Custom JS - Core dashboard logic -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="js/dashboard.js"></script>
+<!-- end of Leaflet js-->
+
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+
+
+
+
+<!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
+<a href="#" id="open_preferences_center">Update cookies preferences</a>
+
+</html>

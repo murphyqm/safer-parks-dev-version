@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Knottingley_Playing_Fields_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2490948, 53.708651 ], [ -1.248997, 53.7083924 ], [ -1.2487269, 53.7084282 ], [ -1.2488248, 53.7086868 ], [ -1.2490948, 53.708651 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2471303, 53.7079242 ], [ -1.2468594, 53.7072987 ], [ -1.245537, 53.7074908 ], [ -1.2457007, 53.7081623 ], [ -1.2471303, 53.7079242 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2460145, 53.7070891 ], [ -1.2464946, 53.706789 ], [ -1.2463202, 53.7064096 ], [ -1.2460279, 53.7063667 ], [ -1.2445527, 53.7066827 ], [ -1.2444186, 53.7073368 ], [ -1.2460145, 53.7070891 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2497614, 53.708029 ], [ -1.2494623, 53.7074351 ], [ -1.248013, 53.7077252 ], [ -1.2483351, 53.7083086 ], [ -1.2497614, 53.708029 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2345939, 53.7116656 ], [ -1.234693, 53.7110724 ], [ -1.2328502, 53.7109645 ], [ -1.2327511, 53.7115579 ], [ -1.2345939, 53.7116656 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2481853, 53.707436 ], [ -1.2475809, 53.7075422 ], [ -1.2472992, 53.7070085 ], [ -1.2478883, 53.7068994 ], [ -1.2481853, 53.707436 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.248421, 53.707524 ], [ -1.2480368, 53.706857 ], [ -1.2488768, 53.7067114 ], [ -1.2492047, 53.7073906 ], [ -1.248421, 53.707524 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Recycling" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2494835, 53.7089008 ], [ -1.2494411, 53.7087936 ], [ -1.2493396, 53.7088077 ], [ -1.2493821, 53.7089149 ], [ -1.2494835, 53.7089008 ] ] ] } }
+]
+}

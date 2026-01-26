@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Pit_Plantation_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3792836, 53.758381 ], [ -1.3779238, 53.7579739 ], [ -1.3783533, 53.757497 ], [ -1.3796964, 53.757899 ], [ -1.3792836, 53.758381 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3786141, 53.7588183 ], [ -1.3773529, 53.7584404 ], [ -1.377791, 53.7579611 ], [ -1.3790496, 53.7583381 ], [ -1.3786141, 53.7588183 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3759115, 53.7573752 ], [ -1.3757426, 53.7575838 ], [ -1.3752666, 53.7574492 ], [ -1.3754355, 53.7572405 ], [ -1.3759115, 53.7573752 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3765943, 53.7575624 ], [ -1.3763794, 53.7578279 ], [ -1.3757541, 53.757651 ], [ -1.375969, 53.7573855 ], [ -1.3765943, 53.7575624 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.376837, 53.7574918 ], [ -1.3771488, 53.7571281 ], [ -1.3781267, 53.7574212 ], [ -1.3778149, 53.7577848 ], [ -1.376837, 53.7574918 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3754696, 53.7572104 ], [ -1.3757977, 53.756805 ], [ -1.376947, 53.7571302 ], [ -1.3766189, 53.7575355 ], [ -1.3754696, 53.7572104 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3767612, 53.7574918 ], [ -1.3778612, 53.7578215 ], [ -1.3775166, 53.7582233 ], [ -1.3764166, 53.7578936 ], [ -1.3767612, 53.7574918 ] ] ] } }
+]
+}

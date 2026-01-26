@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Albert_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 6, "visibility_pct": 83.333333333333343 }, "geometry": { "type": "Point", "coordinates": [ -1.860979680720897, 53.71444173321499 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 6, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.86097909114931, 53.714621493679999 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 6, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.860676649846649, 53.714441381578034 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 6, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.860676058975115, 53.714621142041388 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 6, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.860675468097047, 53.714800902499334 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.860373618978893, 53.714441029174608 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 6, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.860373026807413, 53.714620789636321 ] } }
+]
+}

@@ -1,0 +1,17 @@
+---
+title: "Design decisions"
+---
+
+## Local Authority Page
+
+- Start with a modal pop-up with information, telling you how to use the tool
+
+- Initially load point data of each park in the area
+    - Maybe some details of the parks? An info box
+    - Very simple, just one point per park
+    - Allow zooming/movement etc.
+- Then, exlusively load in one park's data
+- Zoom to this area, center the catchment area in the viewport
+
+- Then each individual measure/dataset: should each of these have their own pop-up? 
+    - Is this another pop-up tab that opens, with a legend, and a "learn more" link that will open a modal?

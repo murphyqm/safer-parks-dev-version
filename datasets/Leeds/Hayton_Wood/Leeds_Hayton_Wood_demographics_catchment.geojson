@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Hayton_Wood_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Hayton Wood" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3357316, 53.8447142 ], [ -1.3262912, 53.851923 ], [ -1.3201226, 53.8501244 ], [ -1.3178253, 53.8491747 ], [ -1.3173783, 53.8462448 ], [ -1.317389483964255, 53.840134737175731 ], [ -1.3164508, 53.838764 ], [ -1.3155774, 53.8373268 ], [ -1.319456, 53.8303058 ], [ -1.3353843, 53.8360597 ], [ -1.3328794, 53.8411813 ], [ -1.3357316, 53.8447142 ] ] ] } }
+]
+}

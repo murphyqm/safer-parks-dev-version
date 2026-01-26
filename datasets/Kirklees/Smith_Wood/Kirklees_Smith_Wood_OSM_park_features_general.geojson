@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Smith_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7243799, 53.6058131 ], [ -1.7236073, 53.6051406 ], [ -1.7242622, 53.6048757 ], [ -1.725035, 53.6055481 ], [ -1.7243799, 53.6058131 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7233147, 53.6055728 ], [ -1.722346, 53.6059159 ], [ -1.7231706, 53.6067355 ], [ -1.7241392, 53.6063926 ], [ -1.7233147, 53.6055728 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7231054, 53.6067616 ], [ -1.722716, 53.606376 ], [ -1.7223015, 53.6065233 ], [ -1.7226909, 53.606909 ], [ -1.7231054, 53.6067616 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7222783, 53.6065015 ], [ -1.7226968, 53.6063537 ], [ -1.7223065, 53.6059649 ], [ -1.7218882, 53.6061126 ], [ -1.7222783, 53.6065015 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7219652, 53.6060176 ], [ -1.7214755, 53.6055331 ], [ -1.7227216, 53.6050896 ], [ -1.7232114, 53.6055742 ], [ -1.7219652, 53.6060176 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7239108, 53.6058938 ], [ -1.7240612, 53.6058842 ], [ -1.7242929, 53.6057841 ], [ -1.7237497, 53.6053112 ], [ -1.723305, 53.6049241 ], [ -1.723057, 53.6050146 ], [ -1.7239108, 53.6058938 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.7191161, 53.6042752 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.7175892, 53.5992569 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Creskeld_Wood_Crag_Wood_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Creskeld Wood / Crag Wood" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5881274, 53.8831092 ], [ -1.597509114461354, 53.887647749701209 ], [ -1.6092063, 53.8850839 ], [ -1.6124749, 53.8858106 ], [ -1.615897, 53.886951100000012 ], [ -1.6161296, 53.8873245 ], [ -1.6029133, 53.897924400000015 ], [ -1.6027907, 53.8978829 ], [ -1.599776438405584, 53.895566944431806 ], [ -1.5849943, 53.893329400000013 ], [ -1.585322, 53.88594350000001 ], [ -1.5881274, 53.8831092 ] ] ] } }
+]
+}

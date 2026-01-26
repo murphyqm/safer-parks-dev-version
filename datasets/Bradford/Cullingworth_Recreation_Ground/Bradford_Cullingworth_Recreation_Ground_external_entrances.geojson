@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Cullingworth_Recreation_Ground_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "FFB6570B-7D3F-4E19-9641-E58AFAD536F2", "access_type": "Pedestrian", "Park Name": "Cullingworth Recreation Ground", "Park Segment Name": "Cullingworth Recreation Ground", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.900999520026243, 53.824251007451316 ] } },
+{ "type": "Feature", "properties": { "id": "D04D0EEA-29B1-4D97-A992-EFE5691D952B", "access_type": "Pedestrian", "Park Name": "Cullingworth Recreation Ground", "Park Segment Name": "Cullingworth Recreation Ground", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.899873806208798, 53.825612275424064 ] } },
+{ "type": "Feature", "properties": { "id": "7658D8AB-CEB1-48CF-B457-32931CAF37B4", "access_type": "Pedestrian", "Park Name": "Cullingworth Recreation Ground", "Park Segment Name": "Cullingworth Recreation Ground", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.901463893163938, 53.825826506983539 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "bicycle", "Park Name": "Cullingworth Recreation Ground", "Park Segment Name": "Cullingworth Recreation Ground", "source": "calculated", "highway_type": "cycleway" }, "geometry": { "type": "Point", "coordinates": [ -1.901031197950005, 53.824242526614356 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "bicycle", "Park Name": "Cullingworth Recreation Ground", "Park Segment Name": "Cullingworth Recreation Ground", "source": "calculated", "highway_type": "cycleway" }, "geometry": { "type": "Point", "coordinates": [ -1.899873759234623, 53.825631975218691 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "bicycle", "Park Name": "Cullingworth Recreation Ground", "Park Segment Name": "Cullingworth Recreation Ground", "source": "calculated", "highway_type": "cycleway" }, "geometry": { "type": "Point", "coordinates": [ -1.901456572147631, 53.82582807557997 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Sugden Wood", "Park Segment Name": "Sugden Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.911398217338255, 53.830191066663978 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Royd Wood", "Park Segment Name": "Royd Wood", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.892670430261391, 53.82901104771787 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Royd Wood", "Park Segment Name": "Royd Wood", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.891443942127955, 53.829886035339783 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Royd Wood", "Park Segment Name": "Royd Wood", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.89109684564812, 53.830515946124841 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Royd Wood", "Park Segment Name": "Royd Wood", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.890996783422877, 53.830487420343502 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Royd Wood", "Park Segment Name": "Royd Wood", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.892032238289454, 53.830852015335367 ] } }
+]
+}

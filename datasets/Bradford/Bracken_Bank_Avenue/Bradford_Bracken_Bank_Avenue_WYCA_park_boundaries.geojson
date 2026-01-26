@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Bracken_Bank_Avenue_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Bracken Bank Avenue", "Primary Name": null, "Park Segment Name": "Bracken Bank Avenue" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -1.92865174826054, 53.85013219123357 ], [ -1.928806277811016, 53.850168952099757 ], [ -1.928983919384862, 53.849930607471094 ], [ -1.928722734883042, 53.849862506689199 ], [ -1.928545091947474, 53.850100940838246 ], [ -1.92865174826054, 53.85013219123357 ] ] ] ] } }
+]
+}

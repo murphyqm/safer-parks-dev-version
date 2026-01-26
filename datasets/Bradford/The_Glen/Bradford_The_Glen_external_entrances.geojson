@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_The_Glen_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.843960174797622, 53.884542830581751 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.844383942068484, 53.88353211468872 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.846959405556049, 53.884636197118787 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.855342400000017, 53.8901086 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.847405818052622, 53.885849502833459 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.847056967921792, 53.886304262380904 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "steps" }, "geometry": { "type": "Point", "coordinates": [ -1.847048548067656, 53.885116586980672 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.848345708318758, 53.884983235748479 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.846557908537535, 53.885256832729738 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "path" }, "geometry": { "type": "Point", "coordinates": [ -1.844956899328088, 53.884688720206789 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "path" }, "geometry": { "type": "Point", "coordinates": [ -1.845740676453109, 53.884682262854028 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.857036380627653, 53.89041890169532 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.85708486032268, 53.890496436339774 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "The Glen", "Park Segment Name": "The Glen", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.857101985714294, 53.890946992857145 ] } }
+]
+}

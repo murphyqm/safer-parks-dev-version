@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Lower_Village_Green_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 2, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.487027519069009, 53.741057130799724 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 2, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.48702533594049, 53.741236885569279 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 2, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.486724305004463, 53.741055833711471 ] } }
+]
+}

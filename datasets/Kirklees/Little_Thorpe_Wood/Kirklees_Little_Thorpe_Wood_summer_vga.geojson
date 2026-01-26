@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Little_Thorpe_Wood_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 9, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.715314582393339, 53.698929576496681 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.715313373723586, 53.699109337056136 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.71501166562988, 53.698928858208681 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 9, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.715010455691273, 53.699108618775526 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 9, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.714708748879414, 53.698928139154582 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 9, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.714707537671954, 53.69910789972878 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 9, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.714405832141958, 53.698927419334375 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 9, "visibility_pct": 55.555555555555557 }, "geometry": { "type": "Point", "coordinates": [ -1.714404619665645, 53.699107179915941 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.714102915417524, 53.69892669874806 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 9, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.714101701672358, 53.699106459336974 ] } }
+]
+}

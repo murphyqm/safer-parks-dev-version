@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Rose_Garden_Ls6_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.591183, 53.8249123 ], [ -1.5911186, 53.8250041 ], [ -1.5910274, 53.8250294 ], [ -1.5908174, 53.8249717 ], [ -1.5907538, 53.8248585 ], [ -1.5906651, 53.8247858 ], [ -1.5907292, 53.8247571 ], [ -1.5907807, 53.8247951 ], [ -1.5908504, 53.8247666 ], [ -1.5909094, 53.8248078 ], [ -1.5910167, 53.824773 ], [ -1.591183, 53.8249123 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5905501, 53.8251832 ], [ -1.5897016, 53.8252592 ], [ -1.5896239, 53.8249575 ], [ -1.5904725, 53.8248814 ], [ -1.5905501, 53.8251832 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5897016, 53.8252592 ], [ -1.5896239, 53.8249575 ], [ -1.5891453, 53.8249995 ], [ -1.5892331, 53.8253041 ], [ -1.5897016, 53.8252592 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Recycling" }, "geometry": { "type": "Point", "coordinates": [ -1.5880936, 53.8223153 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.580787, 53.820778 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.586977, 53.82566 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.589666, 53.817714 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.588403, 53.82433 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.58864, 53.8241646 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.5892553, 53.8246808 ] } }
+]
+}

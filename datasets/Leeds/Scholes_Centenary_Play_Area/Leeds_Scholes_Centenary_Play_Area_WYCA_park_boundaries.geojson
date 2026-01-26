@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Scholes_Centenary_Play_Area_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Scholes Centenary Play Area", "Primary Name": "Scholes Centenary Play Area", "Park Segment Name": "Scholes Centenary Play Area" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -1.429395396077264, 53.825414751536613 ], [ -1.429396552841747, 53.825419071353046 ], [ -1.429405079109944, 53.825451289502467 ], [ -1.429626939620586, 53.825435984430541 ], [ -1.429578777079737, 53.825268216249995 ], [ -1.429559004308206, 53.825269920011003 ], [ -1.429453750422429, 53.825279127477877 ], [ -1.429361881711281, 53.825287140079837 ], [ -1.429395396077264, 53.825414751536613 ] ] ] ] } }
+]
+}

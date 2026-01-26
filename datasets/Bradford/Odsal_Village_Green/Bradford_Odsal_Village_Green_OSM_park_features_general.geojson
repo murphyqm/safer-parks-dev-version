@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Odsal_Village_Green_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7590032, 53.7638035 ], [ -1.7594335, 53.7635374 ], [ -1.7584186, 53.762964 ], [ -1.7579884, 53.76323 ], [ -1.7590032, 53.7638035 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7606744, 53.7628676 ], [ -1.7597805, 53.7630591 ], [ -1.7592783, 53.7622398 ], [ -1.7601722, 53.7620484 ], [ -1.7606744, 53.7628676 ] ] ] } }
+]
+}

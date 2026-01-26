@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Railes_Close_Open_Area_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9457102, 53.7315205 ], [ -1.9465381, 53.7314747 ], [ -1.9463463, 53.7312795 ], [ -1.9458675, 53.7313057 ], [ -1.9458179, 53.7312605 ], [ -1.9458126, 53.73122 ], [ -1.945881, 53.7311573 ], [ -1.9461331, 53.7311351 ], [ -1.9460419, 53.7310232 ], [ -1.9459654, 53.730982 ], [ -1.9456168, 53.731005 ], [ -1.9457102, 53.7315205 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9456804, 53.7314784 ], [ -1.9455959, 53.7310181 ], [ -1.9440626, 53.7311166 ], [ -1.9441471, 53.7315769 ], [ -1.9456804, 53.7314784 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.9458673, 53.7312598 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.946215, 53.7311961 ], [ -1.9462524, 53.7312652 ], [ -1.9459234, 53.7312902 ], [ -1.9458818, 53.7312473 ], [ -1.9458618, 53.7312149 ], [ -1.9459036, 53.7311683 ], [ -1.94613, 53.7311482 ], [ -1.9461916, 53.7311488 ], [ -1.946215, 53.7311961 ] ] ] } }
+]
+}

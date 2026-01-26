@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Horse_Pasture_Plantation_Ls21_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6475375, 53.8957592 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6522367, 53.8965488 ], [ -1.6521628, 53.8966278 ], [ -1.652069, 53.8966125 ], [ -1.6519214, 53.8965614 ], [ -1.6520234, 53.8965077 ], [ -1.6522367, 53.8965488 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6518706, 53.896894 ], [ -1.651739, 53.8968712 ], [ -1.6517593, 53.8968253 ], [ -1.651766, 53.8968154 ], [ -1.6518129, 53.8968158 ], [ -1.6519605, 53.8968518 ], [ -1.6519363, 53.8968798 ], [ -1.6518706, 53.896894 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6514314, 53.8971125 ], [ -1.6514301, 53.8970872 ], [ -1.6513596, 53.8970896 ], [ -1.651359, 53.8971208 ], [ -1.6514314, 53.8971125 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6509359, 53.8968932 ], [ -1.6509969, 53.8968494 ], [ -1.6509305, 53.8968115 ], [ -1.6508748, 53.8968443 ], [ -1.6508742, 53.8968822 ], [ -1.6509359, 53.8968932 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6519196, 53.8970383 ], [ -1.6518478, 53.8970351 ], [ -1.6517794, 53.897011 ], [ -1.6517787, 53.8969889 ], [ -1.65188, 53.8969687 ], [ -1.6519652, 53.8969774 ], [ -1.6519605, 53.8970177 ], [ -1.6519196, 53.8970383 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6519363, 53.8968798 ], [ -1.6520448, 53.8968996 ], [ -1.6520128, 53.8969288 ], [ -1.6519544, 53.8969446 ], [ -1.6518706, 53.896894 ], [ -1.6519363, 53.8968798 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6517593, 53.8968253 ], [ -1.6517016, 53.8968332 ], [ -1.6516265, 53.8967964 ], [ -1.6517365, 53.8967542 ], [ -1.651766, 53.8968154 ], [ -1.6517593, 53.8968253 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6514967, 53.8968134 ], [ -1.6514878, 53.8967581 ], [ -1.6515769, 53.896751 ], [ -1.6515782, 53.8968126 ], [ -1.6514967, 53.8968134 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6514967, 53.8968134 ], [ -1.6514878, 53.8967581 ], [ -1.6514844, 53.8967368 ], [ -1.6514026, 53.8967344 ], [ -1.6514227, 53.8967937 ], [ -1.6514967, 53.8968134 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6514495, 53.8965357 ], [ -1.6514998, 53.8965523 ], [ -1.6515662, 53.8965408 ], [ -1.651532, 53.8964997 ], [ -1.6514448, 53.8965068 ], [ -1.6514495, 53.8965357 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6514622, 53.8964231 ], [ -1.651416, 53.8963986 ], [ -1.651426, 53.8963784 ], [ -1.6514891, 53.8963867 ], [ -1.6514622, 53.8964231 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Climbing" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6515293, 53.8964207 ], [ -1.6514609, 53.8964574 ], [ -1.6513724, 53.8964132 ], [ -1.651416, 53.8963986 ], [ -1.6515293, 53.8964207 ] ] ] } }
+]
+}

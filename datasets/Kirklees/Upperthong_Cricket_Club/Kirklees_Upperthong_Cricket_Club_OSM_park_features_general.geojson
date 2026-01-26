@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Upperthong_Cricket_Club_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8119462, 53.5737655 ], [ -1.8119729, 53.573696 ], [ -1.8120093, 53.5736011 ], [ -1.8113146, 53.5734971 ], [ -1.8112455, 53.5736221 ], [ -1.8114065, 53.573673 ], [ -1.8119462, 53.5737655 ] ] ] } }
+]
+}

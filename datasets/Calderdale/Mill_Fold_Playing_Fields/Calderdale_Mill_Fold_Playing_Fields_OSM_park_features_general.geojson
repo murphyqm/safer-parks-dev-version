@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Mill_Fold_Playing_Fields_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9411241, 53.673665 ], [ -1.9412682, 53.6737377 ], [ -1.9411755, 53.6738022 ], [ -1.9410891, 53.6737586 ], [ -1.94103, 53.6737998 ], [ -1.9411164, 53.6738434 ], [ -1.9409759, 53.6739412 ], [ -1.9407666, 53.6738356 ], [ -1.940849, 53.6737782 ], [ -1.9408594, 53.6737835 ], [ -1.9409665, 53.673709 ], [ -1.9410212, 53.6737366 ], [ -1.9411241, 53.673665 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9412646, 53.6733242 ], [ -1.9411235, 53.6732519 ], [ -1.9413934, 53.6730669 ], [ -1.9415346, 53.6731393 ], [ -1.9412646, 53.6733242 ] ] ] } }
+]
+}

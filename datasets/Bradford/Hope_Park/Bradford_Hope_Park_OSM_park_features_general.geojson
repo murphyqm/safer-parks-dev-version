@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Hope_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.760441, 53.7723833 ], [ -1.7604547, 53.7726018 ], [ -1.7604561, 53.7726339 ], [ -1.7602281, 53.7726414 ], [ -1.7602167, 53.7723946 ], [ -1.7602486, 53.7723884 ], [ -1.760441, 53.7723833 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7592984, 53.7729369 ], [ -1.7580693, 53.772563 ], [ -1.758509, 53.7720581 ], [ -1.7597382, 53.7724321 ], [ -1.7592984, 53.7729369 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7598579, 53.7724183 ], [ -1.7584953, 53.7720061 ], [ -1.7588977, 53.7715274 ], [ -1.7602656, 53.7719522 ], [ -1.7598579, 53.7724183 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7590032, 53.7638035 ], [ -1.7594335, 53.7635374 ], [ -1.7584186, 53.762964 ], [ -1.7579884, 53.76323 ], [ -1.7590032, 53.7638035 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7606744, 53.7628676 ], [ -1.7597805, 53.7630591 ], [ -1.7592783, 53.7622398 ], [ -1.7601722, 53.7620484 ], [ -1.7606744, 53.7628676 ] ] ] } }
+]
+}

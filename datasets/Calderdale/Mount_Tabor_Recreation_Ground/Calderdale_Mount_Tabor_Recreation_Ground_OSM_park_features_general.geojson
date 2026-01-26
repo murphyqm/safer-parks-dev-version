@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Mount_Tabor_Recreation_Ground_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9215639, 53.7438649 ], [ -1.9218858, 53.7438268 ], [ -1.9217221, 53.7435508 ], [ -1.9215585, 53.7435524 ], [ -1.9215076, 53.7435857 ], [ -1.9215103, 53.7436111 ], [ -1.9215639, 53.7438649 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.9221595, 53.7442273 ], [ -1.9219237, 53.7442592 ], [ -1.9218194, 53.7439894 ], [ -1.9220551, 53.7439575 ], [ -1.9221595, 53.7442273 ] ] ] } }
+]
+}

@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Conker_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 9, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.683640763149736, 53.906961615127273 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.683639405516261, 53.907141368892631 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 9, "visibility_pct": 11.111111111111111 }, "geometry": { "type": "Point", "coordinates": [ -1.683337704229975, 53.906781059277591 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 9, "visibility_pct": 11.111111111111111 }, "geometry": { "type": "Point", "coordinates": [ -1.683336345304916, 53.906960813044847 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 9, "visibility_pct": 11.111111111111111 }, "geometry": { "type": "Point", "coordinates": [ -1.683334986365006, 53.90714056680671 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.683333627410244, 53.907320320563151 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.683033287706396, 53.906780256426813 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 9, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.683031927474916, 53.906960010190573 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.683030567228571, 53.907139763948926 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.683029206967361, 53.907319517701886 ] } }
+]
+}

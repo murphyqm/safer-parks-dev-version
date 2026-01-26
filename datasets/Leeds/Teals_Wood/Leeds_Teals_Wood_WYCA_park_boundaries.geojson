@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Teals_Wood_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Teal's Wood", "Primary Name": "Teal's Wood", "Park Segment Name": "Teal's Wood" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4681817, 53.902244100000011 ], [ -1.4680098, 53.90271340000001 ], [ -1.4678304, 53.903203 ], [ -1.46771130000001, 53.90369280000003 ], [ -1.467412500000013, 53.903521800000014 ], [ -1.467558900000011, 53.903239 ], [ -1.4669828, 53.9024542 ], [ -1.4666728, 53.902265799999974 ], [ -1.4664841, 53.902193600000011 ], [ -1.4667194, 53.9021799 ], [ -1.4669823, 53.9021914 ], [ -1.4681817, 53.902244100000011 ] ] ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Whitaker_Pits_Wood_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Whitaker Pits Wood", "Primary Name": "Whitaker Pits Wood", "Park Segment Name": "Whitaker Pits Wood" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -1.7571716, 53.719083 ], [ -1.7582264, 53.7178129 ], [ -1.7560485, 53.7171716 ], [ -1.754322, 53.718466600000028 ], [ -1.75484750000001, 53.7186372 ], [ -1.7556326, 53.718750299999982 ], [ -1.7571716, 53.719083 ] ] ] ] } }
+]
+}

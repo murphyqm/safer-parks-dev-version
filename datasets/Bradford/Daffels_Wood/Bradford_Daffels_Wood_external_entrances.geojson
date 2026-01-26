@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Daffels_Wood_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "horse", "Park Name": "North Wood", "Park Segment Name": "North Wood", "source": "calculated", "highway_type": "bridleway" }, "geometry": { "type": "Point", "coordinates": [ -1.668350871023098, 53.779556651251411 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "North Wood", "Park Segment Name": "North Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.66847861601252, 53.779489874000873 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "horse", "Park Name": "North Wood", "Park Segment Name": "North Wood", "source": "calculated", "highway_type": "bridleway" }, "geometry": { "type": "Point", "coordinates": [ -1.668568983387804, 53.779034645102733 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "North Wood", "Park Segment Name": "North Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.667552727372263, 53.779584202475526 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "North Wood", "Park Segment Name": "North Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.658717200429038, 53.779853963020315 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "horse", "Park Name": "Black Carr Woods", "Park Segment Name": "Black Carr Woods", "source": "calculated", "highway_type": "bridleway" }, "geometry": { "type": "Point", "coordinates": [ -1.676000719490173, 53.782224273661186 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "horse", "Park Name": "Black Carr Woods", "Park Segment Name": "Black Carr Woods", "source": "calculated", "highway_type": "bridleway" }, "geometry": { "type": "Point", "coordinates": [ -1.678053731203928, 53.782245919597216 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "horse", "Park Name": "Black Carr Woods", "Park Segment Name": "Black Carr Woods", "source": "calculated", "highway_type": "bridleway" }, "geometry": { "type": "Point", "coordinates": [ -1.677364701993045, 53.782303718510121 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Coney Wood", "Park Segment Name": "Coney Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.663756001123895, 53.776328484869808 ] } }
+]
+}

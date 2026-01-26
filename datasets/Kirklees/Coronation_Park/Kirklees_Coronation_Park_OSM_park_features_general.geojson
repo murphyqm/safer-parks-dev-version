@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Coronation_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8276143, 53.6362514 ], [ -1.8274718, 53.6362889 ], [ -1.8273997, 53.6362069 ], [ -1.8273621, 53.636183 ], [ -1.8273997, 53.6361353 ], [ -1.8274855, 53.6361226 ], [ -1.827566, 53.6361306 ], [ -1.8275764, 53.6361712 ], [ -1.8276143, 53.6362514 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.826712, 53.6362493 ], [ -1.826415, 53.6360058 ], [ -1.8271017, 53.63571 ], [ -1.8273833, 53.635974 ], [ -1.826712, 53.6362493 ] ] ] } }
+]
+}

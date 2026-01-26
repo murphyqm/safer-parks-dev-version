@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_The_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.925289771168673, 53.599862145203979 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 16, "visibility_pct": 12.5 }, "geometry": { "type": "Point", "coordinates": [ -1.925289457256014, 53.600041905231166 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 16, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.92498787686695, 53.599682194933479 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.924987561686418, 53.599861954986309 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.924987246502402, 53.600041715033768 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.924986931314901, 53.600221475075855 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.924685668659481, 53.599682003932223 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 16, "visibility_pct": 37.5 }, "geometry": { "type": "Point", "coordinates": [ -1.924685352207606, 53.599861764005333 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.924685035752232, 53.600041524073063 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.924684719293361, 53.600221284135436 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 16, "visibility_pct": 6.25 }, "geometry": { "type": "Point", "coordinates": [ -1.924684402641951, 53.600401045456593 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.92438314273225, 53.599861572261055 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 16, "visibility_pct": 43.75 }, "geometry": { "type": "Point", "coordinates": [ -1.92438282500552, 53.600041332349065 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 16, "visibility_pct": 43.75 }, "geometry": { "type": "Point", "coordinates": [ -1.924382507275278, 53.600221092431703 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.924382189347706, 53.600400853791626 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 16, "visibility_pct": 37.5 }, "geometry": { "type": "Point", "coordinates": [ -1.924080614262278, 53.600041139861737 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.924080295260665, 53.60022089996464 ] } }
+]
+}

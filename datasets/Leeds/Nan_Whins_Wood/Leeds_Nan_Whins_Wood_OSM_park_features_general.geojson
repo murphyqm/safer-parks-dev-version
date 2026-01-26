@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Nan_Whins_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6264477, 53.7765166 ], [ -1.6260091, 53.7765209 ], [ -1.6260114, 53.7761768 ], [ -1.6264586, 53.7761746 ], [ -1.6264477, 53.7765166 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6255148, 53.7765843 ], [ -1.6252699, 53.7765896 ], [ -1.6252515, 53.7762674 ], [ -1.6254996, 53.7762652 ], [ -1.6255148, 53.7765843 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6255139, 53.7765605 ], [ -1.6257389, 53.7765574 ], [ -1.6257348, 53.7763309 ], [ -1.6255038, 53.7763329 ], [ -1.6255139, 53.7765605 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.637737, 53.7874471 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.626151, 53.776029 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Point", "coordinates": [ -1.6507575, 53.7663378 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6392991, 53.771574 ] } }
+]
+}

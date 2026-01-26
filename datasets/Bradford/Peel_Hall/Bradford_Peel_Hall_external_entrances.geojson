@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Peel_Hall_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "6A501C86-46D6-4E78-9464-29ABA32BED06", "access_type": "Motor Vehicle And Pedestrian", "Park Name": "Peel Hall", "Park Segment Name": "Peel Hall", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.863989354886125, 53.776641274299969 ] } },
+{ "type": "Feature", "properties": { "id": "C3A4091C-3CAA-4AB4-91A0-602FB95547AC", "access_type": "Pedestrian", "Park Name": "Foxhill Park", "Park Segment Name": "Foxhill Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.85479066838305, 53.77224448660818 ] } },
+{ "type": "Feature", "properties": { "id": "A810388F-E6CF-43A5-A029-B49A7B3A90F5", "access_type": "Pedestrian", "Park Name": "Foxhill Park", "Park Segment Name": "Foxhill Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.854503784812398, 53.77223667916261 ] } },
+{ "type": "Feature", "properties": { "id": "41ADBF70-CDCC-466F-A3D8-1AE1B14AD282", "access_type": "Pedestrian", "Park Name": "Foxhill Park", "Park Segment Name": "Foxhill Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.855294434155229, 53.771878118294509 ] } },
+{ "type": "Feature", "properties": { "id": "86DC5FB2-C7EC-408B-A030-A58C0E8E444F", "access_type": "Pedestrian", "Park Name": "Foxhill Park", "Park Segment Name": "Foxhill Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.857258185764175, 53.771428467662943 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Foxhill Park", "Park Segment Name": "Foxhill Park", "source": "calculated", "highway_type": "path" }, "geometry": { "type": "Point", "coordinates": [ -1.854793661641502, 53.77223719877054 ] } }
+]
+}

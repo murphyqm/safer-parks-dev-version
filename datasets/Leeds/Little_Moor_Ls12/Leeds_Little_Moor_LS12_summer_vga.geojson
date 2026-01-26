@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Little_Moor_LS12_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.598257910392669, 53.796878404028362 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.597954297133712, 53.796877387760361 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.59795257581883, 53.797057143072479 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.597650683892888, 53.796876370723595 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.597648961329989, 53.797056126034825 ] } }
+]
+}

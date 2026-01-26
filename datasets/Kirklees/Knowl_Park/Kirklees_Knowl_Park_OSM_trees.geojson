@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Knowl_Park_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.6952136, 53.6864624 ] } }
+]
+}

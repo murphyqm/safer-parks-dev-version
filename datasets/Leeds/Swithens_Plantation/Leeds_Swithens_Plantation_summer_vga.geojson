@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Swithens_Plantation_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 15, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.470887341481162, 53.742245179486623 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 18, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.470584119495633, 53.742243841649866 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 18, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.470581863845891, 53.742423594546615 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 18, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.470280897534567, 53.742242503045972 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 18, "visibility_pct": 22.222222222222221 }, "geometry": { "type": "Point", "coordinates": [ -1.470278640594068, 53.742422255933072 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.470276383629048, 53.742602008814686 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.470274126639505, 53.742781761690807 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 18, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.469977675597979, 53.742241163674933 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 18, "visibility_pct": 27.777777777777779 }, "geometry": { "type": "Point", "coordinates": [ -1.469975417366724, 53.742420916552376 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 18, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.469973159110933, 53.742600669424334 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 18, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.469970900830606, 53.742780422290799 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.469674453685882, 53.742239823536771 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 18, "visibility_pct": 5.5555555555555554 }, "geometry": { "type": "Point", "coordinates": [ -1.469672194163871, 53.742419576404536 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 18, "visibility_pct": 11.111111111111111 }, "geometry": { "type": "Point", "coordinates": [ -1.469669934617311, 53.742599329266831 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.4696676750462, 53.742779082123633 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.46937123179829, 53.742238482631464 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 17, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.469368970985524, 53.742418235489559 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 17, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.469366710148194, 53.742597988342183 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 17, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.4693644492863, 53.742777741189308 ] } }
+]
+}

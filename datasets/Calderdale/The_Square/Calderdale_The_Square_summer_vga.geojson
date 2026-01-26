@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_The_Square_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 15, "visibility_pct": 53.333333333333336 }, "geometry": { "type": "Point", "coordinates": [ -1.867490976310551, 53.7336311520233 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 16, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.867490413796363, 53.733810912147895 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.867489851275993, 53.733990672267055 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 16, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.867187807033674, 53.733630816679074 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 16, "visibility_pct": 43.75 }, "geometry": { "type": "Point", "coordinates": [ -1.867187243229491, 53.733810576798724 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.867186679419113, 53.733990336912967 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.866884637762954, 53.733630480567847 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.866884072668776, 53.733810240682573 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 16, "visibility_pct": 43.75 }, "geometry": { "type": "Point", "coordinates": [ -1.866883507568389, 53.733990000791877 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 16, "visibility_pct": 6.25 }, "geometry": { "type": "Point", "coordinates": [ -1.866882942461793, 53.734169760895746 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.866580902114231, 53.733809903799425 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.866580335723836, 53.733989663903785 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 16, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.866579769327216, 53.734169424002708 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 16, "visibility_pct": 25.0 }, "geometry": { "type": "Point", "coordinates": [ -1.86627773156587, 53.733809566149297 ] } },
+{ "type": "Feature", "properties": { "visible_points": 11, "total_points": 16, "visibility_pct": 68.75 }, "geometry": { "type": "Point", "coordinates": [ -1.866277163885466, 53.733989326248704 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 16, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.866276596198825, 53.734169086342689 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 15, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.866276028505945, 53.73434884643126 ] } }
+]
+}

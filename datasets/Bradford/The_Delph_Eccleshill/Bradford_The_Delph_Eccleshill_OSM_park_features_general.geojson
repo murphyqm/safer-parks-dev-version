@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_The_Delph_Eccleshill_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7267485, 53.8223736 ], [ -1.7265446, 53.8222239 ], [ -1.7268451, 53.8220981 ], [ -1.72701, 53.8222263 ], [ -1.7268384, 53.8223229 ], [ -1.7267485, 53.8223736 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7286741, 53.8300073 ], [ -1.7281476, 53.8302256 ], [ -1.7275629, 53.8297345 ], [ -1.7280894, 53.8295162 ], [ -1.7286741, 53.8300073 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7284534, 53.8185304 ], [ -1.7279572, 53.8183768 ], [ -1.7281691, 53.8181108 ], [ -1.7286975, 53.818247 ], [ -1.7284534, 53.8185304 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7274028, 53.8213323 ], [ -1.7272072, 53.8214428 ], [ -1.7269511, 53.8212848 ], [ -1.7271468, 53.8211743 ], [ -1.7274028, 53.8213323 ] ] ] } }
+]
+}

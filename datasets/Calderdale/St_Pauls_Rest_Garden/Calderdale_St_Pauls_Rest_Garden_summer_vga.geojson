@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_St_Pauls_Rest_Garden_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 14, "visibility_pct": 14.285714285714285 }, "geometry": { "type": "Point", "coordinates": [ -1.883641591461777, 53.715233444219677 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 14, "visibility_pct": 57.142857142857139 }, "geometry": { "type": "Point", "coordinates": [ -1.88364109879439, 53.715413205132968 ] } },
+{ "type": "Feature", "properties": { "visible_points": 7, "total_points": 14, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.883338554325094, 53.715233149774839 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 14, "visibility_pct": 64.285714285714292 }, "geometry": { "type": "Point", "coordinates": [ -1.883338060363498, 53.715412910679767 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 14, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.88333756639644, 53.715592671579259 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 14, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.883036507689006, 53.714873332754188 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 14, "visibility_pct": 21.428571428571427 }, "geometry": { "type": "Point", "coordinates": [ -1.883036012444158, 53.715053093661602 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 14, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.883035517193832, 53.715232854563567 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 14, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.883035021938029, 53.71541261546011 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 14, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.883034526676748, 53.715592376351218 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 14, "visibility_pct": 57.142857142857139 }, "geometry": { "type": "Point", "coordinates": [ -1.882733473151555, 53.714873036793215 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 14, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.882732976612526, 53.715052797692238 ] } },
+{ "type": "Feature", "properties": { "visible_points": 10, "total_points": 14, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.882732480068006, 53.715232558585818 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 14, "visibility_pct": 57.142857142857139 }, "geometry": { "type": "Point", "coordinates": [ -1.882430438619552, 53.714872740065786 ] } },
+{ "type": "Feature", "properties": { "visible_points": 11, "total_points": 14, "visibility_pct": 78.571428571428569 }, "geometry": { "type": "Point", "coordinates": [ -1.882429940786344, 53.715052500956418 ] } }
+]
+}

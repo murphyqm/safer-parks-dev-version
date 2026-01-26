@@ -1,0 +1,28 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Nell_Bank_Wood_OSM_benches_picnic",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8211404, 53.9328196 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.820237, 53.932433 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8202069, 53.9323449 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8201721, 53.9322505 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8198655, 53.9322831 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8197186, 53.932409 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8200519, 53.9323593 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.820083, 53.9324509 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8200041, 53.9322663 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8199238, 53.9324758 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8197545, 53.9324948 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8198067, 53.932588 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8198859, 53.932381 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8203631, 53.9322398 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8199528, 53.9325622 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.820432, 53.932317 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Picnic Table" }, "geometry": { "type": "Point", "coordinates": [ -1.8196835, 53.932313 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.8176518, 53.9352576 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.8226069, 53.9365663 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.8103462, 53.9349276 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Bench" }, "geometry": { "type": "Point", "coordinates": [ -1.8167189, 53.9315417 ] } }
+]
+}

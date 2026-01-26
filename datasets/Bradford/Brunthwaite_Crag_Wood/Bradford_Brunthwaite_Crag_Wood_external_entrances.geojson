@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Brunthwaite_Crag_Wood_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Swartha Wood", "Park Segment Name": "Swartha Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.920193937870484, 53.916974388767336 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Swartha Wood", "Park Segment Name": "Swartha Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.9166976, 53.9178546 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Swartha Wood", "Park Segment Name": "Swartha Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.916128557219683, 53.917658673481732 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Swartha Wood", "Park Segment Name": "Swartha Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.922561411448277, 53.912324977147506 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Swartha Wood", "Park Segment Name": "Swartha Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.922569647804084, 53.9123056591107 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Swartha Wood", "Park Segment Name": "Swartha Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.918361787583035, 53.915689990434508 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Swartha Wood", "Park Segment Name": "Swartha Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.9183302, 53.914699400000018 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "White Crag Plantation", "Park Segment Name": "White Crag Plantation", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.905764817143194, 53.91678798328298 ] } }
+]
+}

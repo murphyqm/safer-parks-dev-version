@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Spoilbank_Plantation_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.335719169606529, 53.914208248478701 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 6, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.33571632074614, 53.914387989918545 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 12, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.335423260586106, 53.913667342578258 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 10, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.335420410523547, 53.913847084023573 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.33541756043011, 53.914026825463388 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.335414710305796, 53.914206566897676 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 12, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.335130210320907, 53.912946694466378 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 13, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.335127359087147, 53.913126435922642 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 14, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.335124507822498, 53.913306177373407 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 13, "visibility_pct": 7.6923076923076925 }, "geometry": { "type": "Point", "coordinates": [ -1.335121656526958, 53.913485918818672 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 12, "visibility_pct": 8.3333333333333321 }, "geometry": { "type": "Point", "coordinates": [ -1.335118805200529, 53.913665660258438 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.334831465136145, 53.912585528540269 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 10, "visibility_pct": 10.0 }, "geometry": { "type": "Point", "coordinates": [ -1.334828612665954, 53.912765269997529 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 12, "visibility_pct": 8.3333333333333321 }, "geometry": { "type": "Point", "coordinates": [ -1.334825760164519, 53.912945011449303 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 13, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.334822907631841, 53.913124752895548 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.334527017691236, 53.912583844859732 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 10, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.334524163908259, 53.912763586305736 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 9, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.334222570277538, 53.912582160407339 ] } }
+]
+}

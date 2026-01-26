@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Scarth_Gardens_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.60395089635534, 53.748939339029533 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.603654375826021, 53.748219303334984 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.603652686828459, 53.748399062116277 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.603647619726357, 53.748938338427124 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.603351104332166, 53.748218302011097 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.603349414055393, 53.748398060780907 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.603347723760369, 53.74857781954524 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.603344343115571, 53.748937337057406 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.603047832856521, 53.748217299919887 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.603046141300536, 53.748397058678236 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.603044449726287, 53.748576817431108 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.603042758133773, 53.748756576178465 ] } }
+]
+}

@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Albert_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8662384, 53.7077694 ], [ -1.8662874, 53.7076344 ], [ -1.8660286, 53.7076015 ], [ -1.8659796, 53.7077365 ], [ -1.8662384, 53.7077694 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8711366, 53.7104183 ], [ -1.8719824, 53.7104439 ], [ -1.8719075, 53.7113086 ], [ -1.871062, 53.711283 ], [ -1.8711366, 53.7104183 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8719153, 53.7113307 ], [ -1.8710629, 53.7113067 ], [ -1.8709934, 53.712169 ], [ -1.871846, 53.712193 ], [ -1.8719153, 53.7113307 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8668175, 53.70793 ], [ -1.8667343, 53.7081308 ], [ -1.8665841, 53.7081895 ], [ -1.866541, 53.7082885 ], [ -1.8664514, 53.7084943 ], [ -1.8657872, 53.7084013 ], [ -1.8656185, 53.7083777 ], [ -1.8658572, 53.7077902 ], [ -1.8668175, 53.70793 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Point", "coordinates": [ -1.8669811, 53.7090453 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Monument" }, "geometry": { "type": "Point", "coordinates": [ -1.8708265, 53.7123046 ] } }
+]
+}

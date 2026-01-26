@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Hob_Royd_Shrogg_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.651102, 53.5866386 ], [ -1.6508232, 53.5867094 ], [ -1.65073, 53.5865799 ], [ -1.6510088, 53.5865091 ], [ -1.651102, 53.5866386 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6508114, 53.5864281 ], [ -1.650054, 53.5853398 ], [ -1.6488294, 53.5856507 ], [ -1.6495585, 53.5867264 ], [ -1.6508114, 53.5864281 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6506905, 53.5865976 ], [ -1.6507766, 53.5867182 ], [ -1.6504476, 53.5868009 ], [ -1.6503616, 53.5866802 ], [ -1.6506905, 53.5865976 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6492008, 53.5853589 ], [ -1.6488395, 53.5854503 ], [ -1.6489382, 53.5855877 ], [ -1.6492995, 53.5854964 ], [ -1.6492008, 53.5853589 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6495375, 53.5870289 ], [ -1.649737, 53.5869785 ], [ -1.6496003, 53.586803 ], [ -1.649458, 53.5867471 ], [ -1.6491994, 53.5867931 ], [ -1.6495375, 53.5870289 ] ] ] } }
+]
+}

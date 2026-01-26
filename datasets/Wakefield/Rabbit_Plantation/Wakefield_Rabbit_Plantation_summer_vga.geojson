@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Rabbit_Plantation_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 2, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.570887406563173, 53.625537662057653 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 2, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.570885585167122, 53.625717419946007 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 2, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.570585018096639, 53.62553658200337 ] } }
+]
+}

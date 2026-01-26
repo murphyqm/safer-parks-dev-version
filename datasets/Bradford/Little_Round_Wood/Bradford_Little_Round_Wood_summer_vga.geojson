@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Little_Round_Wood_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 5, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.881061742758853, 53.960529730741719 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 5, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.881061234390703, 53.960709484327595 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 5, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.881060726016952, 53.96088923790807 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 5, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.880756927772652, 53.960529430127053 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 5, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.880756418104722, 53.960709183711593 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 5, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.880755908431175, 53.960888937290768 ] } }
+]
+}

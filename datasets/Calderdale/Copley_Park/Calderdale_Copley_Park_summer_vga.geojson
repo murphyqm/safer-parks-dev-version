@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Copley_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 5, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.868675903171941, 53.699610156058178 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 5, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.868675348355322, 53.699789918898425 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 5, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.868674793532523, 53.699969681733187 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 5, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.868372979208493, 53.699609824407474 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 5, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.868372423087444, 53.699789587232139 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 5, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.868069497726541, 53.699789254807357 ] } }
+]
+}

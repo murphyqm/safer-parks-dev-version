@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Nursery_Wood_OSM_trees",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.5295967, 53.8968506 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.5300205, 53.8967731 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.5302593, 53.8968869 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree" }, "geometry": { "type": "Point", "coordinates": [ -1.5300715, 53.8969881 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.5322807, 53.9036118 ], [ -1.532203, 53.9037304 ], [ -1.5317363, 53.9045299 ], [ -1.5316504, 53.9047417 ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Tree Row" }, "geometry": { "type": "LineString", "coordinates": [ [ -1.5314385, 53.904827 ], [ -1.5314359, 53.9046927 ], [ -1.5320233, 53.9036735 ], [ -1.5320635, 53.9035692 ], [ -1.5320769, 53.9034412 ], [ -1.532093, 53.9033416 ] ] } }
+]
+}

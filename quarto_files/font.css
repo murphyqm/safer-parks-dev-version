@@ -1,0 +1,23 @@
+/*-- scss:defaults --*/
+
+@font-face {
+  font-family: 'Patrick Hand';
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url('fonts/fonts/patrick-hand-v25-latin-regular.eot'); /* IE9 Compat Modes */
+  src: local(''), local(''),
+       url('fonts/fonts/patrick-hand-v25-latin-regular.eot') format('embedded-opentype'), /* IE6-IE8 */
+       url('fonts/fonts/patrick-hand-v25-latin-regular.woff2') format('woff2'), /* Super Modern Browsers */
+       url('fonts/fonts/patrick-hand-v25-latin-regular.woff') format('woff'), /* Modern Browsers */
+       url('fonts/fonts/patrick-hand-v25-latin-regular.ttf') format('truetype'), /* Safari, Android, iOS */
+       url('fonts/fonts/patrick-hand-v25-latin-regular.svg') format('svg'); /* Legacy iOS */
+}
+
+h1, h2, h3, h4, span.navbar-title, span.menu-text {
+  font-family: 'Patrick Hand', sans-serif;
+}
+
+p.subtitle.lead {
+  font-family: 'Patrick Hand', sans-serif;
+}

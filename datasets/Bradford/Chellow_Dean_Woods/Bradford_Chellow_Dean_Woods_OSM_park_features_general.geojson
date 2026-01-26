@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Chellow_Dean_Woods_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8116779, 53.8146127 ], [ -1.8111121, 53.8145727 ], [ -1.8111205, 53.8145311 ], [ -1.8111356, 53.814457 ], [ -1.8117014, 53.814497 ], [ -1.8116779, 53.8146127 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8146375, 53.8163611 ], [ -1.8139318, 53.8163174 ], [ -1.8139866, 53.8160088 ], [ -1.8146923, 53.8160525 ], [ -1.8146375, 53.8163611 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8130801, 53.8017352 ], [ -1.8135884, 53.8017382 ], [ -1.8136058, 53.8018873 ], [ -1.8134074, 53.8020679 ], [ -1.8130785, 53.8020734 ], [ -1.8130801, 53.8017352 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8347582, 53.8139614 ], [ -1.8346939, 53.8139461 ], [ -1.8343401, 53.8138619 ], [ -1.8344611, 53.8136845 ], [ -1.8348792, 53.813784 ], [ -1.8347582, 53.8139614 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8130776, 53.8013387 ], [ -1.8130715, 53.801011 ], [ -1.8125165, 53.8010026 ], [ -1.8125023, 53.8013339 ], [ -1.8130776, 53.8013387 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8116698, 53.8154351 ], [ -1.8108815, 53.8153943 ], [ -1.8109867, 53.8146864 ], [ -1.811775, 53.8147272 ], [ -1.8116698, 53.8154351 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8103478, 53.8143182 ], [ -1.8094944, 53.8142618 ], [ -1.8096506, 53.8134387 ], [ -1.8105039, 53.8134952 ], [ -1.8103478, 53.8143182 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8150148, 53.8163684 ], [ -1.8147017, 53.8163431 ], [ -1.8147661, 53.8160658 ], [ -1.8150791, 53.8160912 ], [ -1.8150148, 53.8163684 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8131381, 53.8013348 ], [ -1.8137088, 53.8013266 ], [ -1.8136849, 53.8010035 ], [ -1.8131116, 53.8010068 ], [ -1.8131381, 53.8013348 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8345538, 53.8151624 ], [ -1.8343339, 53.8151814 ], [ -1.8338994, 53.8151213 ], [ -1.833438, 53.8148901 ], [ -1.8332288, 53.8147254 ], [ -1.8332288, 53.8145702 ], [ -1.8333737, 53.8144023 ], [ -1.8336848, 53.8142851 ], [ -1.8342212, 53.8142693 ], [ -1.8345216, 53.8143485 ], [ -1.8348489, 53.814548 ], [ -1.8349293, 53.8147634 ], [ -1.8348542, 53.8149724 ], [ -1.8346665, 53.8151086 ], [ -1.8345538, 53.8151624 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8151438, 53.8167509 ], [ -1.8147308, 53.8167414 ], [ -1.8147415, 53.8164152 ], [ -1.8151438, 53.8164183 ], [ -1.8151438, 53.8167509 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8338617, 53.8137355 ], [ -1.833711, 53.8137646 ], [ -1.8338051, 53.8139346 ], [ -1.8339559, 53.8139054 ], [ -1.8338617, 53.8137355 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8338367, 53.8141335 ], [ -1.8338874, 53.8142214 ], [ -1.8341086, 53.814177 ], [ -1.8340579, 53.814089 ], [ -1.8338367, 53.8141335 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.814598, 53.8021527 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8153584, 53.8160288 ], [ -1.8153691, 53.8159211 ], [ -1.8152833, 53.8159243 ], [ -1.8152822, 53.8160356 ], [ -1.8153584, 53.8160288 ] ] ] } }
+]
+}

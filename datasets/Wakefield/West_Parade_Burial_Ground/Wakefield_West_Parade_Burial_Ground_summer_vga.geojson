@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_West_Parade_Burial_Ground_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 5, "visibility_pct": 60.0 }, "geometry": { "type": "Point", "coordinates": [ -1.495705011919415, 53.679542361688476 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 5, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.495702869538458, 53.679722117243649 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 5, "visibility_pct": 60.0 }, "geometry": { "type": "Point", "coordinates": [ -1.495700727134167, 53.679901872793444 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 5, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.49540223698014, 53.679541084698528 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 5, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.49540009330845, 53.679720840251441 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 5, "visibility_pct": 60.0 }, "geometry": { "type": "Point", "coordinates": [ -1.495397949613413, 53.679900595798955 ] } }
+]
+}

@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Thorp_Plantation_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Thorp Plantation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.2653703, 53.6397264 ], [ -1.2650989, 53.6356689 ], [ -1.2662636, 53.6333452 ], [ -1.2749834, 53.637845 ], [ -1.2830898, 53.6384783 ], [ -1.2836463, 53.6395533 ], [ -1.2831464, 53.6404582 ], [ -1.2817528, 53.6412992 ], [ -1.2638987, 53.6493344 ], [ -1.2637458, 53.6493435 ], [ -1.266392269891534, 53.639839190531568 ], [ -1.2653703, 53.6397264 ] ] ] } }
+]
+}

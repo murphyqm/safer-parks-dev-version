@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Sugar_Hills_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Sugar Hills" }, "geometry": { "type": "MultiPolygon", "coordinates": [ [ [ [ -1.5239453, 53.876005300000017 ], [ -1.515088, 53.8771594 ], [ -1.5099335, 53.8764386 ], [ -1.5167745, 53.8725412 ], [ -1.5239453, 53.876005300000017 ] ] ], [ [ [ -1.5113534, 53.8918325 ], [ -1.497966, 53.8807819 ], [ -1.5099335, 53.8764386 ], [ -1.5113534, 53.8918325 ] ] ] ] } }
+]
+}

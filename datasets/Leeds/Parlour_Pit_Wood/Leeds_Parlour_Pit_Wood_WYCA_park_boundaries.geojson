@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Parlour_Pit_Wood_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Parlour Pit Wood", "Primary Name": "Parlour Pit Wood", "Park Segment Name": "Parlour Pit Wood" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3783659, 53.7429817 ], [ -1.3781941, 53.7427722 ], [ -1.378152400000015, 53.742533099999989 ], [ -1.37853740000001, 53.742359699999973 ], [ -1.379075, 53.742247499999984 ], [ -1.379213300000012, 53.742677 ], [ -1.3791276, 53.743000700000017 ], [ -1.3783659, 53.7429817 ] ] ] } }
+]
+}

@@ -1,0 +1,25 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Newsome_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 15, "total_points": 15, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.78184201523623, 53.627110143365009 ] } },
+{ "type": "Feature", "properties": { "visible_points": 13, "total_points": 13, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.781841091845513, 53.627289905302945 ] } },
+{ "type": "Feature", "properties": { "visible_points": 15, "total_points": 15, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.781539614300414, 53.627109594497952 ] } },
+{ "type": "Feature", "properties": { "visible_points": 13, "total_points": 13, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.781538689623879, 53.627289356429884 ] } },
+{ "type": "Feature", "properties": { "visible_points": 11, "total_points": 12, "visibility_pct": 91.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.781537764937233, 53.627469118356387 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 7, "visibility_pct": 28.571428571428569 }, "geometry": { "type": "Point", "coordinates": [ -1.781241843034581, 53.626210235155654 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 11, "visibility_pct": 36.363636363636367 }, "geometry": { "type": "Point", "coordinates": [ -1.781240917122845, 53.626389997108781 ] } },
+{ "type": "Feature", "properties": { "visible_points": 16, "total_points": 16, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.781237213374665, 53.627109044866899 ] } },
+{ "type": "Feature", "properties": { "visible_points": 13, "total_points": 14, "visibility_pct": 92.857142857142861 }, "geometry": { "type": "Point", "coordinates": [ -1.781236287412311, 53.627288806792841 ] } },
+{ "type": "Feature", "properties": { "visible_points": 11, "total_points": 12, "visibility_pct": 91.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.781235361439833, 53.627468568713319 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.780939448547796, 53.626209684790616 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 11, "visibility_pct": 72.727272727272734 }, "geometry": { "type": "Point", "coordinates": [ -1.780938521350311, 53.626389446737754 ] } },
+{ "type": "Feature", "properties": { "visible_points": 12, "total_points": 15, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.780937594142688, 53.626569208679427 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 17, "visibility_pct": 82.35294117647058 }, "geometry": { "type": "Point", "coordinates": [ -1.780936666924929, 53.626748970615672 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 17, "visibility_pct": 82.35294117647058 }, "geometry": { "type": "Point", "coordinates": [ -1.780935739697032, 53.626928732546475 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 16, "visibility_pct": 87.5 }, "geometry": { "type": "Point", "coordinates": [ -1.780934812458997, 53.627108494471841 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 14, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.780933885210824, 53.627288256391772 ] } },
+{ "type": "Feature", "properties": { "visible_points": 11, "total_points": 13, "visibility_pct": 84.615384615384613 }, "geometry": { "type": "Point", "coordinates": [ -1.780932957952514, 53.627468018306253 ] } }
+]
+}

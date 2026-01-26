@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_The_Coppice_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Point", "coordinates": [ -1.8643239, 53.8459821 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.8705632, 53.8478535 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.8677937, 53.8458726 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8583109, 53.8468747 ], [ -1.8577843, 53.8468074 ], [ -1.8577375, 53.8468971 ], [ -1.8578838, 53.8469714 ], [ -1.8581968, 53.8470197 ], [ -1.8583109, 53.8468747 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.8610702, 53.8470448 ], [ -1.8611226, 53.8470901 ], [ -1.8611642, 53.8471486 ], [ -1.8611997, 53.8472562 ], [ -1.8610763, 53.8472823 ], [ -1.8610522, 53.8472673 ], [ -1.8608906, 53.8472879 ], [ -1.8608423, 53.8472522 ], [ -1.8607672, 53.8472756 ], [ -1.860684, 53.8472079 ], [ -1.8607658, 53.8471597 ], [ -1.860786, 53.8471826 ], [ -1.8608356, 53.8471559 ], [ -1.8610702, 53.8470448 ] ] ] } }
+]
+}

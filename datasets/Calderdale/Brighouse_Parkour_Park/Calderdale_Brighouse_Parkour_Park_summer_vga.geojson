@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Brighouse_Parkour_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 4, "visibility_pct": 75.0 }, "geometry": { "type": "Point", "coordinates": [ -1.799703135444193, 53.69076997508423 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.799702289267232, 53.690949738199066 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.799400275091579, 53.690769470172199 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 4, "visibility_pct": 75.0 }, "geometry": { "type": "Point", "coordinates": [ -1.799399427622906, 53.6909492332883 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.799097414748236, 53.690768964494339 ] } }
+]
+}

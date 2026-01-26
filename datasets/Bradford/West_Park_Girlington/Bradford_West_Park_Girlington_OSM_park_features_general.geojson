@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_West_Park_Girlington_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7927155, 53.8008853 ], [ -1.7926706, 53.8007556 ], [ -1.7922499, 53.8008064 ], [ -1.7922948, 53.8009361 ], [ -1.792686, 53.8008889 ], [ -1.7927155, 53.8008853 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7919731, 53.8004153 ], [ -1.7921843, 53.8001286 ], [ -1.7916875, 53.8000009 ], [ -1.7914763, 53.8002876 ], [ -1.7919731, 53.8004153 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7913616, 53.8002597 ], [ -1.7915728, 53.799973 ], [ -1.791076, 53.7998453 ], [ -1.7908648, 53.800132 ], [ -1.7913616, 53.8002597 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7926878, 53.8009381 ], [ -1.7923995, 53.8009706 ], [ -1.7924766, 53.8012357 ], [ -1.792775, 53.8011996 ], [ -1.7926878, 53.8009381 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7922752, 53.8013022 ], [ -1.7913603, 53.8014123 ], [ -1.7911063, 53.8006887 ], [ -1.7920434, 53.8005753 ], [ -1.7922752, 53.8013022 ] ] ] } }
+]
+}

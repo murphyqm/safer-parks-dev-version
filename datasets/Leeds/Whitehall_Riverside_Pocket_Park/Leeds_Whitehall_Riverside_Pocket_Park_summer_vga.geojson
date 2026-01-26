@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Whitehall_Riverside_Pocket_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 2, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.55854261500834, 53.79336657201344 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 2, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.558240916931518, 53.793185700683892 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 3, "visibility_pct": 33.333333333333329 }, "geometry": { "type": "Point", "coordinates": [ -1.557939221409924, 53.793004828604545 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 5, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.556421311261014, 53.79299922836028 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 4, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.556117729292234, 53.792998106005811 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 4, "visibility_pct": 25.0 }, "geometry": { "type": "Point", "coordinates": [ -1.555812250553729, 53.793176737121669 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 4, "visibility_pct": 25.0 }, "geometry": { "type": "Point", "coordinates": [ -1.555508667348072, 53.793175613217947 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 4, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.555506769259924, 53.793355367439126 ] } }
+]
+}

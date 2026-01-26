@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Knott_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -2.031053, 53.7408029 ], [ -2.0313611, 53.7410567 ], [ -2.0309364, 53.7412553 ], [ -2.0306038, 53.7409938 ], [ -2.031053, 53.7408029 ] ] ] } }
+]
+}

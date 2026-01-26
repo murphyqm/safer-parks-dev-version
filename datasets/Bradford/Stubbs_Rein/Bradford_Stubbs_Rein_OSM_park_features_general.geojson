@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Stubbs_Rein_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6995389, 53.7913699 ], [ -1.6994242, 53.7911199 ], [ -1.6988824, 53.791127 ], [ -1.6989062, 53.7915194 ], [ -1.6995389, 53.7913699 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6995443, 53.7904755 ], [ -1.6989918, 53.7904866 ], [ -1.6989515, 53.7901443 ], [ -1.699008, 53.7901438 ], [ -1.6995202, 53.7901396 ], [ -1.6995443, 53.7904755 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6992672, 53.7898656 ], [ -1.6990407, 53.7898835 ], [ -1.6989777, 53.7895801 ], [ -1.6992065, 53.7895621 ], [ -1.6992672, 53.7898656 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6992672, 53.7898656 ], [ -1.6992065, 53.7895621 ], [ -1.69944, 53.7895415 ], [ -1.699496, 53.7898504 ], [ -1.6992672, 53.7898656 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7004109, 53.7889604 ], [ -1.7003049, 53.7890955 ], [ -1.6998411, 53.7892075 ], [ -1.6987918, 53.7894373 ], [ -1.6986353, 53.7891606 ], [ -1.6984208, 53.7889067 ], [ -1.6983983, 53.7888386 ], [ -1.6984094, 53.7887809 ], [ -1.6984791, 53.7887463 ], [ -1.6998431, 53.7883626 ], [ -1.6999426, 53.7883346 ], [ -1.7000485, 53.7883231 ], [ -1.7001349, 53.7883412 ], [ -1.7001879, 53.7884104 ], [ -1.7002966, 53.7885734 ], [ -1.7003886, 53.7888468 ], [ -1.7004109, 53.7889604 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Fitness Station" }, "geometry": { "type": "Point", "coordinates": [ -1.6995374, 53.7893256 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Fitness Station" }, "geometry": { "type": "Point", "coordinates": [ -1.6987487, 53.7892691 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Fitness Station" }, "geometry": { "type": "Point", "coordinates": [ -1.7003342, 53.7887443 ] } }
+]
+}

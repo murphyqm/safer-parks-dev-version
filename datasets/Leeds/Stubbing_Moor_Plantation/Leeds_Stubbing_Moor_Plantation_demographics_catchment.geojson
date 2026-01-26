@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Stubbing_Moor_Plantation_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Stubbing Moor Plantation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.410393219510976, 53.878816146742786 ], [ -1.4226741, 53.8796586 ], [ -1.4242922, 53.8811491 ], [ -1.4116183, 53.883789299999989 ], [ -1.3985778, 53.8794327 ], [ -1.3960719, 53.8752519 ], [ -1.4028798, 53.8737598 ], [ -1.410393219510976, 53.878816146742786 ] ] ] } }
+]
+}

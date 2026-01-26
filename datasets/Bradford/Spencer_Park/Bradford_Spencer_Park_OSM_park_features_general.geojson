@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Spencer_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7717954, 53.7834471 ], [ -1.7715419, 53.7832883 ], [ -1.7716513, 53.7832273 ], [ -1.7718104, 53.7831386 ], [ -1.772064, 53.7832974 ], [ -1.7717954, 53.7834471 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7809304, 53.7879112 ], [ -1.7808574, 53.7879054 ], [ -1.780656, 53.7878893 ], [ -1.7806495, 53.7879132 ], [ -1.7806177, 53.7880231 ], [ -1.7808922, 53.7880486 ], [ -1.7809304, 53.7879112 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7759152, 53.7815915 ], [ -1.7756748, 53.7817618 ], [ -1.7753192, 53.7815665 ], [ -1.7754766, 53.7814556 ], [ -1.7755496, 53.7813968 ], [ -1.7759152, 53.7815915 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7920057, 53.7869293 ], [ -1.7914307, 53.7865135 ], [ -1.7924863, 53.7860039 ], [ -1.7930613, 53.7864197 ], [ -1.7920057, 53.7869293 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7719343, 53.7830522 ], [ -1.7723285, 53.7828224 ], [ -1.7720255, 53.7826449 ], [ -1.7718618, 53.7826909 ], [ -1.7717385, 53.7827527 ], [ -1.7716499, 53.7828113 ], [ -1.7716231, 53.782862 ], [ -1.7719343, 53.7830522 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7733924, 53.7832212 ], [ -1.7728572, 53.7832264 ], [ -1.7728486, 53.7829127 ], [ -1.7733837, 53.7829075 ], [ -1.7733924, 53.7832212 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7723607, 53.7833082 ], [ -1.7719719, 53.7830744 ], [ -1.7723473, 53.7828564 ], [ -1.7727361, 53.7830902 ], [ -1.7723607, 53.7833082 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7820177, 53.7874223 ], [ -1.7826458, 53.787123 ], [ -1.782508, 53.7869974 ], [ -1.7824592, 53.78702 ], [ -1.7818612, 53.7873257 ], [ -1.7820177, 53.7874223 ] ] ] } }
+]
+}

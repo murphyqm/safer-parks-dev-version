@@ -1,0 +1,16 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Sovereign_Square_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.545521576638514, 53.793917152884006 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.545519635919245, 53.794096906604842 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.545219918782285, 53.793736248505326 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.544918263528881, 53.79355534338427 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.544916320249156, 53.793735097084543 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.544614666318361, 53.793554191210816 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.544612721737212, 53.793733944895251 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.544610777134824, 53.79391369857413 ] } },
+{ "type": "Feature", "properties": { "visible_points": 8, "total_points": 8, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.544309123246467, 53.793732791937444 ] } }
+]
+}

@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Lower_Kirkstall_Wood_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 4, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.903383563590825, 53.855233130004649 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 4, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.903079099134018, 53.855412645898198 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 4, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.902775045415759, 53.855412403048788 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 4, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.902774632109992, 53.855592161013838 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 4, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.902470577112638, 53.85559191739295 ] } }
+]
+}

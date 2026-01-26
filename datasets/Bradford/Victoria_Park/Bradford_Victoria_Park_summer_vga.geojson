@@ -1,0 +1,26 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Victoria_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 12, "total_points": 15, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.750318550199274, 53.914897482164776 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 15, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.750317480768439, 53.915077236953508 ] } },
+{ "type": "Feature", "properties": { "visible_points": 13, "total_points": 17, "visibility_pct": 76.470588235294116 }, "geometry": { "type": "Point", "coordinates": [ -1.75001514404899, 53.914717095161684 ] } },
+{ "type": "Feature", "properties": { "visible_points": 13, "total_points": 16, "visibility_pct": 81.25 }, "geometry": { "type": "Point", "coordinates": [ -1.750014073286915, 53.914896849956584 ] } },
+{ "type": "Feature", "properties": { "visible_points": 12, "total_points": 18, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.749711740585104, 53.91453670737959 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 18, "visibility_pct": 77.777777777777786 }, "geometry": { "type": "Point", "coordinates": [ -1.749710668491817, 53.914716462180621 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 18, "visibility_pct": 77.777777777777786 }, "geometry": { "type": "Point", "coordinates": [ -1.749709596386516, 53.914896216976274 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 18, "visibility_pct": 77.777777777777786 }, "geometry": { "type": "Point", "coordinates": [ -1.749708524269199, 53.915075971766555 ] } },
+{ "type": "Feature", "properties": { "visible_points": 12, "total_points": 18, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.749407266383117, 53.914536073625648 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 18, "visibility_pct": 77.777777777777786 }, "geometry": { "type": "Point", "coordinates": [ -1.749406192946619, 53.914715828427461 ] } },
+{ "type": "Feature", "properties": { "visible_points": 13, "total_points": 18, "visibility_pct": 72.222222222222214 }, "geometry": { "type": "Point", "coordinates": [ -1.749405119498092, 53.914895583223895 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.749404046037535, 53.915075338014937 ] } },
+{ "type": "Feature", "properties": { "visible_points": 13, "total_points": 18, "visibility_pct": 72.222222222222214 }, "geometry": { "type": "Point", "coordinates": [ -1.749102792193119, 53.914535439099645 ] } },
+{ "type": "Feature", "properties": { "visible_points": 14, "total_points": 18, "visibility_pct": 77.777777777777786 }, "geometry": { "type": "Point", "coordinates": [ -1.74910171741341, 53.914715193902211 ] } },
+{ "type": "Feature", "properties": { "visible_points": 12, "total_points": 18, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.749100642621657, 53.914894948699398 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 18, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.74909956781786, 53.9150747034912 ] } },
+{ "type": "Feature", "properties": { "visible_points": 9, "total_points": 16, "visibility_pct": 56.25 }, "geometry": { "type": "Point", "coordinates": [ -1.748797241892205, 53.914714558604857 ] } },
+{ "type": "Feature", "properties": { "visible_points": 6, "total_points": 14, "visibility_pct": 42.857142857142854 }, "geometry": { "type": "Point", "coordinates": [ -1.748493843849149, 53.91453416773134 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 15, "visibility_pct": 6.666666666666667 }, "geometry": { "type": "Point", "coordinates": [ -1.748492766383019, 53.914713922535412 ] } }
+]
+}

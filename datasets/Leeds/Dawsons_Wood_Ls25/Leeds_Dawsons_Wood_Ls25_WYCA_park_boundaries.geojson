@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Dawsons_Wood_Ls25_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Dawson's Wood, LS25", "Primary Name": "Dawson's Wood", "Park Segment Name": "Dawson's Wood" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3355203, 53.8143953 ], [ -1.3354291, 53.8139677 ], [ -1.3348981, 53.813970900000037 ], [ -1.3332667, 53.8140141 ], [ -1.3331595, 53.8140648 ], [ -1.3332238, 53.8154963 ], [ -1.333337, 53.8155925 ], [ -1.3345494, 53.815687499999989 ], [ -1.3350375, 53.8156811 ], [ -1.3356974, 53.8155798 ], [ -1.3357349, 53.815532300000015 ], [ -1.3355203, 53.8143953 ] ] ] } }
+]
+}

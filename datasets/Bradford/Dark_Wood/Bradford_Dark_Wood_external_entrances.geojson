@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Dark_Wood_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Dark Wood", "Park Segment Name": "Dark Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.899291352856592, 53.941913196746945 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Dark Wood", "Park Segment Name": "Dark Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.899713073795487, 53.941980702794659 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Dark Wood", "Park Segment Name": "Dark Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.900279257864715, 53.941270651558447 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Dark Wood", "Park Segment Name": "Dark Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.899970005121848, 53.941684088424594 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Dark Wood", "Park Segment Name": "Dark Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.900234576016223, 53.941358707045481 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Dark Wood", "Park Segment Name": "Dark Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.899818100065904, 53.941916374870779 ] } }
+]
+}

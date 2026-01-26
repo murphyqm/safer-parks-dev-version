@@ -1,0 +1,24 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Vale_Head_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3588423, 53.6223405 ], [ -1.3595617, 53.6222181 ], [ -1.3599926, 53.6220271 ], [ -1.3602601, 53.6216809 ], [ -1.360105, 53.6215049 ], [ -1.3597179, 53.6213138 ], [ -1.3587962, 53.6221308 ], [ -1.3587571, 53.6223067 ], [ -1.3588423, 53.6223405 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3551449, 53.6175493 ], [ -1.3539251, 53.6178967 ], [ -1.3535434, 53.6174251 ], [ -1.3547632, 53.6170777 ], [ -1.3551449, 53.6175493 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3547052, 53.6170129 ], [ -1.353495, 53.6173718 ], [ -1.3531019, 53.6169054 ], [ -1.3543121, 53.6165465 ], [ -1.3547052, 53.6170129 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3542632, 53.616476 ], [ -1.3530544, 53.6168401 ], [ -1.3526576, 53.6163765 ], [ -1.3538664, 53.6160124 ], [ -1.3542632, 53.616476 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3525915, 53.6169301 ], [ -1.3519864, 53.6171107 ], [ -1.3518044, 53.6168962 ], [ -1.3524095, 53.6167155 ], [ -1.3525915, 53.6169301 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3515009, 53.6181554 ], [ -1.3511481, 53.6176577 ], [ -1.3505729, 53.6178012 ], [ -1.3509257, 53.6182989 ], [ -1.3515009, 53.6181554 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3505024, 53.6181477 ], [ -1.3503679, 53.617724 ], [ -1.3499211, 53.6177739 ], [ -1.3500556, 53.6181976 ], [ -1.3505024, 53.6181477 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3513464, 53.6173363 ], [ -1.3517807, 53.6171916 ], [ -1.3515194, 53.6169156 ], [ -1.351085, 53.6170603 ], [ -1.3513464, 53.6173363 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3518334, 53.6167227 ], [ -1.351102, 53.6159268 ], [ -1.3502908, 53.6161891 ], [ -1.3510221, 53.616985 ], [ -1.3518334, 53.6167227 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3519996, 53.6180965 ], [ -1.3533679, 53.6177405 ], [ -1.35301, 53.6172565 ], [ -1.3516417, 53.6176126 ], [ -1.3519996, 53.6180965 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3607431, 53.6210151 ], [ -1.3604266, 53.6207399 ], [ -1.3608879, 53.6205585 ], [ -1.3611937, 53.6208338 ], [ -1.3607431, 53.6210151 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3616443, 53.6212792 ], [ -1.3612849, 53.6210278 ], [ -1.3617462, 53.6208019 ], [ -1.3620815, 53.6210612 ], [ -1.3616443, 53.6212792 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3603229, 53.6205179 ], [ -1.3605488, 53.6203443 ], [ -1.3603693, 53.6202642 ], [ -1.3601495, 53.6204399 ], [ -1.3603229, 53.6205179 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3601495, 53.6204399 ], [ -1.3603693, 53.6202642 ], [ -1.3602006, 53.6201926 ], [ -1.3599871, 53.6203684 ], [ -1.3601495, 53.6204399 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3599871, 53.6203684 ], [ -1.3602006, 53.6201926 ], [ -1.3600231, 53.6201176 ], [ -1.3598093, 53.6202892 ], [ -1.3599871, 53.6203684 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3598093, 53.6202892 ], [ -1.3600231, 53.6201176 ], [ -1.3598516, 53.6200459 ], [ -1.3596452, 53.620214 ], [ -1.3598093, 53.6202892 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Golf Course" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.360234, 53.6214064 ], [ -1.3605197, 53.6212084 ], [ -1.3600449, 53.6210334 ], [ -1.3597432, 53.6212513 ], [ -1.3598867, 53.6213364 ], [ -1.360234, 53.6214064 ] ] ] } }
+]
+}

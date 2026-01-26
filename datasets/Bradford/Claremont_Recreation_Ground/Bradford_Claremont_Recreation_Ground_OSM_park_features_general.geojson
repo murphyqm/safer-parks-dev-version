@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Claremont_Recreation_Ground_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7497181, 53.8264706 ], [ -1.7498244, 53.8260898 ], [ -1.7497987, 53.8259968 ], [ -1.7492892, 53.8260747 ], [ -1.7497181, 53.8264706 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7498516, 53.8257609 ], [ -1.7490705, 53.8260052 ], [ -1.7484225, 53.8252834 ], [ -1.7492036, 53.8250391 ], [ -1.7498516, 53.8257609 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7286741, 53.8300073 ], [ -1.7281476, 53.8302256 ], [ -1.7275629, 53.8297345 ], [ -1.7280894, 53.8295162 ], [ -1.7286741, 53.8300073 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7416756, 53.8276397 ], [ -1.7416447, 53.8276305 ], [ -1.7415403, 53.8273774 ], [ -1.7417065, 53.8273067 ], [ -1.7415481, 53.8271197 ], [ -1.7419461, 53.82722 ], [ -1.7416756, 53.8276397 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Cricket" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7289082, 53.8313631 ], [ -1.7298176, 53.8309819 ], [ -1.7299225, 53.8309375 ], [ -1.7303899, 53.8307361 ], [ -1.729925, 53.8303417 ], [ -1.7293928, 53.8299451 ], [ -1.7289305, 53.8300702 ], [ -1.7284546, 53.8302408 ], [ -1.7278769, 53.8304256 ], [ -1.728378, 53.8309576 ], [ -1.7287271, 53.83133 ], [ -1.7289082, 53.8313631 ] ] ] } }
+]
+}

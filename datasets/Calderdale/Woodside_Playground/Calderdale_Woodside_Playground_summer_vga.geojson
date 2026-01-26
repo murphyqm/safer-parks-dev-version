@@ -1,0 +1,11 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Woodside_Playground_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.864162756190874, 53.730448097608772 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 3, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.864162180222335, 53.730627857688184 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 3, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.863859609898226, 53.730447753846171 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 3, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.86385903263397, 53.730627513924098 ] } }
+]
+}

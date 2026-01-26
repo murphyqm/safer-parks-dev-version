@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Old_Pickhill_Rash_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Old Pickhill Rash" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3985373, 53.8824089 ], [ -1.392991955606731, 53.885647818586669 ], [ -1.3897482, 53.889257 ], [ -1.3830597, 53.8898009 ], [ -1.381619422491269, 53.88310978034152 ], [ -1.3741438, 53.8797142 ], [ -1.3741579, 53.879285800000012 ], [ -1.3950258, 53.8778003 ], [ -1.3985778, 53.8794327 ], [ -1.3985373, 53.8824089 ] ] ] } }
+]
+}

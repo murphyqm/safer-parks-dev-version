@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_The_Lawn_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 4, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.746193213139928, 53.91259025033218 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 4, "visibility_pct": 25.0 }, "geometry": { "type": "Point", "coordinates": [ -1.746191038055993, 53.912949760061977 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 4, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.74588875356647, 53.912589607618536 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 4, "visibility_pct": 25.0 }, "geometry": { "type": "Point", "coordinates": [ -1.745887664687541, 53.912769362486848 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 4, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.745886575796416, 53.912949117349775 ] } }
+]
+}

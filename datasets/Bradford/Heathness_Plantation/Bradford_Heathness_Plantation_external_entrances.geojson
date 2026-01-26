@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Heathness_Plantation_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Heathness Plantation", "Park Segment Name": "Heathness Plantation", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.903419722836432, 53.952091482128679 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Heathness Plantation", "Park Segment Name": "Heathness Plantation", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.904043625567239, 53.953224522661039 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Heathness Plantation", "Park Segment Name": "Heathness Plantation", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.903690206982634, 53.953066260721023 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Heathness Plantation", "Park Segment Name": "Heathness Plantation", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.903970688863945, 53.95322852167574 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Heathness Plantation", "Park Segment Name": "Heathness Plantation", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.903720875415839, 53.953055822898634 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Heathness Plantation", "Park Segment Name": "Heathness Plantation", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.904247376931498, 53.95341813709922 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Heathness Plantation", "Park Segment Name": "Heathness Plantation", "source": "calculated", "highway_type": "path" }, "geometry": { "type": "Point", "coordinates": [ -1.903983629033826, 53.952460720224906 ] } }
+]
+}

@@ -1,0 +1,20 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Foxroyd_Shrogg_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 7, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.652813616740048, 53.663250972046853 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 10, "visibility_pct": 10.0 }, "geometry": { "type": "Point", "coordinates": [ -1.652510960123824, 53.66325009519651 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 10, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.652509484206118, 53.663429852302897 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.652206826322746, 53.663428974687108 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 12, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.651904168455369, 53.663428096306255 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 12, "visibility_pct": 16.666666666666664 }, "geometry": { "type": "Point", "coordinates": [ -1.651902689955355, 53.663607853406447 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 12, "visibility_pct": 41.666666666666671 }, "geometry": { "type": "Point", "coordinates": [ -1.651601510604001, 53.663427217160361 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 12, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.651600030820845, 53.663606974260126 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -1.651298850657866, 53.663426339780969 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 11, "visibility_pct": 18.181818181818183 }, "geometry": { "type": "Point", "coordinates": [ -1.651297369564071, 53.663606096902349 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 10, "visibility_pct": 30.0 }, "geometry": { "type": "Point", "coordinates": [ -1.650997672346256, 53.663245705415306 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 10, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.650996189967527, 53.66342546254846 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.650695012973336, 53.663244827411248 ] } }
+]
+}

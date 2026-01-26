@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Leeds_Lock_and_Dam_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.534297896744585, 53.793270174372317 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 5, "visibility_pct": 80.0 }, "geometry": { "type": "Point", "coordinates": [ -1.533996287697876, 53.793089242357809 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 5, "visibility_pct": 60.0 }, "geometry": { "type": "Point", "coordinates": [ -1.533994297548882, 53.793268995478336 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 6, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.533692689843441, 53.793088062718546 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 6, "visibility_pct": 50.0 }, "geometry": { "type": "Point", "coordinates": [ -1.533391084776623, 53.792907129230933 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 5, "visibility_pct": 20.0 }, "geometry": { "type": "Point", "coordinates": [ -1.532785887198471, 53.792725013117291 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 3, "visibility_pct": 66.666666666666657 }, "geometry": { "type": "Point", "coordinates": [ -1.532484288750094, 53.792544077428822 ] } }
+]
+}

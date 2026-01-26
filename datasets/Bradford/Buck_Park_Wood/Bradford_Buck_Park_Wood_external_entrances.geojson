@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Buck_Park_Wood_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Buck Park Wood", "Park Segment Name": "Buck Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.894652435120256, 53.813147596807781 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Buck Park Wood", "Park Segment Name": "Buck Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.896149805808154, 53.812584719156625 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Buck Park Wood", "Park Segment Name": "Buck Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.892576555657379, 53.813845646072046 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Buck Park Wood", "Park Segment Name": "Buck Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.892820499685428, 53.81404465725069 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Buck Park Wood", "Park Segment Name": "Buck Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.900509093435563, 53.814007944417902 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Buck Park Wood", "Park Segment Name": "Buck Park Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.8946851, 53.8141321 ] } }
+]
+}

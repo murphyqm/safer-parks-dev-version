@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Blow_Bank_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Greenwood Wood", "Park Segment Name": "Greenwood Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.852277269905553, 53.930524832764014 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Greenwood Wood", "Park Segment Name": "Greenwood Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.852390331238364, 53.930586870817784 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blow Bank", "Park Segment Name": "Blow Bank", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.851456407611201, 53.930730994067595 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blow Bank", "Park Segment Name": "Blow Bank", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.849594456850437, 53.931243782064684 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blow Bank", "Park Segment Name": "Blow Bank", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.854833445896098, 53.931388223313 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blow Bank", "Park Segment Name": "Blow Bank", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.855096218707519, 53.931571854746394 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blow Bank", "Park Segment Name": "Blow Bank", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.854291426677336, 53.931003152021816 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blow Bank", "Park Segment Name": "Blow Bank", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.854418472596132, 53.931068 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Owler Park", "Park Segment Name": "Owler Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.845992389244399, 53.936567777627317 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Owler Park", "Park Segment Name": "Owler Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.841498777586555, 53.935653721676623 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Spring Wood, LS29", "Park Segment Name": "Spring Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.848771939239352, 53.937674760344407 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Spring Wood, LS29", "Park Segment Name": "Spring Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.847873889144291, 53.937357198863481 ] } }
+]
+}

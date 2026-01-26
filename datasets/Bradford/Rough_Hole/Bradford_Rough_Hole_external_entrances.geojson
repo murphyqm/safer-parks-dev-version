@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Rough_Hole_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "A56B57CE-6571-4482-BE9E-D1E214135E6D", "access_type": "Pedestrian", "Park Name": "The Green", "Park Segment Name": "The Green", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.767702038380565, 53.902285256629213 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Rough Hole", "Park Segment Name": "Rough Hole", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.761749579919431, 53.901100691656978 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Rough Hole", "Park Segment Name": "Rough Hole", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.76088437809407, 53.901104018742274 ] } }
+]
+}

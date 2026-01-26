@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Coburnhill_Wood_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Coburnhill Wood" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.321386102819434, 53.806890070255086 ], [ -1.3255235, 53.8091033 ], [ -1.3301932, 53.8124827 ], [ -1.320096749763842, 53.816301573528101 ], [ -1.3188418, 53.8172174 ], [ -1.3073506, 53.8126537 ], [ -1.3062778, 53.8091771 ], [ -1.3221314, 53.8027817 ], [ -1.3270821, 53.8024656 ], [ -1.3263091, 53.8040521 ], [ -1.321386102819434, 53.806890070255086 ] ] ] } }
+]
+}

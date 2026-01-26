@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Spring_Wood_Ls19_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.704658, 53.864605 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7008203, 53.8652288 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.7036783, 53.8653768 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.706406, 53.8670487 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7253992, 53.860067 ], [ -1.7254793, 53.8600065 ], [ -1.725258, 53.859905 ], [ -1.7251175, 53.8598491 ], [ -1.7249801, 53.8598395 ], [ -1.7245176, 53.8598579 ], [ -1.7244619, 53.8598987 ], [ -1.7244449, 53.8600251 ], [ -1.7248127, 53.860012 ], [ -1.7253068, 53.8601116 ], [ -1.7253992, 53.860067 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7060143, 53.867696 ], [ -1.706131, 53.8676237 ], [ -1.7062563, 53.8674872 ], [ -1.7059424, 53.867362 ], [ -1.7059804, 53.8673289 ], [ -1.7057832, 53.8673241 ], [ -1.7055643, 53.8674305 ], [ -1.7051663, 53.8674632 ], [ -1.7050707, 53.8675234 ], [ -1.7053785, 53.8676443 ], [ -1.7055463, 53.8675029 ], [ -1.7060143, 53.867696 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7051245, 53.8679536 ], [ -1.7051165, 53.8679362 ], [ -1.7050092, 53.8679568 ], [ -1.7049758, 53.8679118 ], [ -1.704948, 53.867917 ], [ -1.7048489, 53.867832 ], [ -1.7049757, 53.8676629 ], [ -1.705213, 53.8677559 ], [ -1.7051724, 53.8677999 ], [ -1.7052548, 53.8678343 ], [ -1.705205, 53.8678919 ], [ -1.7052184, 53.8679504 ], [ -1.7051245, 53.8679536 ] ] ] } }
+]
+}

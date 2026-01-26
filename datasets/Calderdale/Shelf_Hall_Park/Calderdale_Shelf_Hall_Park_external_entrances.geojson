@@ -1,0 +1,22 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Shelf_Hall_Park_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "7F64EEBA-C937-4C0F-8204-D09B9AC16BFB", "access_type": "Pedestrian", "Park Name": "Blackshaw Urban Park", "Park Segment Name": "Blackshaw Urban Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.801666392791093, 53.758658700645718 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blackshaw Urban Park", "Park Segment Name": "Blackshaw Urban Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.801637232549052, 53.758641353185311 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.796748426217501, 53.753384567799479 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "unclassified" }, "geometry": { "type": "Point", "coordinates": [ -1.80157394477729, 53.754793689048185 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.796032077274768, 53.752988907995743 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.795095850937524, 53.752974318591079 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.796100151255443, 53.753368639632782 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.795078018660409, 53.753557019883289 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "unclassified" }, "geometry": { "type": "Point", "coordinates": [ -1.801389733501535, 53.755081391678544 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.795678991987469, 53.752701983469223 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.796021689600999, 53.753916079945952 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.79897486230206, 53.754672756123817 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.79430951382904, 53.753552272066415 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.794452286779223, 53.753447357105827 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Judy Woods", "Park Segment Name": "Judy Woods", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.795796521331763, 53.752650241284393 ] } }
+]
+}

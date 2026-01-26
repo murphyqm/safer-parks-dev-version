@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data & Methods | Safer Parks Dashboard</title>
+    
+    <!-- Pico CSS Framework - Jade Palette -->
+    <link rel="stylesheet" href="css/pico.jade.min.css">
+    <link rel="stylesheet" href="css/website.css">
+</head>
+<body>
+    <!-- Loading Interstitial -->
+    <div class="loading-interstitial">
+        <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="white"/>
+        </svg>
+        <p>Loading dashboard...</p>
+    </div>
+    
+    <nav class="website-nav">
+        <ul>
+            <li><strong><svg class="nav-icon" width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5c-1.38 0-2.5-1.12-2.5-2.5s1.12-2.5 2.5-2.5 2.5 1.12 2.5 2.5-1.12 2.5-2.5 2.5z" fill="white"/></svg> The Safer Parks Dashboard</strong></li>
+        </ul>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="data-methods.html" aria-current="page">Data & Methods</a></li>
+            <li><a href="dashboard.html" class="dashboard-link">Explore Dashboard</a></li>
+        </ul>
+    </nav>
+
+    <main class="container">
+        <header>
+            <h1>Data & Methods</h1>
+        </header>
+
+        <section aria-labelledby="data-sources-heading">
+            <h2 id="data-sources-heading">Data Sources</h2>
+            <p>This dashboard integrates data from multiple sources to provide comprehensive park information:</p>
+            <p>A Word Document with full details of the dashboard datasets will be provided.</p>
+        </section>
+
+   
+
+        <section aria-labelledby="technical-heading">
+            <h2 id="technical-heading">Technical Implementation</h2>
+            <p>The dashboard is built using:</p>
+            <ul>
+                <li><strong>Leaflet.js:</strong> Interactive mapping library</li>
+                <li><strong>Pico CSS:</strong> Semantic, accessible CSS framework</li>
+                <li><strong>GeoJSON:</strong> Spatial data format for park boundaries and features</li>
+            </ul>
+        </section>
+
+    </main>
+
+    <footer class="container">
+        <hr>
+        <p><small>© University of Leeds, 2025 | <a href="about.html">About</a> | <a href="data-methods.html">Data & Methods</a> | <a href="privacy.html">Privacy & Cookies</a> | <a href="https://www.leeds.ac.uk/about/doc/accessibility-statement" target="_blank" rel="noopener">Accessibility</a></small></p>
+        <p><small><a href="#" id="open_preferences_center">Update cookies preferences</a></small></p>
+    </footer>
+    
+    <script src="js/transition.js"></script>
+</body>
+<!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+<script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({"notice_banner_type":"standalone","consent_type":"express","palette":"light","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"The Safer Parks Dashboard"});
+});
+</script>
+
+<!-- Leaflet js -->
+<!-- transition.js - Handles loading interstitial for dashboard transition -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="js/transition.js"></script>
+
+<!-- Dashboard Scripts -->
+<!-- Leaflet JS - Interactive mapping library -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+
+<!-- Leaflet.heat plugin for heatmap visualization -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+
+<!-- modern-screenshot for map capture functionality -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/modern-screenshot@4.4.39/dist/index.js"></script>
+
+<!-- Custom JS - Core dashboard logic -->
+<script type="text/plain" data-cookie-consent="strictly-necessary" src="js/dashboard.js"></script>
+<!-- end of Leaflet js-->
+
+<noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+<!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+
+
+
+
+<!-- Below is the link that users can use to open Preferences Center to change their preferences. Do not modify the ID parameter. Place it where appropriate, style it as needed. -->
+
+<a href="#" id="open_preferences_center">Update cookies preferences</a>
+
+</html>

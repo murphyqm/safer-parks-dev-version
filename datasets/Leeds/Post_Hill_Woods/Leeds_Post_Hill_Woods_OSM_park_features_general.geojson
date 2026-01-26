@@ -1,0 +1,18 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Post_Hill_Woods_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6248044, 53.7872559 ], [ -1.6248822, 53.7872076 ], [ -1.6249104, 53.7871529 ], [ -1.6249077, 53.7870895 ], [ -1.6248742, 53.7870301 ], [ -1.6247964, 53.7869865 ], [ -1.6246811, 53.7869691 ], [ -1.6245818, 53.7869691 ], [ -1.6245027, 53.7869841 ], [ -1.6244625, 53.7870174 ], [ -1.6244423, 53.7870697 ], [ -1.624449, 53.7871244 ], [ -1.6245027, 53.7871442 ], [ -1.6246153, 53.7871434 ], [ -1.6246945, 53.7871735 ], [ -1.6247307, 53.7872519 ], [ -1.6248044, 53.7872559 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Track" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6401962, 53.7962312 ], [ -1.6401494, 53.7960919 ], [ -1.6400376, 53.7959927 ], [ -1.6399046, 53.7958929 ], [ -1.6397973, 53.7958771 ], [ -1.6395929, 53.7960784 ], [ -1.6395317, 53.7961386 ], [ -1.6393711, 53.7962781 ], [ -1.6393458, 53.7963688 ], [ -1.6394166, 53.7964256 ], [ -1.6394621, 53.7963649 ], [ -1.6395234, 53.7963132 ], [ -1.639584, 53.7962827 ], [ -1.639676, 53.7962323 ], [ -1.6398342, 53.7962236 ], [ -1.6399884, 53.7962753 ], [ -1.6401962, 53.7962312 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.637737, 53.7874471 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.6290638, 53.7972148 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Point", "coordinates": [ -1.6241663, 53.787354 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6292116, 53.7979426 ], [ -1.6292807, 53.7979029 ], [ -1.6295443, 53.7980382 ], [ -1.629468, 53.7980822 ], [ -1.6292116, 53.7979426 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6398918, 53.7936741 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6295334, 53.7980006 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6296698, 53.7980435 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6244759, 53.7882399 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6246207, 53.787965 ] } }
+]
+}

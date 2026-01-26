@@ -1,0 +1,32 @@
+project:
+  type: website
+  output-dir: docs
+
+website:
+  cookie-consent:
+    type: express
+    style: interstitial
+  title: "Safer Parks Geospatial Research"
+  navbar:
+    left:
+      - homepage/test_01.qmd
+      - la/test_01.qmd
+      - dev-notes/design.qmd
+
+format:
+  html:
+    include-in-header: quarto_files/header.html
+    include-before-body: quarto_files/main.html
+    theme: [cosmo, quarto_files/theme.scss]
+    css: [quarto_files/styles.css, quarto_files/font.css]
+    toc: true
+    code-fold: false
+
+execute:
+  freeze: auto
+
+# # Only render published notebooks
+# render:
+#   - "notebooks/published/*.ipynb"
+#   - "*.qmd"
+

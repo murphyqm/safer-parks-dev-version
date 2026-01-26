@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Low_Ackworth_Childrens_Playing_Ground_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Low Ackworth Childrens Playing Ground", "Primary Name": "Low Ackworth Childrens Playing Ground", "Park Segment Name": "Low Ackworth Childrens Playing Ground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.32021040000001, 53.6515819 ], [ -1.320202987714602, 53.651583338034641 ], [ -1.320199579309552, 53.651590581727383 ], [ -1.320067435353504, 53.651622911479059 ], [ -1.319932773249202, 53.651115019418931 ], [ -1.320193046424204, 53.651089620739697 ], [ -1.320198, 53.651085099999989 ], [ -1.3202093, 53.65108140000001 ], [ -1.3204152, 53.651071199999954 ], [ -1.320508, 53.651074899999983 ], [ -1.3205328, 53.6510872 ], [ -1.3205478, 53.6511084 ], [ -1.320450986617486, 53.651174430526488 ], [ -1.320365285182717, 53.651250072298275 ], [ -1.320355159753912, 53.651259932602272 ], [ -1.320215425201418, 53.651556905316468 ], [ -1.32021040000001, 53.6515819 ] ] ] } }
+]
+}

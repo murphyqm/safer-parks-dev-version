@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Ryshworth_Park_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "ACCA7BA6-B2CE-4CAF-8E25-F97D24BC06A5", "access_type": "Motor Vehicle And Pedestrian", "Park Name": "Ryshworth Park", "Park Segment Name": "Ryshworth Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.847506780582154, 53.863078659904026 ] } },
+{ "type": "Feature", "properties": { "id": "3E6174A3-004B-4707-BBFA-15DBE775BDCB", "access_type": "Pedestrian", "Park Name": "Ryshworth Park", "Park Segment Name": "Ryshworth Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.848552585127205, 53.861004754166075 ] } },
+{ "type": "Feature", "properties": { "id": "BF7D32B0-74E3-4744-8515-681410708D4D", "access_type": "Pedestrian", "Park Name": "Ryshworth Park", "Park Segment Name": "Ryshworth Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.849915589355887, 53.863176904961584 ] } },
+{ "type": "Feature", "properties": { "id": "DE6144CB-1C76-4DF7-8ED3-9CE81D08C17E", "access_type": "Pedestrian", "Park Name": "Ryshworth Park", "Park Segment Name": "Ryshworth Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.846689348021944, 53.861983909512503 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Ryshworth Park", "Park Segment Name": "Ryshworth Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.846681513848699, 53.861990457565994 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Ryshworth Park", "Park Segment Name": "Ryshworth Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.846722097857684, 53.861966899174952 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.860847800000059, 53.860416400000027 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.861043786253904, 53.860500917530686 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.855171235103847, 53.856596219794575 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.855768462399582, 53.857119429301406 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.855964930183248, 53.857244534812331 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.86211603143252, 53.860656538306806 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Hollin Plantation", "Park Segment Name": "Hollin Plantation", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.851337200000087, 53.854678100000079 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Hollin Plantation", "Park Segment Name": "Hollin Plantation", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.855171235103847, 53.856596219794575 ] } }
+]
+}

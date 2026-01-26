@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Calderdale_Sunderland_Pasture_Plantation_demographics_catchment",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Sunderland Pasture Plantation" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -2.0133278, 53.713311 ], [ -2.0130092, 53.7130195 ], [ -2.0136309, 53.7128723 ], [ -2.0256159, 53.712476 ], [ -2.0330682, 53.7088627 ], [ -2.0441389, 53.7134485 ], [ -2.0424044, 53.7143708 ], [ -2.0314637, 53.719357 ], [ -2.0300875, 53.719568700000011 ], [ -2.0221454, 53.7188564 ], [ -2.024192301710588, 53.715093238589773 ], [ -2.01817, 53.7151811 ], [ -2.0133278, 53.713311 ] ] ] } }
+]
+}

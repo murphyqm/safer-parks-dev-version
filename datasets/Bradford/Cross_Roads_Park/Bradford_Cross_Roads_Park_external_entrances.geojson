@@ -1,0 +1,17 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Cross_Roads_Park_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "7F0053D2-720F-42EF-A8F3-1BDBD4F85D80", "access_type": "Pedestrian", "Park Name": "Cross Roads Park", "Park Segment Name": "Cross Roads Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.931280599770368, 53.836158499381995 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Cross Roads Park", "Park Segment Name": "Cross Roads Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.932927432522246, 53.83533380306821 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Cross Roads Park", "Park Segment Name": "Cross Roads Park", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.931255267738858, 53.836184946443574 ] } },
+{ "type": "Feature", "properties": { "id": "6C31F9FD-1A2D-4DE4-9F6C-5224EF9BE9DF", "access_type": "Motor Vehicle And Pedestrian", "Park Name": "Whins Wood Recreation Ground", "Park Segment Name": "Whins Wood Recreation Ground", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.924455361865835, 53.84134201681529 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Whins Wood Recreation Ground", "Park Segment Name": "Whins Wood Recreation Ground", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.923048780388602, 53.841895388875628 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Whins Wood Recreation Ground", "Park Segment Name": "Whins Wood Recreation Ground", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.923018479463303, 53.841910167899805 ] } },
+{ "type": "Feature", "properties": { "id": "6D881BA1-6FBE-40E5-8FF2-3B945305B9ED", "access_type": "Pedestrian", "Park Name": "Murgatroyd Wood", "Park Segment Name": "Murgatroyd Wood", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.94457777173746, 53.835688455319108 ] } },
+{ "type": "Feature", "properties": { "id": "532943DD-4150-491E-B04D-D84449246A6B", "access_type": "Pedestrian", "Park Name": "Murgatroyd Wood", "Park Segment Name": "Murgatroyd Wood", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.943854800626265, 53.836939672902822 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Murgatroyd Wood", "Park Segment Name": "Murgatroyd Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.94460687051029, 53.835817784247801 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Murgatroyd Wood", "Park Segment Name": "Murgatroyd Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.943842247443284, 53.836937978940192 ] } }
+]
+}

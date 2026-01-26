@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Round_Hill_Wood_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.860847800000059, 53.860416400000027 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.861043786253904, 53.860500917530686 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Blakey Wood", "Park Segment Name": "Blakey Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.86211603143252, 53.860656538306806 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Altar Wood", "Park Segment Name": "Altar Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.862678500000019, 53.855850300000014 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "Altar Wood", "Park Segment Name": "Altar Wood", "source": "calculated", "highway_type": "track" }, "geometry": { "type": "Point", "coordinates": [ -1.862769799999966, 53.855922399999969 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Altar Wood", "Park Segment Name": "Altar Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.862622296159497, 53.855943007759095 ] } }
+]
+}

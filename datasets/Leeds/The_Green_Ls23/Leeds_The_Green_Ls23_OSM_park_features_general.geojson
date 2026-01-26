@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_The_Green_Ls23_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3465577, 53.903422 ], [ -1.3467902, 53.9028429 ], [ -1.3462935, 53.9027737 ], [ -1.346061, 53.9033528 ], [ -1.3465577, 53.903422 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3468599, 53.902755 ], [ -1.3469958, 53.9024394 ], [ -1.3464656, 53.9023601 ], [ -1.3463296, 53.9026757 ], [ -1.3468599, 53.902755 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.3464088, 53.9035533 ], [ -1.3464368, 53.9034812 ], [ -1.3465695, 53.9034668 ], [ -1.3466077, 53.9034719 ], [ -1.3466245, 53.9034288 ], [ -1.346996, 53.9034789 ], [ -1.3469391, 53.903625 ], [ -1.3464088, 53.9035533 ] ] ] } }
+]
+}

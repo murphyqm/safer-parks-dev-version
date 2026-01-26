@@ -1,0 +1,21 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Canal_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.243696179514038, 53.709092113411678 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.243692960051193, 53.709271857628011 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.243393213219579, 53.709090204739276 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.243389992404352, 53.70926994891478 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.243090246961374, 53.709088295301342 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.241265989574158, 53.709436310370926 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.24126275921947, 53.709616054248265 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 8, "visibility_pct": 37.5 }, "geometry": { "type": "Point", "coordinates": [ -1.240966252536057, 53.709254651649985 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 8, "visibility_pct": 37.5 }, "geometry": { "type": "Point", "coordinates": [ -1.240963020865381, 53.709434395492615 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 8, "visibility_pct": 37.5 }, "geometry": { "type": "Point", "coordinates": [ -1.240959789158287, 53.709614139329112 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 8, "visibility_pct": 25.0 }, "geometry": { "type": "Point", "coordinates": [ -1.240666518202679, 53.709072992239086 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 8, "visibility_pct": 12.5 }, "geometry": { "type": "Point", "coordinates": [ -1.240663285216044, 53.70925273604702 ] } },
+{ "type": "Feature", "properties": { "visible_points": 2, "total_points": 8, "visibility_pct": 25.0 }, "geometry": { "type": "Point", "coordinates": [ -1.240660052192977, 53.709432479848793 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 8, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.240656819133478, 53.709612223644413 ] } }
+]
+}

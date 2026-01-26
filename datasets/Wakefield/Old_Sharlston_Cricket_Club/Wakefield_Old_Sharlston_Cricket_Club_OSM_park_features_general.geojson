@@ -1,0 +1,10 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Old_Sharlston_Cricket_Club_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Parking" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4062534, 53.666709 ], [ -1.405791, 53.6669308 ], [ -1.4056956, 53.6668065 ], [ -1.4062547, 53.6666468 ], [ -1.4062534, 53.666709 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.4153441, 53.6673154 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Memorial" }, "geometry": { "type": "Point", "coordinates": [ -1.4069074, 53.670288 ] } }
+]
+}

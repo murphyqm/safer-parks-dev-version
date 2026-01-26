@@ -1,0 +1,15 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Ridings_Way_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 7, "visibility_pct": 57.142857142857139 }, "geometry": { "type": "Point", "coordinates": [ -1.505326267273833, 53.717263745680675 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 7, "visibility_pct": 14.285714285714285 }, "geometry": { "type": "Point", "coordinates": [ -1.505324163347205, 53.71744350058821 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 7, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.505023220887915, 53.717262493343675 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 7, "visibility_pct": 57.142857142857139 }, "geometry": { "type": "Point", "coordinates": [ -1.505021115678733, 53.717442248256091 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 7, "visibility_pct": 14.285714285714285 }, "geometry": { "type": "Point", "coordinates": [ -1.505019010446754, 53.717622003163221 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 7, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.504722280993668, 53.717081485317465 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 7, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.504720174524743, 53.717261240240028 ] } },
+{ "type": "Feature", "properties": { "visible_points": 5, "total_points": 7, "visibility_pct": 71.428571428571431 }, "geometry": { "type": "Point", "coordinates": [ -1.504419235935796, 53.717080231442303 ] } }
+]
+}

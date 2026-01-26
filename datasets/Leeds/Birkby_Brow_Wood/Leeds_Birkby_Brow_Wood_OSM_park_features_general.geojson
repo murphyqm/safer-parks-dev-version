@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Birkby_Brow_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6188832, 53.7422244 ], [ -1.6182424, 53.7425493 ], [ -1.617303, 53.7419013 ], [ -1.6179438, 53.7415764 ], [ -1.6188832, 53.7422244 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6177237, 53.7427954 ], [ -1.6170828, 53.7431203 ], [ -1.6161434, 53.7424723 ], [ -1.6167842, 53.7421473 ], [ -1.6177237, 53.7427954 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6205965, 53.7440722 ], [ -1.6197112, 53.7432812 ], [ -1.6206226, 53.7429244 ], [ -1.6215079, 53.7437154 ], [ -1.6205965, 53.7440722 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.6195117, 53.7433249 ], [ -1.6190128, 53.7429365 ], [ -1.6201113, 53.742443 ], [ -1.6206102, 53.7428314 ], [ -1.6195117, 53.7433249 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.617127, 53.7414329 ], [ -1.6165211, 53.7417561 ], [ -1.6155271, 53.7411425 ], [ -1.6161251, 53.7408052 ], [ -1.617127, 53.7414329 ] ] ] } }
+]
+}

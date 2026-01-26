@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Carlton_Park_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4936093, 53.7382749 ], [ -1.4934937, 53.7380718 ], [ -1.4932613, 53.7381103 ], [ -1.4933791, 53.7383149 ], [ -1.4934088, 53.7383097 ], [ -1.4936093, 53.7382749 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4943944, 53.7383781 ], [ -1.4939011, 53.7385391 ], [ -1.4937906, 53.738415 ], [ -1.4943377, 53.738296 ], [ -1.4943944, 53.7383781 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4873246, 53.7325132 ], [ -1.4871323, 53.7325314 ], [ -1.4870505, 53.7322294 ], [ -1.4872429, 53.7322111 ], [ -1.4873246, 53.7325132 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Point", "coordinates": [ -1.4869222, 53.7326185 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Waste Basket" }, "geometry": { "type": "Point", "coordinates": [ -1.4870413, 53.741125 ] } }
+]
+}

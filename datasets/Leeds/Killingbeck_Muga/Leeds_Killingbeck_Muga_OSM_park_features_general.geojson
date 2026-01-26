@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Killingbeck_Muga_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Playground" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4797742, 53.7972866 ], [ -1.4794836, 53.7972133 ], [ -1.4792051, 53.7973112 ], [ -1.4791848, 53.7973262 ], [ -1.4795591, 53.7974025 ], [ -1.4796614, 53.7974234 ], [ -1.4797742, 53.7972866 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.471125, 53.7991999 ], [ -1.4715023, 53.7989049 ], [ -1.4710055, 53.7986937 ], [ -1.4706362, 53.7989966 ], [ -1.471125, 53.7991999 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4719011, 53.7995986 ], [ -1.4713183, 53.7993366 ], [ -1.4716463, 53.7990821 ], [ -1.4722291, 53.7993441 ], [ -1.4722156, 53.7993546 ], [ -1.4719011, 53.7995986 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4795591, 53.7974025 ], [ -1.4793951, 53.7976455 ], [ -1.4790248, 53.7975674 ], [ -1.4791848, 53.7973262 ], [ -1.4795591, 53.7974025 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Garden" }, "geometry": { "type": "Point", "coordinates": [ -1.4687206, 53.8025501 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.4693501, 53.7991055 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Soccer" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.4706141, 53.8011409 ], [ -1.4688153, 53.8019399 ], [ -1.4675322, 53.8010032 ], [ -1.4693637, 53.8001526 ], [ -1.4706141, 53.8011409 ] ] ] } }
+]
+}

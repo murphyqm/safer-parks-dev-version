@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Great_Horton_Cricket_Club_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7759152, 53.7815915 ], [ -1.7756748, 53.7817618 ], [ -1.7753192, 53.7815665 ], [ -1.7754766, 53.7814556 ], [ -1.7755496, 53.7813968 ], [ -1.7759152, 53.7815915 ] ] ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Pitch" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.7733924, 53.7832212 ], [ -1.7728572, 53.7832264 ], [ -1.7728486, 53.7829127 ], [ -1.7733837, 53.7829075 ], [ -1.7733924, 53.7832212 ] ] ] } }
+]
+}

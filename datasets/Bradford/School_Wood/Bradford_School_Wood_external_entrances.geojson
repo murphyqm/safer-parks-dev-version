@@ -1,0 +1,14 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_School_Wood_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "School Wood", "Park Segment Name": "School Wood", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.887155045555008, 53.930447767623342 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "vehicle", "Park Name": "School Wood", "Park Segment Name": "School Wood", "source": "calculated", "highway_type": "service" }, "geometry": { "type": "Point", "coordinates": [ -1.886432542212, 53.930295401393764 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Hart Rhydding Wood", "Park Segment Name": "Hart Rhydding Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.88137839842132, 53.936331009346496 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Hart Rhydding Wood", "Park Segment Name": "Hart Rhydding Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.881508823432228, 53.936183203481946 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Spring Gill Wood", "Park Segment Name": "Spring Gill Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.880881854229209, 53.931868877818971 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Spring Gill Wood", "Park Segment Name": "Spring Gill Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.881115973227928, 53.931918489385147 ] } },
+{ "type": "Feature", "properties": { "id": null, "access_type": "foot", "Park Name": "Spring Gill Wood", "Park Segment Name": "Spring Gill Wood", "source": "calculated", "highway_type": "footway" }, "geometry": { "type": "Point", "coordinates": [ -1.880916157837618, 53.931834260846152 ] } }
+]
+}

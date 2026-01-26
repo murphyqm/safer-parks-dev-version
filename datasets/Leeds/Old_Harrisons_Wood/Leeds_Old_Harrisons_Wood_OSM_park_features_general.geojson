@@ -1,0 +1,9 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Old_Harrisons_Wood_OSM_park_features_general",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6984143, 53.8919967 ] } },
+{ "type": "Feature", "properties": { "Park Feature": "Board" }, "geometry": { "type": "Point", "coordinates": [ -1.6985561, 53.8919955 ] } }
+]
+}

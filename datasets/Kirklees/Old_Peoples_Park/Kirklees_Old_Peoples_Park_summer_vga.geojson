@@ -1,0 +1,19 @@
+{
+"type": "FeatureCollection",
+"name": "Kirklees_Old_Peoples_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.793097238420991, 53.602204144803054 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.793096363644294, 53.602383907793403 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.793095488858033, 53.602563670778309 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.793094614062209, 53.602743433757794 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.792795014524886, 53.60220362493672 ] } },
+{ "type": "Feature", "properties": { "visible_points": 1, "total_points": 11, "visibility_pct": 9.0909090909090917 }, "geometry": { "type": "Point", "coordinates": [ -1.792794138464654, 53.602383387924625 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.792793262394845, 53.602563150907109 ] } },
+{ "type": "Feature", "properties": { "visible_points": 0, "total_points": 11, "visibility_pct": 0.0 }, "geometry": { "type": "Point", "coordinates": [ -1.79279238631546, 53.602742913884171 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -1.792492790638315, 53.602203104307044 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -1.792491913294548, 53.602382867292519 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -1.792491035941191, 53.602562630272558 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 11, "visibility_pct": 27.27272727272727 }, "geometry": { "type": "Point", "coordinates": [ -1.792189688133991, 53.602382345897077 ] } }
+]
+}

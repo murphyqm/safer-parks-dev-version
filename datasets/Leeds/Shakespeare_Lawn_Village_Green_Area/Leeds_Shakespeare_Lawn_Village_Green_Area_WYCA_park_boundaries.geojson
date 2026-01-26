@@ -1,0 +1,8 @@
+{
+"type": "FeatureCollection",
+"name": "Leeds_Shakespeare_Lawn_Village_Green_Area_WYCA_park_boundaries",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "Park Name": "Shakespeare Lawn Village Green Area", "Primary Name": "Shakespeare Lawn Village Green Area", "Park Segment Name": "Shakespeare Lawn Village Green Area" }, "geometry": { "type": "Polygon", "coordinates": [ [ [ -1.5197702, 53.804063399999983 ], [ -1.5198373, 53.80401820000003 ], [ -1.519781, 53.8039771 ], [ -1.5198936, 53.803907399999979 ], [ -1.5199634, 53.803948499999983 ], [ -1.5203791, 53.8037078 ], [ -1.5204086, 53.8036777 ], [ -1.5204006, 53.803652300000024 ], [ -1.5203737, 53.803607900000024 ], [ -1.5200948, 53.803501899999979 ], [ -1.5198427, 53.803646 ], [ -1.5198078, 53.8036428 ], [ -1.5197703, 53.8036508 ], [ -1.5194457, 53.8038535 ], [ -1.5197702, 53.804063399999983 ] ] ] } }
+]
+}

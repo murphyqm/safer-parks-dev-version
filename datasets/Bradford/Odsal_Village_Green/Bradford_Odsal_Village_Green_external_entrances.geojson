@@ -1,0 +1,13 @@
+{
+"type": "FeatureCollection",
+"name": "Bradford_Odsal_Village_Green_external_entrances",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "id": "6979E2E7-305F-4D0F-AEFB-2EFBFB6E7BDC", "access_type": "Pedestrian", "Park Name": "Odsal Village Green", "Park Segment Name": "Odsal Village Green", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.759671915193858, 53.76358559108391 ] } },
+{ "type": "Feature", "properties": { "id": "9F67188D-9B13-4EC1-880C-86AD0FC79C72", "access_type": "Pedestrian", "Park Name": "Odsal Village Green", "Park Segment Name": "Odsal Village Green", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.760812147140091, 53.762875564777666 ] } },
+{ "type": "Feature", "properties": { "id": "5C60A090-60A3-4720-91AE-C21506CAA592", "access_type": "Pedestrian", "Park Name": "Odsal Village Green", "Park Segment Name": "Odsal Village Green", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.759194112351146, 53.762184119022415 ] } },
+{ "type": "Feature", "properties": { "id": "2CB0070A-70B9-469D-BA49-63ADB7CF8B9C", "access_type": "Pedestrian", "Park Name": "Odsal Village Green", "Park Segment Name": "Odsal Village Green", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.760180723908719, 53.763447383081889 ] } },
+{ "type": "Feature", "properties": { "id": "11FF4432-1E78-4D1F-851F-4B6A83B03C4F", "access_type": "Pedestrian", "Park Name": "Odsal Village Green", "Park Segment Name": "Odsal Village Green", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.760125480189746, 53.76173244592087 ] } },
+{ "type": "Feature", "properties": { "id": "E9A62544-1E29-41F2-B3B3-3F8DFE9005C8", "access_type": "Pedestrian", "Park Name": "Hope Park", "Park Segment Name": "Hope Park", "source": "OS", "highway_type": null }, "geometry": { "type": "Point", "coordinates": [ -1.763741388931485, 53.769780365211233 ] } }
+]
+}

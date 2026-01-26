@@ -1,0 +1,12 @@
+{
+"type": "FeatureCollection",
+"name": "Wakefield_Monkhill_Park_summer_vga",
+"crs": { "type": "name", "properties": { "name": "urn:ogc:def:crs:OGC:1.3:CRS84" } },
+"features": [
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.306836330235869, 53.699839194597622 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 4, "visibility_pct": 75.0 }, "geometry": { "type": "Point", "coordinates": [ -1.306536377858257, 53.699657697583071 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.30653341691225, 53.699837441220453 ] } },
+{ "type": "Feature", "properties": { "visible_points": 3, "total_points": 4, "visibility_pct": 75.0 }, "geometry": { "type": "Point", "coordinates": [ -1.3062305036205, 53.699835687077417 ] } },
+{ "type": "Feature", "properties": { "visible_points": 4, "total_points": 4, "visibility_pct": 100.0 }, "geometry": { "type": "Point", "coordinates": [ -1.30622754136196, 53.700015430697682 ] } }
+]
+}
