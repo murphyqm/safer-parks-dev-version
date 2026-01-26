@@ -810,35 +810,10 @@ function loadParksForLA(laName) {
         
         console.log(`parkNameMapping has ${Object.keys(parkNameMapping).length} unique sanitized names`);
         
-        // Discover parks from actual folder structure
-        const parkFolders = extractFolderNamesFromHtml(dirHtml);
-        console.log(`Found ${parkFolders.length} park folders in ${laName}`);
+        // For GitHub Pages, we can't fetch directory listings, so just use all WYCA parks
+        const availableParks = uniqueParks;
         
-        // Debug: show first few folders and their corresponding parks
-        console.log('First 5 park folders:', parkFolders.slice(0, 5));
-        console.log('First 5 WYCA parks (sanitized):', uniqueParks.slice(0, 5).map(p => ({
-            name: p.properties['Park Name'],
-            sanitized: sanitizeForFolder(p.properties['Park Name'])
-        })));
-        
-        // Only include parks that have both folder and data (using deduplicated parks)
-        const parksWithoutFolders = [];
-        const availableParks = uniqueParks.filter(feature => {
-            const sanitizedName = sanitizeForFolder(feature.properties['Park Name']);
-            const hasFolder = parkFolders.includes(sanitizedName);
-            if (!hasFolder) {
-                parksWithoutFolders.push({name: feature.properties['Park Name'], sanitized: sanitizedName});
-            }
-            return hasFolder;
-        });
-        
-        console.log(`${availableParks.length} parks have both WYCA data and folders`);
-        if (parksWithoutFolders.length > 0 && parksWithoutFolders.length <= 5) {
-            console.log(`First 5 missing parks:`, parksWithoutFolders.slice(0, 5));
-        } else if (parksWithoutFolders.length > 0) {
-            console.log(`${parksWithoutFolders.length} parks have WYCA data but NO folder`);
-            console.log(`First 5 missing parks:`, parksWithoutFolders.slice(0, 5));
-        }
+        console.log(`Using ${availableParks.length} parks from WYCA data`);
         
         const filteredLaParks = {
             type: 'FeatureCollection',
