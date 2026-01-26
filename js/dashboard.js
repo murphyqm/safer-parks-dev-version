@@ -701,32 +701,27 @@ async function initializeLADropdown() {
         // Load WYCA park information to get proper LAD names
         const response = await fetch('datasets/WYCA_park_information.geojson');
         const parkInfo = await response.json();
+        console.log('parkInfo features:', parkInfo.features.length);
         
         // Get unique LADs from park information
         const ladsFromData = new Set(parkInfo.features.map(f => f.properties['LAD']));
         const ladsArray = Array.from(ladsFromData).sort();
+        console.log('LADs found:', ladsArray);
         
-        // Check which LAD folders actually exist in the filesystem
-        const validLads = [];
-        for (const lad of ladsArray) {
-            try {
-                const response = await fetch(`datasets/${lad}/`);
-                if (response.ok) {
-                    validLads.push(lad);
-                }
-            } catch (err) {
-                // Folder doesn't exist, skip
-            }
-        }
+        // On GitHub Pages, we can't check if folders exist, so just use the LADs from the data
+        const validLads = ladsArray;
+        console.log('validLads:', validLads);
         
         // Populate the dropdown with valid LADs
         localAuthoritySelect.innerHTML = '<option value="">-- Select an area --</option>';
+        console.log('Populating dropdown with', validLads.length, 'options');
         validLads.forEach(lad => {
             const option = document.createElement('option');
             option.value = lad;
             option.textContent = lad;
             localAuthoritySelect.appendChild(option);
         });
+        console.log('Dropdown populated, options:', localAuthoritySelect.options.length);
     } catch (err) {
         console.error('Error initializing LAD dropdown:', err);
     }
