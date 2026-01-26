@@ -1155,13 +1155,22 @@ async function loadParkData(parkName) {
     // Try to load each file
     const loadPromises = dataLayers.map(layerInfo => {
         const filePath = basePath + layerInfo.file;
+        console.log(`Fetching layer: ${layerInfo.id} from ${filePath}`);
         
         return fetch(filePath)
             .then(response => {
-                if (!response.ok) return null;
+                if (!response.ok) {
+                    console.warn(`Failed to load ${layerInfo.id} (${filePath}): ${response.status}`);
+                    return null;
+                }
                 return response.json();
             })
             .then(data => {
+                if (data) {
+                    console.log(`Successfully loaded ${layerInfo.id} (${layerInfo.file})`);
+                } else {
+                    console.warn(`No data returned for ${layerInfo.id} (${layerInfo.file})`);
+                }
                 if (data) {
                     let layer;
                     
@@ -1218,6 +1227,7 @@ async function loadParkData(parkName) {
                     else {
                         // Calculate min/max for road segment values
                         if (layerInfo.id === 'roads') {
+                            console.log(`Loading roads layer with ${data.features.length} features`);
                             const values = [];
                             data.features.forEach(feature => {
                                 if (feature.properties) {
