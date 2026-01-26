@@ -1080,7 +1080,7 @@ async function loadParkData(parkName) {
             `${currentLocalAuthority}_${folderName}_OSM_trees.geojson`,
             `${currentLocalAuthority}_${folderName}_OSM_park_features_general.geojson`,
             `${currentLocalAuthority}_${folderName}_OSM_benches_picnic.geojson`,
-            `${currentLocalAuthority}_${folderName}_${currentLocalAuthority}__NAChR800.geojson`,
+            `${currentLocalAuthority}_${folderName}_${currentLocalAuthority.toLowerCase()}__NAChR800.geojson`,
             `${currentLocalAuthority}_${folderName}_park_street_lights.geojson`,
             `${currentLocalAuthority}_${folderName}_external_entrances.geojson`,
             `${currentLocalAuthority}_${folderName}_buffer_boundary.geojson`,
@@ -1337,7 +1337,7 @@ async function loadParkData(parkName) {
                 return null;
             })
             .catch(error => {
-                console.log(`File not found: ${layerInfo.file}`);
+                console.error(`Error loading ${layerInfo.id} (${layerInfo.file}):`, error);
                 return null;
             });
     });
