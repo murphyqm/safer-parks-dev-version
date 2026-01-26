@@ -983,7 +983,7 @@ async function countDatasetsForParks(laName, parksData) {
     const countPromises = validParks.map(async (feature) => {
         const parkName = feature.properties['Park Name'];
         const folderName = sanitizeForFolder(parkName);
-        const basePath = `./datasets/${laName}/${folderName}/`;
+        const basePath = `datasets/${laName}/${folderName}/`;
         
         let count = 0;
         
