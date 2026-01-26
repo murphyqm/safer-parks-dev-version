@@ -699,7 +699,7 @@ const loadParkBtn = document.getElementById('loadPark');
 async function initializeLADropdown() {
     try {
         // Load WYCA park information to get proper LAD names
-        const response = await fetch('./datasets/WYCA_park_information.geojson');
+        const response = await fetch('datasets/WYCA_park_information.geojson');
         const parkInfo = await response.json();
         
         // Get unique LADs from park information
@@ -710,7 +710,7 @@ async function initializeLADropdown() {
         const validLads = [];
         for (const lad of ladsArray) {
             try {
-                const response = await fetch(`./datasets/${lad}/`);
+                const response = await fetch(`datasets/${lad}/`);
                 if (response.ok) {
                     validLads.push(lad);
                 }
