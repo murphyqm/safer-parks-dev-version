@@ -1090,7 +1090,7 @@ async function loadParkData(parkName) {
     
     // Create folder name from park name using consistent sanitization
     const folderName = sanitizeForFolder(parkName);
-    const basePath = `./datasets/${currentLocalAuthority}/${folderName}/`;
+    const basePath = `datasets/${currentLocalAuthority}/${folderName}/`;
     
     // Dynamically discover all .geojson files in the park folder
     let allFiles = [];
