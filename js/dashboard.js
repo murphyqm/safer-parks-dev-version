@@ -770,8 +770,8 @@ function loadParksForLA(laName) {
     
     // Load the main parks information from WYCA_park_information.geojson
     Promise.all([
-        fetch('./datasets/WYCA_park_information.geojson').then(r => r.json()),
-        fetch(`./datasets/${laName}/`).then(r => r.text())
+        fetch('datasets/WYCA_park_information.geojson').then(r => r.json()),
+        fetch(`datasets/${laName}/`).then(r => r.text())
     ])
     .then(([parkInfoData, dirHtml]) => {
         // Filter parks for the selected LA from WYCA data
