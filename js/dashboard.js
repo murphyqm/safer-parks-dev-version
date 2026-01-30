@@ -283,12 +283,13 @@ const map = L.map('map', {
     attributionControl: false
 }).setView(WYCA_COORDS, WYCA_ZOOM);
 
-// Add zoom event listener to switch between heatmap and markers for lighting layer
+// Add zoom event listener to switch between heatmap and markers for lighting and trees layers
 map.on('zoomend', function() {
     const currentZoom = map.getZoom();
     const PARK_TOOLTIP_ZOOM_THRESHOLD = 14; // Show tooltips at zoom 14 or higher
     
     const lightingLayerObj = parkLayers['lighting'];
+    const treesLayerObj = parkLayers['trees'];
     
     if (lightingLayerObj && lightingLayerObj.heatmapLayer && lightingLayerObj.markerLayer) {
         if (currentZoom >= 17) {
@@ -304,6 +305,24 @@ map.on('zoomend', function() {
                 map.removeLayer(lightingLayerObj.markerLayer);
                 lightingLayerObj.heatmapLayer.addTo(map);
                 lightingLayerObj.layer = lightingLayerObj.heatmapLayer;
+            }
+        }
+    }
+    
+    if (treesLayerObj && treesLayerObj.heatmapLayer && treesLayerObj.markerLayer) {
+        if (currentZoom >= 17) {
+            // Switch to markers at high zoom
+            if (map.hasLayer(treesLayerObj.heatmapLayer)) {
+                map.removeLayer(treesLayerObj.heatmapLayer);
+                treesLayerObj.markerLayer.addTo(map);
+                treesLayerObj.layer = treesLayerObj.markerLayer;
+            }
+        } else {
+            // Switch to heatmap at lower zoom
+            if (map.hasLayer(treesLayerObj.markerLayer)) {
+                map.removeLayer(treesLayerObj.markerLayer);
+                treesLayerObj.heatmapLayer.addTo(map);
+                treesLayerObj.layer = treesLayerObj.heatmapLayer;
             }
         }
     }
@@ -1269,57 +1288,118 @@ async function loadParkData(parkName) {
                             }
                         }
                         
-                        layer = L.geoJSON(data, {
-                            style: function(feature) {
-                                // VGA features are Points, so style function doesn't apply
-                                // Only apply style for non-point features
-                                if (feature.geometry.type !== 'Point') {
-                                    return getStyleForFile(layerInfo.id, feature);
+                        // Handle trees as heatmap with marker fallback
+                        if (layerInfo.id === 'trees') {
+                            const heatmapData = data.features.map(feature => {
+                                const coords = feature.geometry.coordinates;
+                                if (feature.geometry.type === 'Point') {
+                                    return [coords[1], coords[0], 1.0];
+                                } else if (feature.geometry.type === 'LineString') {
+                                    // Calculate centroid of line
+                                    const len = coords.length;
+                                    const mid = Math.floor(len / 2);
+                                    return [coords[mid][1], coords[mid][0], 0.8];
                                 }
-                            },
-                            pointToLayer: function(feature, latlng) {
-                                if (layerInfo.id === 'vga' && feature.properties && feature.properties.visibility_pct !== undefined) {
-                                    console.log(`VGA point styled with visibility: ${feature.properties.visibility_pct}`);
-                                    return getVGAPointStyle(feature, latlng);
+                                return null;
+                            }).filter(coords => coords !== null && coords[0] && coords[1]);
+                            
+                            console.log(`Trees heatmap points: ${heatmapData.length}`);
+                            
+                            const heatmapLayer = L.heatLayer(heatmapData, {
+                                radius: 12, // tighter radius for trees
+                                blur: 15,
+                                maxZoom: 17,
+                                minOpacity: 0.3,
+                                max: 1.0,
+                                gradient: {
+                                    0.0: 'rgba(34,197,94,0)',
+                                    0.25: 'rgba(34,197,94,0.3)',
+                                    0.5: 'rgba(34,197,94,0.6)',
+                                    0.75: 'rgba(34,197,94,0.8)',
+                                    1.0: 'rgba(34,197,94,0.9)',
                                 }
-                                return getPointStyleForFile(layerInfo.id, latlng);
-                            },
-                            onEachFeature: function(feature, layer) {
-                                if (layerInfo.id === 'park-features' && feature.properties && feature.properties['Park Feature']) {
-                                    const featureName = feature.properties['Park Feature'];
-                                    parkFeaturesPresent.add(featureName);
+                            });
+                            
+                            const markerLayer = L.geoJSON(data, {
+                                style: function(feature) {
+                                    // Only apply style for non-point features
+                                    if (feature.geometry.type !== 'Point') {
+                                        return getStyleForFile(layerInfo.id, feature);
+                                    }
+                                },
+                                pointToLayer: function(feature, latlng) {
+                                    return getPointStyleForFile(layerInfo.id, latlng);
+                                }
+                            });
+                            
+                            const currentZoom = map.getZoom();
+                            if (currentZoom >= 17) {
+                                layer = markerLayer;
+                            } else {
+                                layer = heatmapLayer;
+                            }
+                            
+                            parkLayers[layerInfo.id] = {
+                                layer: layer,
+                                heatmapLayer: heatmapLayer,
+                                markerLayer: markerLayer,
+                                name: layerInfo.name,
+                                visible: false
+                            };
+                            return layerInfo;
+                        }
+                        else {
+                            layer = L.geoJSON(data, {
+                                style: function(feature) {
+                                    // Only apply style for non-point features
+                                    if (feature.geometry.type !== 'Point') {
+                                        return getStyleForFile(layerInfo.id, feature);
+                                    }
+                                },
+                                pointToLayer: function(feature, latlng) {
+                                    if (layerInfo.id === 'vga' && feature.properties && feature.properties.visibility_pct !== undefined) {
+                                        console.log(`VGA point styled with visibility: ${feature.properties.visibility_pct}`);
+                                        return getVGAPointStyle(feature, latlng);
+                                    }
+                                    return getPointStyleForFile(layerInfo.id, latlng);
+                                },
+                                onEachFeature: function(feature, layer) {
+                                    if (layerInfo.id === 'park-features' && feature.properties && feature.properties['Park Feature']) {
+                                        const featureName = feature.properties['Park Feature'];
+                                        parkFeaturesPresent.add(featureName);
+                                        
+                                        layer.bindPopup(featureName);
+                                        layer.bindTooltip(featureName, {
+                                            permanent: false,
+                                            direction: 'top',
+                                            className: 'feature-tooltip',
+                                            offset: [0, -10]
+                                        });
+                                        
+                                        // Apply styling based on feature type
+                                        const style = getParkFeatureStyle(featureName);
+                                        if (layer.setStyle) {
+                                            layer.setStyle(style);
+                                        }
+                                    }
                                     
-                                    layer.bindPopup(featureName);
-                                    layer.bindTooltip(featureName, {
-                                        permanent: false,
-                                        direction: 'top',
-                                        className: 'feature-tooltip',
-                                        offset: [0, -10]
-                                    });
-                                    
-                                    // Apply styling based on feature type
-                                    const style = getParkFeatureStyle(featureName);
-                                    if (layer.setStyle) {
-                                        layer.setStyle(style);
+                                    // Handle entrances - display Source field in title case
+                                    if (layerInfo.id === 'entrances' && feature.properties && feature.properties['source']) {
+                                        const sourceText = feature.properties['source'];
+                                        // Convert to title case
+                                        const titleCaseText = sourceText.charAt(0).toUpperCase() + sourceText.slice(1).toLowerCase();
+                                        
+                                        layer.bindPopup(titleCaseText);
+                                        layer.bindTooltip(titleCaseText, {
+                                            permanent: false,
+                                            direction: 'top',
+                                            className: 'feature-tooltip',
+                                            offset: [0, -10]
+                                        });
                                     }
                                 }
-                                
-                                // Handle entrances - display Source field in title case
-                                if (layerInfo.id === 'entrances' && feature.properties && feature.properties['source']) {
-                                    const sourceText = feature.properties['source'];
-                                    // Convert to title case
-                                    const titleCaseText = sourceText.charAt(0).toUpperCase() + sourceText.slice(1).toLowerCase();
-                                    
-                                    layer.bindPopup(titleCaseText);
-                                    layer.bindTooltip(titleCaseText, {
-                                        permanent: false,
-                                        direction: 'top',
-                                        className: 'feature-tooltip',
-                                        offset: [0, -10]
-                                    });
-                                }
-                            }
-                        });
+                            });
+                        }
                         
                         // Only add park-boundary to map by default
                         if (layerInfo.id === 'park-boundary') {
@@ -1656,7 +1736,7 @@ function getLegendSymbol(layerId) {
             marker.innerHTML = '<svg width="20" height="20"><rect x="4" y="4" width="12" height="12" fill="#cccccc" stroke="#666" stroke-width="1"/></svg>';
             break;
         case 'trees':
-            marker.innerHTML = '<svg width="20" height="20"><path d="M10 2 L14 10 L16 10 L10 18 L4 10 L6 10 Z" fill="#22c55e" stroke="#fff" stroke-width="1"/></svg>';
+            marker.innerHTML = '<svg width="20" height="20"><circle cx="10" cy="10" r="5" fill="#22c55e" stroke="#fff" stroke-width="1.5"/></svg>';
             break;
         case 'benches':
             marker.innerHTML = '<svg width="20" height="20" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><rect x="2" y="3" width="16" height="2" fill="#a0826d"/><rect x="2" y="6" width="16" height="2" fill="#a0826d"/><rect x="4" y="8" width="1.5" height="5" fill="#a0826d"/><rect x="14.5" y="8" width="1.5" height="5" fill="#a0826d"/><rect x="9" y="9" width="1" height="4" fill="#a0826d"/></svg>';
@@ -1869,6 +1949,8 @@ function getStyleForFile(layerId, feature) {
             return { color: '#f59e0b', weight: 2, fillColor: '#f59e0b', fillOpacity: 0.2, opacity: 0.7 };
         case 'entrances':
             return { color: '#10b981', weight: 2, fillColor: '#10b981', fillOpacity: 0.3 };
+        case 'trees':
+            return { color: '#22c55e', weight: 6, opacity: 1.0, lineCap: 'round', lineJoin: 'round' };
         default:
             return { color: '#714a6d', weight: 2, opacity: 0.7 };
     }
