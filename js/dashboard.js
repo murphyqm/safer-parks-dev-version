@@ -1059,6 +1059,12 @@ async function loadParkData(parkName) {
         if (parkFeature && parkFeature.geometry && parkFeature.geometry.coordinates) {
             const coords = parkFeature.geometry.coordinates;
             map.setView([coords[1], coords[0]], 16); // GeoJSON uses [lon, lat]
+            
+            // Turn off park summaries when zooming into a specific park
+            if (parkSummaryToggle && parkSummaryToggle.checked) {
+                parkSummaryToggle.checked = false;
+                parkSummaryToggle.dispatchEvent(new Event('change'));
+            }
         }
     }
     
@@ -1395,6 +1401,31 @@ async function loadParkData(parkName) {
                                             direction: 'top',
                                             className: 'feature-tooltip',
                                             offset: [0, -10]
+                                        });
+                                    }
+                                    
+                                    // Handle park-boundary - add hover and click effects to show Park Name
+                                    if (layerInfo.id === 'park-boundary' && feature.properties && feature.properties['Park Name']) {
+                                        const parkName = feature.properties['Park Name'];
+                                        
+                                        layer.bindTooltip(parkName, {
+                                            permanent: false,
+                                            direction: 'center',
+                                            className: 'park-boundary-tooltip',
+                                            offset: [0, 0]
+                                        });
+                                        
+                                        layer.on('mouseover', function() {
+                                            layer.openTooltip();
+                                            console.log(`Hovering over: ${parkName}`);
+                                        });
+                                        
+                                        layer.on('mouseout', function() {
+                                            layer.closeTooltip();
+                                        });
+                                        
+                                        layer.on('click', function() {
+                                            console.log(`Clicked on: ${parkName}`);
                                         });
                                     }
                                 }
