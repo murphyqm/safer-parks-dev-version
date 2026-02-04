@@ -735,14 +735,14 @@ document.getElementById('downloadRawDataBtn').addEventListener('click', function
         return;
     }
     
-    // Convert park name to folder format (spaces to underscores)
-    const parkFolderName = currentParkName.replace(/\s+/g, '_');
+    // Convert park name to folder format using the same sanitization function
+    const parkFolderName = sanitizeForFolder(currentParkName);
     
-    // Construct the path to the park's dataset folder
-    const dataFolderPath = `./datasets/${currentLocalAuthority}/${parkFolderName}/`;
+    // Construct the GitHub URL to the park's dataset folder
+    const githubUrl = `https://github.com/Safer-Parks/safer-parks.github.io/tree/main/datasets/${currentLocalAuthority}/${parkFolderName}`;
     
-    // Open the folder in a new tab
-    window.open(dataFolderPath, '_blank');
+    // Open the GitHub folder in a new tab
+    window.open(githubUrl, '_blank');
 });
 
 // Get descriptive text for each layer type
