@@ -3,6 +3,70 @@ const WYCA_COORDS = [53.7, -1.6];
 const WYCA_ZOOM = 10; // Zoomed out to show entire WYCA region
 const DEFAULT_ZOOM = 13; // Default zoom when viewing individual parks
 
+// Define EPSG:27700 (British National Grid) projection
+// proj4.defs will be called after proj4 library loads
+function initProj4() {
+    if (typeof proj4 !== 'undefined') {
+        proj4.defs("EPSG:27700", "+proj=tmerc +lat_0=49 +lon_0=-2 +k=0.9996012717 +x_0=400000 +y_0=-100000 +ellps=airy +towgs84=446.448,-125.157,542.06,0.15,0.247,0.842,-20.489 +units=m +no_defs");
+    }
+}
+
+// Transform coordinates from EPSG:27700 to WGS84 (lat/lng)
+function transformCoordinates(coords, geometryType) {
+    if (typeof proj4 === 'undefined') {
+        console.error('proj4 library not loaded');
+        return coords;
+    }
+    
+    if (geometryType === 'Point') {
+        // coords is [x, y] in BNG
+        const [lng, lat] = proj4('EPSG:27700', 'EPSG:4326', coords);
+        return [lng, lat];
+    } else if (geometryType === 'Polygon' || geometryType === 'LineString') {
+        // coords is array of [x, y] pairs
+        return coords.map(coord => {
+            const [lng, lat] = proj4('EPSG:27700', 'EPSG:4326', coord);
+            return [lng, lat];
+        });
+    } else if (geometryType === 'MultiPolygon' || geometryType === 'MultiLineString') {
+        // coords is array of arrays of [x, y] pairs
+        return coords.map(ring => ring.map(coord => {
+            const [lng, lat] = proj4('EPSG:27700', 'EPSG:4326', coord);
+            return [lng, lat];
+        }));
+    }
+    return coords;
+}
+
+// Transform GeoJSON geometry from EPSG:27700 to WGS84
+function transformGeometry(geometry) {
+    const transformed = { ...geometry };
+    
+    if (geometry.type === 'Point') {
+        transformed.coordinates = transformCoordinates(geometry.coordinates, 'Point');
+    } else if (geometry.type === 'LineString') {
+        transformed.coordinates = transformCoordinates(geometry.coordinates, 'LineString');
+    } else if (geometry.type === 'Polygon') {
+        transformed.coordinates = geometry.coordinates.map(ring => 
+            transformCoordinates(ring, 'Polygon')
+        );
+    } else if (geometry.type === 'MultiPoint') {
+        transformed.coordinates = geometry.coordinates.map(coord => 
+            transformCoordinates(coord, 'Point')
+        );
+    } else if (geometry.type === 'MultiLineString') {
+        transformed.coordinates = geometry.coordinates.map(line => 
+            transformCoordinates(line, 'LineString')
+        );
+    } else if (geometry.type === 'MultiPolygon') {
+        transformed.coordinates = geometry.coordinates.map(polygon => 
+            polygon.map(ring => transformCoordinates(ring, 'Polygon'))
+        );
+    }
+    
+    return transformed;
+}
+
 // Store loaded park layers
 let parkLayers = {};
 let currentParkName = null;
@@ -278,6 +342,9 @@ function handleActionButton(action) {
 }
 
 // Initialize map (disable Leaflet's built-in attribution — we use a custom HTML attribution)
+// First, initialize proj4 projection definitions
+initProj4();
+
 const map = L.map('map', {
     zoomControl: false,
     attributionControl: false
@@ -402,6 +469,10 @@ document.getElementById('resetMapBtn').addEventListener('click', function() {
     });
     parkLayers = {};
     currentParkName = null;
+    
+    // Hide zoom hint text
+    const zoomHint = document.getElementById('zoomHintText');
+    if (zoomHint) zoomHint.style.display = 'none';
     
     // Reset legend heading to "Legend"
     const legendTitle = document.querySelector('.legend-sidebar .accordion-title');
@@ -583,6 +654,24 @@ function getLayerModalContentAsText(layerId) {
         if (paragraph) {
             text += `${paragraph}\n`;
         }
+        
+        // Special handling for demographics table
+        if (layerId === 'demographics') {
+            const table = section.querySelector('table');
+            if (table) {
+                text += '\n';
+                const rows = table.querySelectorAll('tbody tr');
+                rows.forEach(row => {
+                    const cells = row.querySelectorAll('td');
+                    if (cells.length === 2) {
+                        const label = cells[0].textContent.trim();
+                        const value = cells[1].textContent.trim();
+                        text += `${label}: ${value}\n`;
+                    }
+                });
+            }
+        }
+        
         text += '\n';
     });
     
@@ -646,14 +735,14 @@ document.getElementById('downloadRawDataBtn').addEventListener('click', function
         return;
     }
     
-    // Convert park name to folder format (spaces to underscores)
-    const parkFolderName = currentParkName.replace(/\s+/g, '_');
+    // Convert park name to folder format using the same sanitization function
+    const parkFolderName = sanitizeForFolder(currentParkName);
     
-    // Construct the path to the park's dataset folder
-    const dataFolderPath = `./datasets/${currentLocalAuthority}/${parkFolderName}/`;
+    // Construct the GitHub URL to the park's dataset folder
+    const githubUrl = `https://github.com/Safer-Parks/safer-parks.github.io/tree/main/datasets/${currentLocalAuthority}/${parkFolderName}`;
     
-    // Open the folder in a new tab
-    window.open(dataFolderPath, '_blank');
+    // Open the GitHub folder in a new tab
+    window.open(githubUrl, '_blank');
 });
 
 // Get descriptive text for each layer type
@@ -708,6 +797,7 @@ L.control.zoom({
 let parksData = null;
 let catchmentsData = null;
 let parkNameMapping = {}; // Map sanitized folder names back to proper park names
+let parkDemographicsData = null; // Store the new park-specific demographics dataset
 
 // Local Authority dropdown change handler
 const localAuthoritySelect = document.getElementById('localAuthority');
@@ -721,6 +811,17 @@ async function initializeLADropdown() {
         const response = await fetch('datasets/WYCA_park_information.geojson');
         const parkInfo = await response.json();
         console.log('parkInfo features:', parkInfo.features.length);
+        
+        // Load the new park-specific demographics dataset
+        try {
+            const demographicsResponse = await fetch('datasets/wyca_park_catchment_demographics_by_var_and_by_park.geojson');
+            if (demographicsResponse.ok) {
+                parkDemographicsData = await demographicsResponse.json();
+                console.log('Loaded park demographics dataset with', parkDemographicsData.features.length, 'parks');
+            }
+        } catch (err) {
+            console.warn('Could not load park demographics dataset:', err);
+        }
         
         // Get unique LADs from park information
         const ladsFromData = new Set(parkInfo.features.map(f => f.properties['LAD']));
@@ -1044,6 +1145,10 @@ async function loadParkData(parkName) {
         legendTitle.textContent = parkName;
     }
     
+    // Show zoom hint text
+    const zoomHint = document.getElementById('zoomHintText');
+    if (zoomHint) zoomHint.style.display = 'block';
+    
     // Clear previous toggles and legend
     document.getElementById('dataLayerToggles').innerHTML = '';
     document.getElementById('dataLayersLegend').innerHTML = '';
@@ -1098,6 +1203,18 @@ async function loadParkData(parkName) {
         console.warn('Could not fetch directory listing, will try predefined datasets');
     }
     
+    // Check if park exists in the new demographics dataset
+    let useParkDemographicsDataset = false;
+    if (parkDemographicsData && parkDemographicsData.features) {
+        const parkFeature = parkDemographicsData.features.find(
+            feature => feature.properties && feature.properties['Primary Name'] === parkName
+        );
+        if (parkFeature) {
+            useParkDemographicsDataset = true;
+            console.log(`Found ${parkName} in park demographics dataset, will use that instead of individual file`);
+        }
+    }
+    
     // If directory listing didn't work, fall back to predefined datasets
     if (allFiles.length === 0) {
         allFiles = [
@@ -1109,7 +1226,6 @@ async function loadParkData(parkName) {
             `${currentLocalAuthority}_${folderName}_park_street_lights.geojson`,
             `${currentLocalAuthority}_${folderName}_external_entrances.geojson`,
             `${currentLocalAuthority}_${folderName}_buffer_boundary.geojson`,
-            `${currentLocalAuthority}_${folderName}_demographics_catchment.geojson`,
             `${currentLocalAuthority}_${folderName}_summer_vga.geojson`
         ];
     }
@@ -1124,7 +1240,6 @@ async function loadParkData(parkName) {
         'park_street_lights': { id: 'lighting', name: 'Street Lighting' },
         'external_entrances': { id: 'entrances', name: 'Park Entrances' },
         'buffer_boundary': { id: 'buffer', name: 'Catchment Buffer' },
-        'demographics_catchment': { id: 'demographics', name: 'Demographics Catchment' },
         'summer_vga': { id: 'vga', name: 'Visibility Analysis' }
     };
     
@@ -1145,7 +1260,6 @@ async function loadParkData(parkName) {
                 'park_street_lights',
                 'external_entrances',
                 'buffer_boundary',
-                'demographics_catchment',
                 'summer_vga'
             ];
             
@@ -1179,6 +1293,7 @@ async function loadParkData(parkName) {
     
     // Try to load each file
     const loadPromises = dataLayers.map(layerInfo => {
+        // Default behavior: load from file
         const filePath = basePath + layerInfo.file;
         console.log(`Fetching layer: ${layerInfo.id} from ${filePath}`);
         
@@ -1456,6 +1571,58 @@ async function loadParkData(parkName) {
     // After all layers are loaded, populate toggles and legend
     Promise.all(loadPromises).then(results => {
         const loadedLayers = results.filter(r => r !== null);
+        
+        // Add demographics layer from the new dataset if available for this park
+        if (useParkDemographicsDataset && parkDemographicsData) {
+            const parkFeature = parkDemographicsData.features.find(
+                feature => feature.properties && feature.properties['Primary Name'] === parkName
+            );
+            
+            if (parkFeature) {
+                console.log(`Adding demographics layer from park-specific dataset for ${parkName}`);
+                
+                // Transform the geometry from EPSG:27700 to WGS84
+                const transformedFeature = {
+                    ...parkFeature,
+                    geometry: transformGeometry(parkFeature.geometry)
+                };
+                
+                const data = {
+                    type: 'FeatureCollection',
+                    features: [transformedFeature]
+                };
+                
+                const layer = L.geoJSON(data, {
+                    style: function(feature) {
+                        if (feature.geometry.type !== 'Point') {
+                            return getStyleForFile('demographics', feature);
+                        }
+                    },
+                    pointToLayer: function(feature, latlng) {
+                        return getPointStyleForFile('demographics', latlng);
+                    }
+                });
+                
+                parkLayers['demographics'] = {
+                    layer: layer,
+                    name: 'Demographics Data',
+                    visible: false
+                };
+                
+                // Populate the demographics table with data from park_level_demographic_summary_symbol
+                if (parkFeature.properties && parkFeature.properties.park_level_demographic_summary_symbol) {
+                    populateDemographicsTable(parkFeature.properties.park_level_demographic_summary_symbol);
+                }
+                
+                // Add to loaded layers list
+                loadedLayers.push({
+                    id: 'demographics',
+                    name: 'Demographics Data',
+                    file: 'park_demographics_dataset'
+                });
+            }
+        }
+        
         populateDataLayerToggles(loadedLayers);
         populateDataLayersLegend(loadedLayers);
     });
@@ -1492,6 +1659,88 @@ function populateDataLayerToggles(layers) {
         li.appendChild(label);
         container.appendChild(li);
     });
+}
+
+// Populate demographics table in the modal
+function populateDemographicsTable(demographicData) {
+    const container = document.getElementById('demographicsTableContainer');
+    if (!container) return;
+    
+    if (!demographicData) {
+        container.innerHTML = '<p><em>No demographic data available for this park.</em></p>';
+        return;
+    }
+    
+    // Split the data by line breaks
+    const lines = demographicData.split('\n').filter(line => line.trim());
+    
+    if (lines.length === 0) {
+        container.innerHTML = '<p><em>No demographic data available for this park.</em></p>';
+        return;
+    }
+    
+    // Create table
+    const table = document.createElement('table');
+    table.style.width = '100%';
+    table.style.borderCollapse = 'collapse';
+    table.style.marginTop = '1rem';
+    
+    // Create table header
+    const thead = document.createElement('thead');
+    const headerRow = document.createElement('tr');
+    const th1 = document.createElement('th');
+    th1.textContent = 'Demographic Variable';
+    th1.style.textAlign = 'left';
+    th1.style.padding = '0.5rem';
+    th1.style.borderBottom = '2px solid var(--pico-primary)';
+    const th2 = document.createElement('th');
+    th2.textContent = 'Value';
+    th2.style.textAlign = 'right';
+    th2.style.padding = '0.5rem';
+    th2.style.borderBottom = '2px solid var(--pico-primary)';
+    headerRow.appendChild(th1);
+    headerRow.appendChild(th2);
+    thead.appendChild(headerRow);
+    table.appendChild(thead);
+    
+    // Create table body
+    const tbody = document.createElement('tbody');
+    
+    lines.forEach((line, index) => {
+        // Split on the last occurrence of "N=" to separate label from value
+        const lastNIndex = line.lastIndexOf('N=');
+        if (lastNIndex === -1) return; // Skip if no "N=" found
+        
+        const label = line.substring(0, lastNIndex).trim();
+        const value = 'N=' + line.substring(lastNIndex + 2).trim();
+        
+        const row = document.createElement('tr');
+        
+        const td1 = document.createElement('td');
+        td1.textContent = label;
+        td1.style.padding = '0.5rem';
+        td1.style.borderBottom = '1px solid var(--pico-muted-border-color)';
+        
+        const td2 = document.createElement('td');
+        td2.textContent = value;
+        td2.style.textAlign = 'right';
+        td2.style.padding = '0.5rem';
+        td2.style.borderBottom = '1px solid var(--pico-muted-border-color)';
+        td2.style.fontFamily = 'monospace';
+        
+        row.appendChild(td1);
+        row.appendChild(td2);
+        tbody.appendChild(row);
+        
+        // Alternate row colors
+        if (index % 2 === 1) {
+            row.style.backgroundColor = 'var(--pico-background-color)';
+        }
+    });
+    
+    table.appendChild(tbody);
+    container.innerHTML = '';
+    container.appendChild(table);
 }
 
 // Toggle data layer visibility
@@ -1785,7 +2034,7 @@ function getLegendSymbol(layerId) {
             marker.innerHTML = '<svg width="20" height="20"><rect x="2" y="2" width="16" height="16" fill="none" stroke="#9ca3af" stroke-width="2" stroke-dasharray="3,3"/></svg>';
             break;
         case 'demographics':
-            marker.innerHTML = '<svg width="20" height="20"><circle cx="10" cy="10" r="7" fill="#e879f9" stroke="#fff" stroke-width="1"/></svg>';
+            marker.innerHTML = '<svg width="20" height="20"><rect x="2" y="2" width="16" height="16" fill="none" stroke="#3b82f6" stroke-width="3" stroke-dasharray="6,3"/></svg>';
             break;
         case 'vga':
             marker.innerHTML = '<svg width="20" height="20"><defs><linearGradient id="viridisGradient" x1="0%" y1="0%" x2="100%" y2="0%"><stop offset="0%" style="stop-color:rgb(68,1,84);stop-opacity:1" /><stop offset="25%" style="stop-color:rgb(54,92,141);stop-opacity:1" /><stop offset="50%" style="stop-color:rgb(37,130,142);stop-opacity:1" /><stop offset="75%" style="stop-color:rgb(68,191,78);stop-opacity:1" /><stop offset="100%" style="stop-color:rgb(253,231,37);stop-opacity:1" /></linearGradient></defs><rect x="2" y="8" width="16" height="4" fill="url(#viridisGradient)" stroke="#333" stroke-width="0.5"/></svg>';
@@ -1976,6 +2225,8 @@ function getStyleForFile(layerId, feature) {
             return { color: '#714a6d', weight: 2, fillColor: '#714a6d', fillOpacity: 0.3, opacity: 0.7 };
         case 'buffer':
             return { color: '#9ca3af', weight: 2, fillOpacity: 0.05, dashArray: '5,5' };
+        case 'demographics':
+            return { color: '#3b82f6', weight: 4, fillOpacity: 0, opacity: 0.9, dashArray: '10,5' };
         case 'vga':
             return { color: '#f59e0b', weight: 2, fillColor: '#f59e0b', fillOpacity: 0.2, opacity: 0.7 };
         case 'entrances':
