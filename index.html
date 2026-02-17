@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Safer Parks Dashboard | Home</title>
+    <title>The Safer Parks Dashboard</title>
     
     <!-- Pico CSS Framework - Jade Palette -->
     <link rel="stylesheet" href="css/pico.jade.min.css">
@@ -12,6 +12,33 @@
     <link rel="stylesheet" href="css/website.css">
 </head>
 <body>
+
+    <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function () {
+    cookieconsent.run({"notice_banner_type":"standalone","consent_type":"express","palette":"light","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"The Safer Parks Dashboard","website_privacy_policy_url":"https://safer-parks.github.io/privacy.html"});
+    });
+    </script>
+
+    <!-- Leaflet JS (mapping) -->
+    <!-- Leaflet JS -->
+        <script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/leaflet@1.9.4/dist/leaflet.min.js"></script>
+        
+        <!-- Proj4js for coordinate transformation -->
+        <script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/proj4@2.9.0/dist/proj4.js"></script>
+        
+        <!-- Leaflet.heat plugin for heatmap -->
+        <script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/leaflet.heat@0.2.0/dist/leaflet-heat.js"></script>
+        
+        <!-- modern-screenshot for map capture -->
+        <script type="text/plain" data-cookie-consent="strictly-necessary" src="https://cdn.jsdelivr.net/npm/modern-screenshot@4.4.39/dist/index.js"></script>
+    <!-- end of Leaflet JS (mapping)-->
+
+    <noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+    <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+
     <!-- Loading Interstitial -->
     <div class="loading-interstitial">
         <svg width="60" height="60" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">

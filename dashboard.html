@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bradford Parks Explorer</title>
+    <title>The Safer Parks Dashbaord</title>
     
     <!-- Pico CSS Framework - Jade Palette -->
     <link rel="stylesheet" href="css/pico.jade.min.css">
@@ -93,6 +93,7 @@
                         </label>
                     </li>
                     <hr>
+                    <p id="layerOrderHintText" style="display:none; margin-top:0.5rem; margin-bottom:0.5rem; font-size:0.85rem; color:var(--pico-muted-color); text-align:center; line-height:1.3;">To change order of layers, toggle on and off. Most recently added layer will show on top.</p>
                     <div id="dataLayerToggles">
                         <!-- Data layer toggles will be dynamically populated here -->
                     </div>
@@ -153,7 +154,7 @@
     <div class="floating-attribution" aria-hidden="false">
         © University of Leeds, 2025 |
         <a href="https://leafletjs.com/" target="_blank" rel="noopener">Leaflet</a> | © <a href="https://www.openstreetmap.org/copyright" target="_blank" rel="noopener">OpenStreetMap contributors</a>
-         | © <a href="https://carto.com/" target="_blank" rel="noopener">CARTO</a>
+         | © <a href="https://carto.com/" target="_blank" rel="noopener">CARTO</a> | <a href="privacy.html">Privacy & Cookies</a> | <a href="https://www.leeds.ac.uk/about/doc/accessibility-statement" target="_blank" rel="noopener">Accessibility</a>
     </div>
 
     <!-- Local Authority Modal -->
@@ -615,5 +616,23 @@
     
     <!-- Custom JS -->
     <script src="js/dashboard.js"></script>
+
+     <!-- Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+    <script type="text/javascript" src="https://www.termsfeed.com/public/cookie-consent/4.2.0/cookie-consent.js" charset="UTF-8"></script>
+    <script type="text/javascript" charset="UTF-8">
+    document.addEventListener('DOMContentLoaded', function () {
+    cookieconsent.run({"notice_banner_type":"standalone","consent_type":"express","palette":"light","language":"en","page_load_consent_levels":["strictly-necessary"],"notice_banner_reject_button_hide":false,"preferences_center_close_button_hide":false,"page_refresh_confirmation_buttons":false,"website_name":"The Safer Parks Dashboard","website_privacy_policy_url":"https://safer-parks.github.io/privacy.html"});
+    });
+    
+    // Reload page when user accepts cookies to load blocked scripts
+    window.addEventListener('cookiesconsent', function() {
+        window.location.reload();
+    });
+    </script>
+
+    <noscript>Free cookie consent management tool by <a href="https://www.termsfeed.com/">TermsFeed</a></noscript>
+    <!-- End Cookie Consent by TermsFeed https://www.TermsFeed.com -->
+
+
 </body>
 </html>

@@ -1,5 +1,11 @@
 // Loading interstitial for dashboard transition
 document.addEventListener('DOMContentLoaded', function() {
+    // Clear active state on page load (fixes back button issue)
+    const interstitial = document.querySelector('.loading-interstitial');
+    if (interstitial) {
+        interstitial.classList.remove('active');
+    }
+    
     // Find all dashboard links
     const dashboardLinks = document.querySelectorAll('.dashboard-link');
     
@@ -9,7 +15,6 @@ document.addEventListener('DOMContentLoaded', function() {
             const targetUrl = this.getAttribute('href');
             
             // Show loading interstitial
-            const interstitial = document.querySelector('.loading-interstitial');
             interstitial.classList.add('active');
             
             // Navigate after short delay
