@@ -470,9 +470,11 @@ document.getElementById('resetMapBtn').addEventListener('click', function() {
     parkLayers = {};
     currentParkName = null;
     
-    // Hide zoom hint text
+    // Hide zoom hint text and layer order hint
     const zoomHint = document.getElementById('zoomHintText');
     if (zoomHint) zoomHint.style.display = 'none';
+    const layerOrderHint = document.getElementById('layerOrderHintText');
+    if (layerOrderHint) layerOrderHint.style.display = 'none';
     
     // Reset legend heading to "Legend"
     const legendTitle = document.querySelector('.legend-sidebar .accordion-title');
@@ -1145,9 +1147,11 @@ async function loadParkData(parkName) {
         legendTitle.textContent = parkName;
     }
     
-    // Show zoom hint text
+    // Show zoom hint text and layer order hint
     const zoomHint = document.getElementById('zoomHintText');
     if (zoomHint) zoomHint.style.display = 'block';
+    const layerOrderHint = document.getElementById('layerOrderHintText');
+    if (layerOrderHint) layerOrderHint.style.display = 'block';
     
     // Clear previous toggles and legend
     document.getElementById('dataLayerToggles').innerHTML = '';
